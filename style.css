@@ -1,0 +1,76 @@
+.container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  font-family: 'arial';
+  overflow: scroll; }
+
+.home {
+  background-image: url(http://1.bp.blogspot.com/-AIz4dkHtHis/U_shhxjk19I/AAAAAAAAgGk/-NB5EIw-I-8/s1600/blue_star_pattern_paper.jpg);
+  background-size: 50%; }
+
+.hot-bill {
+  background-color: #fff;
+  color: #000;
+  box-shadow: 2px 2px 3px red;
+  position: relative;
+  width: 60%;
+  margin-left: 20%;
+  margin-top: 100px;
+  border-radius: 10px;
+  padding: 10px; }
+
+.hot-bill:before {
+  content: '';
+  border: 12px solid #fff;
+  border-left-color: transparent;
+  border-bottom-color: transparent;
+  border-top-color: transparent;
+  position: absolute;
+  top: 4px;
+  left: -22px; }
+
+.bill-number {
+  position: absolute;
+  top: 15px;
+  right: 20px;
+  font-style: oblique; }
+
+.bill-list {
+  width: 70vw;
+  background-color: rgba(255, 255, 255, 0.75);
+  margin: auto;
+  margin-top: 100px;
+  margin-bottom: 50px;
+  padding: 10px;
+  box-shadow: 0 0 3px rgba(0, 0, 0, 0.8); }
+
+.bill-list__bill {
+  display: flex;
+  flex-direction: row;
+  position: relative; }
+
+.bill-list__bill:before {
+  content: '';
+  background-color: #000;
+  height: 2px;
+  width: 90%;
+  position: absolute;
+  top: 0;
+  left: 5%; }
+
+.bill-list__bill:first-child:before {
+  height: 0; }
+
+.bill-list__bill-number {
+  flex: 1;
+  margin: auto; }
+
+.bill-list__bill-text {
+  flex: 6;
+  background-color: #fff;
+  border: 1px solid #000;
+  border-radius: 5px;
+  padding: 5px; }
