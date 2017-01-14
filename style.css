@@ -1,16 +1,3 @@
-.container {
-  position: absolute;
-  top: 0;
-  left: 0;
-  bottom: 0;
-  right: 0;
-  font-family: 'arial';
-  overflow: scroll; }
-
-.home {
-  background-image: url(http://1.bp.blogspot.com/-AIz4dkHtHis/U_shhxjk19I/AAAAAAAAgGk/-NB5EIw-I-8/s1600/blue_star_pattern_paper.jpg);
-  background-size: 50%; }
-
 .hot-bill {
   background-color: #fff;
   color: #000;
@@ -48,8 +35,6 @@
   box-shadow: 0 0 3px rgba(0, 0, 0, 0.8); }
 
 .bill-list__bill {
-  display: flex;
-  flex-direction: row;
   position: relative; }
 
 .bill-list__bill:before {
@@ -60,6 +45,10 @@
   position: absolute;
   top: 0;
   left: 5%; }
+
+.bill-list__bill-content {
+  display: flex;
+  flex-direction: row; }
 
 .bill-list__bill:first-child:before {
   height: 0; }
@@ -74,3 +63,20 @@
   border: 1px solid #000;
   border-radius: 5px;
   padding: 5px; }
+
+.bill-list__bill-data {
+  display: block;
+  width: 100%; }
+
+.container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  font-family: 'arial';
+  overflow: scroll; }
+
+.home {
+  background-image: url(http://1.bp.blogspot.com/-AIz4dkHtHis/U_shhxjk19I/AAAAAAAAgGk/-NB5EIw-I-8/s1600/blue_star_pattern_paper.jpg);
+  background-size: 50%; }

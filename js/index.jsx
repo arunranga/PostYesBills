@@ -8,17 +8,16 @@ import Store from './store/store';
 // components
 
 import App from './App';
-import Template from './containers/Template';
-import Home from './containers/Home';
-import Bill from './Bill';
+// import Template from './containers/Template';
+import Home from './components/Home';
+import BillPage from './components/BillPage';
 
 const router = (
   <Provider store={Store}>
     <Router history={hashHistory}>
       <Route path="/" component={App}>
         <IndexRoute component={Home} />
-        <Route path="template" component={Template} />
-        <Route path="/bill/:id" component={Bill} />
+        <Route path="/bill/:id" component={BillPage} />
       </Route>
     </Router>
   </Provider>
