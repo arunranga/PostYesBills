@@ -9,9 +9,14 @@ Our MVP will consist of ways to:view bills before Congress, from both House and 
 2. JS for React makes request to "/index/bills"
    accept: application/json
 
-3. Returned JSON is array of bill_object
+3. Returned JSON is array of bill_object_brief
 
-4. bill_object is text + attributes, such as:
+4. bill_object_brief is text + attributes, such as:
+ 1. title
+ 2. summary_text
+ 3. bill_number
+
+5. If/when user clicks on a Bill on the index page, they're taken to the Bill Landing Page with a request of the sort   /bills/&bill_number>. This returns a bill_object_expanded with text + attributes
  1. title
  2. text
  3. bill_number
@@ -22,10 +27,6 @@ Our MVP will consist of ways to:view bills before Congress, from both House and 
  8. annotations: [{}, {}]
  9. comments: [ ]
 
-5. Click on a landing page on a bill, then 
-   /bills/&lt;id:of_article>
-
-6. JS for React makes request for text
 
 
 
