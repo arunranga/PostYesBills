@@ -16,7 +16,7 @@ Our MVP will consist of ways to:view bills before Congress, from both House and 
  2. summary_text
  3. bill_number
 
-5. If/when user clicks on a Bill on the index page, they're taken to the Bill Landing Page with a request of the sort   /bills/&bill_number>. This returns a bill_object_expanded with text + attributes
+5. If/when user clicks on a Bill on the index page, they're taken to the Bill Landing Page with a request of the sort   &lt;/bills/&bill_number>. This returns a bill_object_expanded with text + attributes
  1. title
  2. text
  3. bill_number
