@@ -20,7 +20,7 @@ Our MVP will consist of ways to:view bills before Congress, from both House and 
  1. title
  2. text
  3. bill_number 
- 4. sponsor
+ 4. sponsor-name
  5. short_title
  6. date_introduced
  7. date_of_action
