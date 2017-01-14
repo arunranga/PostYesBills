@@ -4,10 +4,8 @@ import { Router, Route, IndexRoute, hashHistory } from 'react-router';
 import { Provider } from 'react-redux';
 import Store from './store/store';
 import Bill from './Bill';
-
-// components
-
-import App from './App';
+import { BillPageContainer } from "./components/bill_page_container";
+import Home from './containers/Home';
 import Template from './containers/Template';
 
 const router = (
@@ -16,8 +14,8 @@ const router = (
       <Route path="/" component={App}>
         <IndexRoute component={Template} />
         <Route path="template" component={Template} />
+        <Route path="/bill/:billId" component={BillPageContainer} />
       </Route>
-      <Route path="/bill/:id" component={Bill} />
     </Router>
   </Provider>
 
