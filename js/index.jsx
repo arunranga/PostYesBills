@@ -14,7 +14,7 @@ const router = (
       <Route path="/" component={App}>
         <IndexRoute component={Home} />
         <Route path="template" component={Template} />
-        <Route path="/bills/:billId" component={BillPageContainer} />
+        <Route path="/bills/:billNo" component={BillPageContainer} />
       </Route>
     </Router>
   </Provider>
