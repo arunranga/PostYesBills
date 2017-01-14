@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom';
 import { Router, Route, IndexRoute, hashHistory } from 'react-router';
 import { Provider } from 'react-redux';
 import Store from './store/store';
-
+import Bill from './Bill';
 
 // components
 
@@ -17,10 +17,9 @@ const router = (
         <IndexRoute component={Template} />
         <Route path="template" component={Template} />
       </Route>
+      <Route path="/bill/:id" component={Bill} />
     </Router>
   </Provider>
-);
-
 
 document.addEventListener("DOMContentLoaded", () => {
   let root = document.getElementById('root');
