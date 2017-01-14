@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 
-import BillList from '../components/BillList';
+import BillListContainer from './BillListContainer';
+// import BillList from '../components/BillList';
 import HotBill from '../components/HotBill';
 
 export default class Home extends Component {
@@ -12,7 +13,7 @@ export default class Home extends Component {
 		return (
 			<div className="container home">
 				<HotBill />
-				<BillList onBillClick={this.handleBillClick.bind(this)} />
+				<VisibleBillList onBillClick={this.handleBillClick.bind(this)} />
 			</div>
 		);
 	}
