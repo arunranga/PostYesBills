@@ -9,9 +9,9 @@ Our MVP will consist of ways to:view bills before Congress, from both House and 
 2. JS for React makes request to "/index/bills"
    accept: application/json
 
-3. Returned JSON is array of "Bill" objects ("Bill")
+3. Returned JSON is array of bill_object
 
-4. Bill object is text + attributes, such as:
+4. bill_object is text + attributes, such as:
  1. title
  2. text
  3. bill_number
