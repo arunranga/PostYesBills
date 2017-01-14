@@ -1,35 +1,16 @@
 import React from 'react';
 import _ from 'lodash';
 
-export default class BillList extends React.Component {
-	handleBillClick (e) {
-	    let id = Number(e.currentTarget.getAttribute('data-id'));
+import BillContainer from '../containers/BillContainer';
 
-		this.props.onBillClick(id);
-		console.log('id:', id);
-		console.log('this:', this);
-	}
+export default class BillList extends React.Component {
 
 	renderBills () {
-		// let bills = [];
-		// for (var x = 0; x < 15; x++) {
-		// 	bills.push(
-		// 		<li className="bill-list__bill" data-id={`76${x}`} key={x} onClick={this.handleBillClick.bind(this)}>
-		// 			<h2 className="bill-list__bill-number">H.R. 76{x}</h2>
-		// 			<p className="bill-list__bill-text">This is the text of bill number 76{x}. This is the text of bill number 76{x}. This is the text of bill number 76{x}. This is the text of bill number 76{x}. This is the text of bill number 76{x}. This is the text of bill number 76{x}. This is the text of bill number 76{x}. This is the text of bill number 76{x}. This is the text of bill number 76{x}. This is the text of bill number 76{x}. This is the text of bill number 76{x}.</p>
-		// 		</li>
-		// 	)
-		// }
-		// return bills;
-
 		let { billList } = this.props;
 
-		return _.map(billList, (bill) => {
+		return _.map(billList, (billID) => {
 			return (
-				<li className="bill-list__bill" data-id={bill.number} key={bill.number} onClick={this.handleBillClick.bind(this)}>
-					<h2 className="bill-list__bill-number">{bill.title}</h2>
-					<p className="bill-list__bill-text">{bill.text}</p>
-				</li>
+				<BillContainer key={billID} id={billID} />
 			);
 		});
 
