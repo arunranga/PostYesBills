@@ -1,21 +1,28 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import { Router, Route, IndexRoute, hashHistory } from 'react-router';
+import { Provider } from 'react-redux';
+import Store from './store/store';
+
+
+// components
 
 import App from './App';
+import Template from './containers/Template';
 import Home from './containers/Home';
 import Bill from './Bill';
 
 const router = (
-  <Router history={hashHistory}>
-    <Route path="/" component={App}>
-    	<IndexRoute component={Home} />
-    </Route>
-    <Route path="/bill/:id" component={Bill}>
-    </Route>
-  </Router>
+  <Provider store={Store}>
+    <Router history={hashHistory}>
+      <Route path="/" component={App}>
+        <IndexRoute component={Home} />
+        <Route path="template" component={Template} />
+        <Route path="/bill/:id" component={Bill} />
+      </Route>
+    </Router>
+  </Provider>
 );
-
 
 document.addEventListener("DOMContentLoaded", () => {
   let root = document.getElementById('root');
