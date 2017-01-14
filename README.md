@@ -12,15 +12,15 @@ Our MVP will consist of ways to:view bills before Congress, from both House and 
 3. Returned JSON is array of "Bill" objects ("Bill")
 
 4. Bill object is text + attributes, such as:
-title
-text
-bill_number
-sponsor
-short_title
-date_introduced
-date_of_action
-annotations: [{}, {}]
-comments: [ ]
+**title
+**text
+**bill_number
+**sponsor
+**short_title
+**date_introduced
+**date_of_action
+**annotations: [{}, {}]
+**comments: [ ]
 
 5. Click on a landing page on a bill, then 
    /bills/&lt;id:of_article>
