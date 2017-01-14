@@ -9,18 +9,20 @@ import Store from './store/store';
 
 import App from './App';
 import Template from './containers/Template';
+import Home from './containers/Home';
+import Bill from './Bill';
 
 const router = (
   <Provider store={Store}>
     <Router history={hashHistory}>
       <Route path="/" component={App}>
-        <IndexRoute component={Template} />
+        <IndexRoute component={Home} />
         <Route path="template" component={Template} />
+        <Route path="/bill/:id" component={Bill} />
       </Route>
     </Router>
   </Provider>
 );
-
 
 document.addEventListener("DOMContentLoaded", () => {
   let root = document.getElementById('root');
