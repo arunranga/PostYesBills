@@ -27,7 +27,11 @@ Our MVP will consist of ways to:view bills before Congress, from both House and 
  5. number_annotations
  6. editorial
 
-5. If/when user clicks on a Bill on the index page, they're taken to the Bill Landing Page with a request of the sort   &lt;/bills/&bill_number>. This returns a bill_object_expanded with text + attributes
+5. If/when user clicks on a Bill on the index page, they're taken to the Bill Landing Page with a request of the sort   &lt;/bills/&bill_number>. This loads the HTML page for layout of Bill Page.
+
+6. HTML page for layout of Bill Page contains a request for a JSON blob based on bill_number.
+
+7. This returns a bill_object_expanded with text + attributes
  1. title
  2. text
  3. bill_number 
