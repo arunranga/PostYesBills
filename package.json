@@ -1,7 +1,7 @@
 {
   "name": "post_yes_bills",
   "version": "0.1.0",
-  "private": true,
+  "main": "js/index.jsx",
   "devDependencies": {
     "babel-cli": "^6.18.0",
     "babel-core": "^6.18.2",
