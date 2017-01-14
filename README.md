@@ -14,7 +14,7 @@ Our MVP will consist of ways to:view bills before Congress, from both House and 
 4. Bill object is text + attributes (TBD)
 
 5. Click on a landing page on a bill, then 
-   /bills/<id:of_article>
+   /bills/&lt;id:of_article>
 
 6. JS for React makes request for text
 
