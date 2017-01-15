@@ -1,7 +1,7 @@
 import React from 'react';
 import BillHeader from './bill_header';
 
-class BillPage extends React.Component {
+export default class BillPage extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
@@ -20,15 +20,7 @@ class BillPage extends React.Component {
   render () {
     return(
       <div>
-        <BillHeader
-          shortTitle={this.state.bill.short_title}
-          sponsor={this.state.bill.sponsor}
-          title={this.state.bill.title}
-          date={this.state.bill.date_introduced}
-          billNumber={this.state.bill.bill_number}
-        />
-      <BillText body={this.state.bill.text}/>
-        <AnnotationIndexContainer/>
+        <h1> hEY! </h1>
       </div>
     );
   }

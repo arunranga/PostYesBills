@@ -3,8 +3,7 @@ import ReactDOM from 'react-dom';
 import { Router, Route, IndexRoute, hashHistory } from 'react-router';
 import { Provider } from 'react-redux';
 import Store from './store/store';
-import Bill from './Bill';
-import { BillPageContainer } from "./components/bill_page_container";
+import BillPage from './components/bill_page';
 import Home from './containers/Home';
 import Template from './containers/Template';
 import App from './App';
@@ -14,12 +13,12 @@ const router = (
   <Provider store={Store}>
     <Router history={hashHistory}>
       <Route path="/" component={App}>
-        <IndexRoute component={Template} />
-        <Route path="template" component={Template} />
-        <Route path="/bills/:billNo" component={BillPageContainer} />
+        <IndexRoute component={Home} />
+        <Route path="/bill/:billNo" component={BillPageContainer} />
       </Route>
     </Router>
   </Provider>
+)
 
 document.addEventListener("DOMContentLoaded", () => {
   let root = document.getElementById('root');
