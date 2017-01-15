@@ -1,42 +1,18 @@
 import React from 'react';
-
 import BillHeader from './BillHeader';
 
 export default class BillPage extends React.Component {
-  constructor(props) {
-    super(props);
-    this.state = {
-      bill: {
-        short_title: 'test-short_title',
-        sponsor: 'test-sponsor',
-        title: 'test-title',
-        date_introduced: 'test-date_introduced',
-        bill_number: 'test-bill_number',
-      }
-    };
-  }
-
-  // componentDidMount() {
-  //   this.setState({
-  //     bill: this.props.fetchBill(parseInt(this.props.params.billNo))
-  //   });
-  // }
-
-  // componentWillReceiveProps(newProps) {
-  //   this.setState({
-  //     bill: this.props.fetchBill(parseInt(newProps.params.billNo))
-  //   });
-  // }
-
   render () {
+    const { bill } = this.props;
+
     return(
       <div>
         <BillHeader
-          shortTitle={this.state.bill.short_title}
-          sponsor={this.state.bill.sponsor}
-          title={this.state.bill.title}
-          date={this.state.bill.date_introduced}
-          billNumber={this.state.bill.bill_number}
+          shortTitle={bill.short_title}
+          sponsor={bill.sponsor}
+          title={bill.title}
+          date={bill.date_introduced}
+          billNumber={bill.bill_number}
         />
       </div>
     );

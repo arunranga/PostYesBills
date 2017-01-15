@@ -1,6 +1,6 @@
 import { fetchBill } from '../util/bill_api_util';
 import { receiveBill,
-         FETCH_BILL } from '../actions/bill_actions';
+         FETCH_BILL } from '../actions/billActions';
 
 export default ({getState, dispatch}) => next => action => {
 

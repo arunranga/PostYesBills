@@ -15,11 +15,3 @@ export default class BillHeader extends React.Component {
     );
   }
 };
-
-BillHeader.propTypes = {
-  shortTitle: React.PropTypes.string.isRequired,
-  billNumber: React.PropTypes.string.isRequired,
-  title: React.PropTypes.string.isRequired,
-  sponsor: React.PropTypes.string.isRequired,
-  date: React.PropTypes.string.isRequired
-};
