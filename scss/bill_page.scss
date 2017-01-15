@@ -23,3 +23,28 @@
 	line-height: 39px;
 	margin-bottom: 30px;
 }
+	.bill-number {
+		font-family: 'Times';
+	  font-size: 18px;
+	  font-weight: bold;
+		margin: auto;
+		margin-bottom: 10px;
+	}
+	.short-title {
+	  font-size: 31px;
+	  line-height: 39px;
+		margin-bottom: 30px;
+	}
+
+.bill-content-container {
+	position: relative;
+	z-index: 10;
+}
+
+.comment-form {
+	position: absolute;
+	z-index: 100;
+	margin-left: 50px;
+	padding: 20px;
+	border-left: 3px solid yellow;
+}
