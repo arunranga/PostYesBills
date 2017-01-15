@@ -47,9 +47,10 @@ export default class BillContent extends React.Component {
     this.handleClick(window);
   }
 
-  displayAnnotation() {
+  displayAnnotation(e) {
     this.setState({
-      panelView: "addNew"
+      panelView: "addNew",
+      selectionLocation: e.pageX - 450
     });
   }
 
