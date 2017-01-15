@@ -14,7 +14,9 @@ export default class BillContent extends React.Component {
 
     this.state = {
       selectionRange: null,
-      comments: []
+      selectionLocation: null,
+      comments: [],
+      panelView: null
      };
 
     this.handleSelection = this.handleSelection.bind(this);
@@ -27,12 +29,12 @@ export default class BillContent extends React.Component {
     this.quill.enable(false);
     this.quill.on("selection-change", this.handleSelection );
 
-    window.addEventListener("mousedown", this.handleClick, false);
+    // window.addEventListener("mousedown", this.handleClick, false);
     this.setExistingAnnotations();
 
-    const annotations = document.getElementsByClassName("ql-editor");
-
     document.querySelector(".ql-editor span").classList.add('inline-annotation');
+
+    const annotations = document.getElementsByClassName("inline-annotation");
 
     Array.from(annotations).forEach(el => {
       el.addEventListener("click", this.displayAnnotation.bind(this));
@@ -65,6 +67,7 @@ export default class BillContent extends React.Component {
     if (range.length !== 0) {
       this.quill.formatText(range.index, range.length, "background", "#aad6fe");
       const location = this.quill.getBounds(range.index, range.length);
+
       this.setState({
         selectionRange: range,
         selectionLocation: ((location.top + location.bottom) / 2) - 15,
@@ -152,7 +155,7 @@ export default class BillContent extends React.Component {
     }
 
     return (
-      <div className="bill-content__container" onClick={this.handleClick}>
+      <div className="bill-content__container">
         <div className="bill-content">
           <p className="bill-content__abillto">
             { abillto }

@@ -12,7 +12,7 @@ export default class CommentsListContainer extends React.Component {
           className="comment-form comment"
           style={ {top: `${loc}px`} }
           key={idx}
-          >
+        >
           <p className="annotation-by">Annotation by <span className="user">{comment.user || 'arun'}</span></p>
           <p>{comment.text}</p>
           <CommentRatings down={0} up={0} />
