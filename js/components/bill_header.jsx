@@ -1,17 +1,18 @@
 import React from "react";
-export default class BillHeader extends React.Component {
-  render() {
-    return (
-      <div>
-        <marquee className="bill-header-container">
-          <div className="short-title">{this.props.shortTitle}</div>
-          <div className="bill-number">{this.props.billNumber}</div>
-          <div className="title">{this.props.title}</div>
-          <div className="sponsor">{this.props.sponsor}</div>
-          <div className="date">{this.props.date}</div>
-        </marquee>
-        <img href="../images/sad-scary-sock-princess.jpg" />
-      </div>
-    );
-  }
-};
+
+const BillHeader = (bill) => (
+  <div className="bill-header">
+    <div>
+      <div>{bill.shortTitle}</div>
+      <div>{bill.sponsor}</div>
+      <div>{bill.title}</div>
+      <div>{bill.dateIntroduced}</div>
+      <div>{bill.billNumber}</div>
+    </div>
+    <div>
+      [stock image here]
+    </div>
+  </div>
+);
+
+export default BillHeader;

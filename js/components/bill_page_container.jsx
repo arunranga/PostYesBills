@@ -1,14 +1,15 @@
 import { connect } from "react-redux";
-import fetchBill from '../actions/bill_actions';
+import { fetchBill } from '../actions/bill_actions.js';
 import BillPage from './bill_page';
 
 const mapStateToProps = (state, ownProps) => {
   const billNo = parseInt(ownProps.params.billNo);
-  return { billNo };
+  const bill = state.bills[billNo];
+  return { billNo, bill };
 };
 
 const mapDispatchToProps = dispatch => ({
-  fetchBill: (billNo) => dispatch(fetchBill(billNo))
+  fetchBill: id => dispatch(fetchBill(id)),
 });
 
 export default connect(

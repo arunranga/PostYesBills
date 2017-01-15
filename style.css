@@ -1,3 +1,27 @@
+.bill-page {
+  position: relative;
+  font-family: "arial"; }
+
+.bill-page .bill-header {
+  margin: 40px auto;
+  width: 100%;
+  text-align: center; }
+
+.bill-page .bill-text {
+  width: 50%;
+  height: auto;
+  float: left;
+  padding: 20px; }
+
+.bill-page .annotation-index {
+  width: 35%;
+  height: auto;
+  float: right;
+  padding: 20px; }
+
+.bill-page .annotation {
+  padding: 20px; }
+
 .container {
   position: absolute;
   top: 0;

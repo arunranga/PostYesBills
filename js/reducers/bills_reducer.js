@@ -1,21 +1,18 @@
+import { RECEIVE_BILL } from '../actions/bill_actions';
 import merge from 'lodash/merge';
 
 const _defaultState = Object.freeze({
    bills: [],
    errors: []
  });
- 
- const BillsReducer = (action, state = _defaultState) => {
+
+ const BillsReducer = (state = _defaultState, action) => {
    switch(action.type){
-    case RECEIVE_BILLS:
-      return action.bills;
-    case RECEIVE_ERRORS:
-      return merge({}, state, {
-        errors
-      });
+    case RECEIVE_BILL:
+      return action.bill;
     default:
       return state;
    }
  };
- 
- export default BillsReducer; 
+
+ export default BillsReducer;
