@@ -1,6 +1,17 @@
 import React from "react";
 
 export default class NewCommentForm extends React.Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+      commentText: ""
+    };
+  }
+
+  handleChange(e) {
+    this.setState({commentText: e.currentTarget.value});
+  }
+
   render () {
     return (
       <div
@@ -9,17 +20,16 @@ export default class NewCommentForm extends React.Component {
         <div>Comment form!</div>
 
         <form style={ {marginTop: `${this.props.location}px`} }
-          className={ this.props.display ? "comment-form" : "hide" }
+          className={ "comment-form" }
           onSubmit={this.props.addComment}>
 
           <label>Comment: <br/>
             <textarea
-              value={this.props.body}
-              onChange={this.props.update}></textarea>
+              value={this.state.commentText}
+              onChange={this.handleChange}></textarea>
           </label>
 
-          <button onClick={this.props.addComment}
-            value={this.props.parentCommentId}>
+          <button onClick={this.props.addComment}>
             Submit
           </button>
 
