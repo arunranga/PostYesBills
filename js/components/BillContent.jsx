@@ -32,7 +32,9 @@ export default class BillContent extends React.Component {
     window.addEventListener("mousedown", this.handleClick, false);
     this.setExistingAnnotations();
 
-    document.querySelector(".ql-editor span").classList.add('inline-annotation');
+    if (document.querySelector(".ql-editor span")) {
+      document.querySelector(".ql-editor span").classList.add('inline-annotation');
+    }
 
     const annotations = document.getElementsByClassName("inline-annotation");
 
