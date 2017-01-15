@@ -148,7 +148,10 @@
 
 .comment-form {
   position: absolute;
-  z-index: 100; }
+  z-index: 100;
+  margin-left: 50px;
+  padding: 20px;
+  border-left: 3px solid yellow; }
 
 body {
   background-color: #f9f9f9; }
