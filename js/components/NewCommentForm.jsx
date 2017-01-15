@@ -10,7 +10,7 @@ export default class NewCommentForm extends React.Component {
 
   addComment(e) {
     e.preventDefault();
-    this.props.addComment(this.state.commentText);
+    this.props.addComment(this.state.commentText, this.props.location);
   }
 
   handleChange(e) {
@@ -31,7 +31,7 @@ export default class NewCommentForm extends React.Component {
 
         <form style={ {marginTop: `${this.props.location}px`} }
           className={ "comment-form" }
-          onSubmit={this.state.addComment}>
+          onSubmit={this.addComment.bind(this)}>
 
           <label>Comment: <br/>
             <textarea
@@ -39,7 +39,7 @@ export default class NewCommentForm extends React.Component {
               onChange={this.handleChange.bind(this)}></textarea>
           </label>
 
-          <button onClick={this.addComment}>
+          <button onClick={this.addComment.bind(this)}>
             Submit
           </button>
 
