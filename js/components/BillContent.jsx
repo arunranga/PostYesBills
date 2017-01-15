@@ -24,6 +24,10 @@ export default class BillContent extends React.Component {
     this.quill = new Quill('.bill-show-text');
     this.quill.enable(false);
     this.quill.on("selection-change", this.handleSelection );
+    if (this.props.annotations) {
+      this.quill.setContents(this.processAnnotations());
+    }
+
     window.addEventListener("mousedown", this.handleClick, false);
   }
 
@@ -58,7 +62,38 @@ export default class BillContent extends React.Component {
   }
 
   removeCommentForm() {
+    this.setState({
+      panelView: null
+    });
+  }
 
+  processAnnotations() {
+    const { text, annotations } = this.props;
+
+    // let bodyDelta = new Delta(JSON.parse({ insert: text }));
+    if (!annotations) {
+      return this.quill;
+    };
+
+    let annoDelta = new Delta();
+    const annoArray = toArray(annotations).sort((a, b) => {
+      if (a.start_idx < b.start_idx) {
+        return -1;
+      } else if (a.start_idx > b.start_idx) {
+        return 1;
+      } else {
+        return 0;
+      }
+    });
+
+    let index = 0;
+
+    annoArray.forEach((anno) => {
+      annoDelta.retain(anno.start_idx - index);
+      annoDelta.retain(anno.length, { annotation_id: `${anno.id}` });
+      index = anno.start_idx + anno.length;
+    });
+    return bodyDelta.compose(annoDelta);
   }
 
   render () {
