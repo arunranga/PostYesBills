@@ -1,21 +1,27 @@
 import React from 'react';
 import BillHeader from './bill_header';
 
-class BillPage extends React.Component {
+export default class BillPage extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
-      bill: {}
+      bill: {
+        short_title: 'short title',
+        sponsor: 'sponsor',
+        title: 'title',
+        date_introduced: 'date_introduced',
+        bill_number: 'bill number'
+      }
     };
   }
 
-  componentDidMount() {
-    this.setState({bill: this.props.fetchBill(parseInt(this.props.params.billNo))});
-  }
+  // componentDidMount() {
+    // this.setState({bill: this.props.fetchBill(parseInt(this.props.params.billNo))});
+  // }
 
-  componentWillReceiveProps(newProps) {
-    this.setState({bill: this.props.fetchBill(parseInt(newProps.params.billNo))});
-  }
+  // componentWillReceiveProps(newProps) {
+    // this.setState({bill: this.props.fetchBill(parseInt(newProps.params.billNo))});
+  // }
 
   render () {
     return(
@@ -27,8 +33,6 @@ class BillPage extends React.Component {
           date={this.state.bill.date_introduced}
           billNumber={this.state.bill.bill_number}
         />
-      <BillText body={this.state.bill.text}/>
-        <AnnotationIndexContainer/>
       </div>
     );
   }
