@@ -13,6 +13,7 @@ export default class BillContent extends React.Component {
 
     this.state = {
       selectionRange: null,
+      comments: []
      };
 
     this.handleSelection = this.handleSelection.bind(this);
@@ -29,6 +30,12 @@ export default class BillContent extends React.Component {
     }
 
     // window.addEventListener("mousedown", this.handleClick, false);
+  }
+
+  addComment(commentText, commentLocation) {
+    let comments = this.state.comments.concat([{text: commentText, location: commentLocation}]);
+    this.setState({comments: comments});
+    this.handleClick(window);
   }
 
   handleSelection(range, oldRange, source) {
@@ -110,6 +117,7 @@ export default class BillContent extends React.Component {
           range={ this.state.selectionRange }
           location={ this.state.selectionLocation }
           clearPriorRange = { this.clearPriorRange }
+          addComment = {this.addComment.bind(this)}
         />
       );
     } else {
@@ -118,6 +126,7 @@ export default class BillContent extends React.Component {
           range={ this.state.selectionRange }
           location={ this.state.selectionLocation }
           clearPriorRange = { this.clearPriorRange }
+          comments={this.state.comments}
         />
       );
     }
