@@ -161,7 +161,8 @@
   line-height: 38px;
   margin: 0;
   margin-bottom: 3px;
-  font-weight: 900; }
+  font-weight: 900;
+  max-width: 470px; }
 
 .bill-header__title {
   font-size: 14px;
@@ -176,7 +177,7 @@
   border: 4px solid #4af2a1;
   position: absolute;
   right: 100px;
-  top: 14px; }
+  bottom: -55px; }
 
 .bill-header__label {
   color: #a6a6a6;
@@ -300,7 +301,7 @@
 
 .comment {
   position: absolute;
-  width: 100%;
+  width: 200px;
   font-size: 14px;
   padding-top: 0; }
 
