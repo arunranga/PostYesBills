@@ -8,7 +8,7 @@ export default class Bill extends Component {
 	}
 
   render () {
-    let { comments, id, title, text, notations, number } = this.props.bill;
+    let { comments, id, title, text, notations, number } = this.props;
 
     return (
       <li className="bill-list__bill" data-id={number} key={number} onClick={this.handleBillClick.bind(this)}>

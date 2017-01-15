@@ -10,24 +10,25 @@ import * as types from '../actions/types';
 // RECEIVE_BILL_LIST
 
 const _defaultState = Object.freeze({
-  bills: [],
+  list: [],
+  hash: {},
   errors: []
 });
 
 const BillsReducer = (state = _defaultState, action) => {
   switch(action.type) {
-    case types.FETCH_BILL_LIST:
-      return action.fetchBillList()
-      break;
-    case types.FETCH_BILL:
-      return action.fetchBill()
-      break;
     case types.RECEIVE_BILL:
-      return action.receiveBill()
-      break;
+      let newHash = Object.assign({}, state.hash);
+      if (action.bill && action.bill.id) newHash[action.bill.id] = action.bill;
+      return {... state, hash: newHash};
     case types.RECEIVE_BILL_LIST:
-      return action.receiveBillList()
-      break;
+      let newHashFromList = { ...state.hash};
+      let newList = [];
+      action.bills.forEach((bill) => {
+        newList.push(bill.id);
+        newHashFromList[bill.id] = bill;
+      });
+      return {... state, list: newList, hash: newHashFromList }
     default:
       return state;
   }
@@ -42,7 +43,7 @@ export default BillsReducer;
 //    bills: [],
 //    errors: []
 //  });
- 
+
 //  const BillsReducer = (action, state = _defaultState) => {
 //    switch(action.type){
 //     case RECEIVE_BILLS:
@@ -55,5 +56,5 @@ export default BillsReducer;
 //       return state;
 //    }
 //  };
- 
-//  export default BillsReducer; 
+
+//  export default BillsReducer;

@@ -4,8 +4,9 @@ import { connect } from 'react-redux';
 import Bill from '../components/Bill';
 
 const mapStateToProps = (state, ownProps) => {
-  // let bill = state.bills.hash[ownProps.id]; // once we have data from the backend
-  let { comments, id, title, text, notations, number } = ownProps;
+  console.log(state);
+  let bill = state.bills.hash[ownProps.id]; // once we have data from the backend
+  let { comments, id, title, text, notations, number } = bill;
 
   return {
     comments,
