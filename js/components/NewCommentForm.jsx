@@ -23,11 +23,7 @@ export default class NewCommentForm extends React.Component {
 
   render () {
     return (
-      <div
-        className="comments-list-container"
-        onClick={this.handleClick}
-      >
-        <div>Comment form!</div>
+      <div className="comments-list-container" onClick={this.handleClick}>
 
         <form style={ {marginTop: `${this.props.location}px`} }
           className={ "comment-form" }

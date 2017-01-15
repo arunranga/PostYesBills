@@ -22,7 +22,7 @@ export default class BillContent extends React.Component {
   }
 
   componentDidMount() {
-    this.quill = new Quill('.bill-show-text');
+    this.quill = new Quill('.bill-content__text');
     this.quill.enable(false);
     this.quill.on("selection-change", this.handleSelection );
     if (this.props.annotations) {
@@ -44,7 +44,7 @@ export default class BillContent extends React.Component {
     }
 
     if (range.length !== 0) {
-      this.quill.formatText(range.index, range.length, "background", "#ffff64");
+      this.quill.formatText(range.index, range.length, "background", "#aad6fe");
       const location = this.quill.getBounds(range.index, range.length);
       this.setState({
         selectionRange: range,
@@ -132,22 +132,12 @@ export default class BillContent extends React.Component {
     }
 
     return (
-      <div
-        className="bill-content-container"
-        style={ { marginTop: '68px' } }
-        onClick={this.handleClick}
-      >
-        <div
-          className="bill-content"
-          style={ { display: 'flex' } }
-        >
-          <div className="bill-show-text">
+      <div className="bill-content__container" onClick={this.handleClick}>
+        <div className="bill-content">
+          <div className="bill-content__text">
             { text }
           </div>
-          <div
-            className="bill-comments"
-            style={ { minWidth: '500px' } }
-          >
+          <div className="bill-content__comments">
             { rightPanel }
           </div>
         </div>

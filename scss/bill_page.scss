@@ -1,20 +1,22 @@
 .bill-page {
 	font-family: 'Lato', 'arial';
 }
-.bill__header {
+
+// BILL HEADER
+.bill-header__container {
 	background-color: #fff;
 	color: #343435;
 	padding-top: 40px;
 	border-bottom: 2px solid #4af2a1;
 }
-.bill__data {
-	max-width: 800px;
+.bill-header__data {
+	max-width: 850px;
 	width: 90%;
 	margin: auto;
 	position: relative;
 	border-bottom: 2px solid #dfe3e5;
 }
-.bill__id {
+.bill-header__id {
 	position: absolute;
 	left: 0;
 	top: 30px;
@@ -24,10 +26,10 @@
 	border-radius: 100%;
 	display: flex;
 }
-.bill__info {
+.bill-header__info {
 	margin-left: 90px;
 }
-.bill__number {
+.bill-header__number {
 	width: 40px;
 	font-size: 12px;
 	font-family: 'Times';
@@ -35,7 +37,7 @@
 	color: #28292a;
 	margin: auto;
 }
-.bill__short-title {
+.bill-header__short-title {
 	color: #4af2a1;
 	font-size: 31px;
 	line-height: 38px;
@@ -43,29 +45,29 @@
 	margin-bottom: 3px;
 	font-weight: 900;
 }
-.bill__title {
+.bill-header__title {
 	font-size: 14px;
 	line-height: 17px;
 	margin: 0;
 	margin-bottom: 9px;
 	max-width: 450px;
 }
-.bill__label {
+.bill-header__label {
 	color: #a6a6a6;
 	font-size: 10px;
 	line-height: 12px;
 	margin-right: 5px;
 }
-.bill__date,
-.bill__status,
-.bill__sponsor {
+.bill-header__date,
+.bill-header__status,
+.bill-header__sponsor {
 	font-size: 10px;
 	margin: 0;
 }
-.bill__sponsor {
+.bill-header__sponsor {
 	margin-bottom:16px;
 }
-.bill__tldr {
+.bill-header__tldr {
 	padding-left: 90px;
 	position: relative;
 	max-width: 800px;
@@ -81,35 +83,61 @@
 		background-color: #4af2a1;
 	}
 }
-.bill__tldr-title {
+.bill-header__tldr-title {
 	color: #4af2a1;
 	margin-bottom: 8px;
 	font-size: 12px;
 	font-weight: 500;
 }
-.bill__tldr-text {
+.bill-header__tldr-text {
 	font-size: 12px;
 	max-width: 200px;
 }
 
-
-
-
-
-
-
-
-.bill-content-container {
-	position: relative;
-	z-index: 10;
+// BILL CONTENT
+.bill-content__container{
+	max-width: 750px;
+	background-color: #fff;
+	margin: auto;
 }
-
+.bill-content {
+	padding: 15px 40px;
+	position: relative;
+}
+.bill-content__text {
+	font-family: 'Times';
+	width: 400px;
+	position: relative;
+	&:after {
+		content: '';
+		position: absolute;
+		left: 30%;
+		bottom: 0;
+		width: 40%;
+		height: 1px;
+		background-color: #343435;
+	}
+}
+.bill-content__comments {
+	position: absolute;
+	top: 0;
+	left: 460px;
+}
 .comment-form {
 	position: absolute;
 	z-index: 100;
-	margin-left: 50px;
 	padding: 20px;
-	border-left: 3px solid yellow;
+	border-left: 5px solid #4af2a1;
+	&:before {
+		content: '';
+		position: absolute;
+		top: 20px;
+		left: 0;
+		border: 7px solid #4af2a1;
+		border-right-color: transparent;
+		border-top-color: transparent;
+		border-bottom-color: transparent;
+	}
 }
 
 .comment {

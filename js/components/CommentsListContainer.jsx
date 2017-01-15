@@ -12,9 +12,7 @@ export default class CommentsListContainer extends React.Component {
     });
 
     return (
-      <div
-        className="comments-list-container"
-      >
+      <div className="comments-list-container">
         { comments ? commentDivs : <div>Highlight text to the left to leave a comment!</div> }
       </div>
     );

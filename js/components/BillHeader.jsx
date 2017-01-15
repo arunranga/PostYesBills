@@ -13,43 +13,33 @@ export default class BillHeader extends React.Component {
     } = this.props.bill;
 
     return (
-      <div className="bill__header">
-        <div className="bill__data">
-          <div className="bill__id">
-            <h3 className="bill__number">H.R. {billNumber}</h3>
+      <div className="bill-header__container">
+        <div className="bill-header__data">
+          <div className="bill-header__id">
+            <h3 className="bill-header__number">H.R. {billNumber}</h3>
           </div>
-          <div className="bill__info">
-            <p className="bill__short-title">{shortTitle}</p>
-            <p className="bill__title">{title}</p>
-            <p className="bill__date">
-              <span className="bill__label">Introduced</span>
+          <div className="bill-header__info">
+            <p className="bill-header__short-title">{shortTitle}</p>
+            <p className="bill-header__title">{title}</p>
+            <p className="bill-header__date">
+              <span className="bill-header__label">Introduced</span>
               {dateIntroduced}
             </p>
-            <p className="bill__status">
-              <span className="bill__label">Status</span>
+            <p className="bill-header__status">
+              <span className="bill-header__label">Status</span>
               {status}
             </p>
-            <p className="bill__sponsor">
-              <span className="bill__label">Sponsor</span>
+            <p className="bill-header__sponsor">
+              <span className="bill-header__label">Sponsor</span>
               {sponsor}
             </p>
           </div>
         </div>
-        <div className="bill__tldr">
-          <h4 className="bill__tldr-title">TL;DR</h4>
-          <p className="bill__tldr-text">{tldr}</p>
+        <div className="bill-header__tldr">
+          <h4 className="bill-header__tldr-title">TL;DR</h4>
+          <p className="bill-header__tldr-text">{tldr}</p>
         </div>
       </div>
     );
   }
 }
-
-        // <li className="bill-list__bill" data-id={id} key={number}>
-        //   <div className="bill-list__bill-id">
-        //     <h3 className="bill-list__bill-number">{number}</h3>
-        //   </div>
-        //   <div className="bill-list__bill-content">
-        //     <h2 className="bill-list__bill-title">{title}</h2>
-        //     <p className="bill-list__bill-text">{text}</p>
-        //     <p className="bill-list__bill-data">Comments: {comments}, Notations: {notations}</p>
-        //   </div>
