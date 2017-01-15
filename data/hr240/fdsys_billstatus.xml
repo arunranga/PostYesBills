@@ -1,0 +1,354 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<billStatus>
+  <bill>
+    <policyArea>
+      <name>Emergency Management</name>
+    </policyArea>
+    <updateDate>2017-01-12T14:27:33Z</updateDate>
+    <billType>HR</billType>
+    <laws />
+    <sponsors>
+      <item>
+        <fullName>Rep. Ratcliffe, John [R-TX-4]</fullName>
+        <identifiers>
+          <lisID>2268</lisID>
+          <gpoId />
+          <bioguideId>R000601</bioguideId>
+        </identifiers>
+        <byRequestType />
+        <firstName>John</firstName>
+        <bioguideId>R000601</bioguideId>
+        <lastName>Ratcliffe</lastName>
+        <state>TX</state>
+        <district>4</district>
+        <party>R</party>
+        <middleName />
+      </item>
+    </sponsors>
+    <congress>115</congress>
+    <latestAction>
+      <actionDate>2017-01-11</actionDate>
+      <text>Received in the Senate and Read twice and referred to the Committee on Homeland Security and Governmental Affairs.</text>
+      <links />
+    </latestAction>
+    <recordedVotes />
+    <calendarNumbers />
+    <cboCostEstimates />
+    <title>Leveraging Emerging Technologies Act of 2017</title>
+    <actions>
+      <actionByCounts>
+        <senate>1</senate>
+        <houseOfRepresentatives>9</houseOfRepresentatives>
+      </actionByCounts>
+      <item>
+        <actionDate>2017-01-11</actionDate>
+        <committee>
+          <systemCode>ssga00</systemCode>
+          <name>Homeland Security and Governmental Affairs Committee</name>
+        </committee>
+        <links />
+        <sourceSystem>
+          <name>Senate</name>
+          <code>0</code>
+        </sourceSystem>
+        <text>Received in the Senate and Read twice and referred to the Committee on Homeland Security and Governmental Affairs.</text>
+        <type>IntroReferral</type>
+      </item>
+      <item>
+        <committee />
+        <actionCode>H38310</actionCode>
+        <type>Floor</type>
+        <text>Motion to reconsider laid on the table Agreed to without objection.</text>
+        <actionDate>2017-01-10</actionDate>
+        <actionTime>16:38:07</actionTime>
+        <links />
+        <sourceSystem>
+          <name>House floor actions</name>
+          <code>2</code>
+        </sourceSystem>
+      </item>
+      <item>
+        <committee />
+        <actionCode>H37300</actionCode>
+        <type>Floor</type>
+        <text>On motion to suspend the rules and pass the bill, as amended Agreed to by voice vote. (text: CR H277)</text>
+        <actionDate>2017-01-10</actionDate>
+        <actionTime>16:38:06</actionTime>
+        <links>
+          <link>
+            <name>H277</name>
+            <url>https://www.congress.gov/congressional-record/volume-163/house-section/page/H277</url>
+          </link>
+        </links>
+        <sourceSystem>
+          <name>House floor actions</name>
+          <code>2</code>
+        </sourceSystem>
+      </item>
+      <item>
+        <committee />
+        <actionCode>8000</actionCode>
+        <type>Floor</type>
+        <text>Passed/agreed to in House: On motion to suspend the rules and pass the bill, as amended Agreed to by voice vote.</text>
+        <actionDate>2017-01-10</actionDate>
+        <actionTime>16:38:06</actionTime>
+        <links />
+        <sourceSystem>
+          <name>Library of Congress</name>
+          <code>9</code>
+        </sourceSystem>
+      </item>
+      <item>
+        <committee />
+        <actionCode>H8D000</actionCode>
+        <type>Floor</type>
+        <text>DEBATE - The House proceeded with forty minutes of debate on H.R. 240.</text>
+        <actionDate>2017-01-10</actionDate>
+        <actionTime>16:28:26</actionTime>
+        <links>
+          <link>
+            <name>H.R. 240</name>
+            <url>https://www.congress.gov/bill/115th-congress/house-bill/240</url>
+          </link>
+        </links>
+        <sourceSystem>
+          <name>House floor actions</name>
+          <code>2</code>
+        </sourceSystem>
+      </item>
+      <item>
+        <committee />
+        <actionCode>H30000</actionCode>
+        <type>Floor</type>
+        <text>Considered under suspension of the rules. (consideration: CR H277-279)</text>
+        <actionDate>2017-01-10</actionDate>
+        <actionTime>16:28:25</actionTime>
+        <links>
+          <link>
+            <name>H277-279</name>
+            <url>https://www.congress.gov/congressional-record/volume-163/house-section/page/H277-279</url>
+          </link>
+        </links>
+        <sourceSystem>
+          <name>House floor actions</name>
+          <code>2</code>
+        </sourceSystem>
+      </item>
+      <item>
+        <committee />
+        <actionCode>H30300</actionCode>
+        <type>Floor</type>
+        <text>Mr. Ratcliffe moved to suspend the rules and pass the bill, as amended.</text>
+        <actionDate>2017-01-10</actionDate>
+        <actionTime>16:28:13</actionTime>
+        <links />
+        <sourceSystem>
+          <name>House floor actions</name>
+          <code>2</code>
+        </sourceSystem>
+      </item>
+      <item>
+        <committee>
+          <systemCode>hshm00</systemCode>
+          <name>Homeland Security Committee</name>
+        </committee>
+        <actionCode>H11100</actionCode>
+        <type>IntroReferral</type>
+        <text>Referred to the House Committee on Homeland Security.</text>
+        <actionDate>2017-01-04</actionDate>
+        <sourceSystem>
+          <name>House floor actions</name>
+          <code>2</code>
+        </sourceSystem>
+        <links />
+      </item>
+      <item>
+        <committee />
+        <actionCode>Intro-H</actionCode>
+        <type>IntroReferral</type>
+        <text>Introduced in House</text>
+        <actionDate>2017-01-04</actionDate>
+        <sourceSystem>
+          <name>Library of Congress</name>
+          <code>9</code>
+        </sourceSystem>
+        <links />
+      </item>
+      <item>
+        <committee />
+        <actionCode>1000</actionCode>
+        <type>IntroReferral</type>
+        <text>Introduced in House</text>
+        <actionDate>2017-01-04</actionDate>
+        <sourceSystem>
+          <name>Library of Congress</name>
+          <code>9</code>
+        </sourceSystem>
+        <links />
+      </item>
+      <actionTypeCounts>
+        <passedAgreedToInHouse>1</passedAgreedToInHouse>
+        <considerationByHouse>1</considerationByHouse>
+        <motionMadeToSuspendTheRules>1</motionMadeToSuspendTheRules>
+        <billReferrals>1</billReferrals>
+        <finalPassageUnderSuspensionOfTheRulesResults>1</finalPassageUnderSuspensionOfTheRulesResults>
+        <referredToCommittee>1</referredToCommittee>
+        <motionToReconsiderResults>1</motionToReconsiderResults>
+        <generalDebate>1</generalDebate>
+        <introducedInHouse>1</introducedInHouse>
+        <introducedInTheHouse>1</introducedInTheHouse>
+      </actionTypeCounts>
+    </actions>
+    <amendments />
+    <introducedDate>2017-01-04</introducedDate>
+    <billNumber>240</billNumber>
+    <relatedBills />
+    <titles>
+      <item>
+        <chamberCode />
+        <chamberName />
+        <parentTitleType />
+        <titleType>Short Titles as Introduced</titleType>
+        <title>Leveraging Emerging Technologies Act of 2017</title>
+      </item>
+      <item>
+        <chamberCode />
+        <chamberName />
+        <parentTitleType />
+        <titleType>Official Title as Introduced</titleType>
+        <title>To encourage engagement between the Department of Homeland Security and technology innovators, and for other purposes.</title>
+      </item>
+      <item>
+        <chamberCode />
+        <chamberName />
+        <parentTitleType />
+        <titleType>Display Title</titleType>
+        <title>Leveraging Emerging Technologies Act of 2017</title>
+      </item>
+    </titles>
+    <cosponsors>
+      <item>
+        <firstName>Michael</firstName>
+        <middleName>T.</middleName>
+        <bioguideId>M001157</bioguideId>
+        <sponsorshipWithdrawnDate />
+        <fullName>Rep. McCaul, Michael T. [R-TX-10]</fullName>
+        <identifiers>
+          <bioguideId>M001157</bioguideId>
+          <gpoId>8166</gpoId>
+          <lisID>1804</lisID>
+        </identifiers>
+        <lastName>McCaul</lastName>
+        <party>R</party>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <state>TX</state>
+        <sponsorshipDate>2017-01-04</sponsorshipDate>
+        <district>10</district>
+      </item>
+      <item>
+        <firstName>BENNIE</firstName>
+        <middleName />
+        <bioguideId>T000193</bioguideId>
+        <sponsorshipWithdrawnDate />
+        <fullName>Rep. Thompson, Bennie G. [D-MS-2]</fullName>
+        <identifiers>
+          <bioguideId>T000193</bioguideId>
+          <lisID>1151</lisID>
+          <gpoId>8020</gpoId>
+        </identifiers>
+        <lastName>THOMPSON</lastName>
+        <party>D</party>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <state>MS</state>
+        <sponsorshipDate>2017-01-04</sponsorshipDate>
+        <district>2</district>
+      </item>
+    </cosponsors>
+    <constitutionalAuthorityStatementText />
+    <committeeReports />
+    <originChamber>House</originChamber>
+    <summaries>
+      <billSummaries>
+        <item>
+          <text><![CDATA[<p><strong>Leveraging Emerging Technologies Act of 2017</strong></p> <p>This bill requires the Department of Homeland Security (DHS) to: (1) engage with innovative and emerging technology developers and firms, including technology-based small businesses and startup ventures, to address homeland security needs; and (2) develop, submit to Congress, and implement a DHS-wide strategy to proactively engage with such developers and firms that focuses on sustainable methods and guidance to build relationships to establish, develop, and enhance DHS capabilities to address such needs.</p> <p>DHS may establish personnel and office space in areas in the United States with high concentrations of such developers and firms, co-located with other assets of DHS or other federal facilities, where possible. </p> <ul> <ul> </ul> </ul>]]></text>
+          <actionDesc>Introduced in House</actionDesc>
+          <name>Introduced in House</name>
+          <versionCode>00</versionCode>
+          <actionDate>2017-01-04</actionDate>
+          <lastSummaryUpdateDate>2017-01-09T20:44:05Z</lastSummaryUpdateDate>
+          <updateDate>2017-01-04T05:00:00Z</updateDate>
+        </item>
+      </billSummaries>
+    </summaries>
+    <subjects>
+      <billSubjects>
+        <policyArea>
+          <name>Emergency Management</name>
+        </policyArea>
+        <legislativeSubjects>
+          <item>
+            <name>Advanced technology and technological innovations</name>
+          </item>
+          <item>
+            <name>Business investment and capital</name>
+          </item>
+          <item>
+            <name>Congressional oversight</name>
+          </item>
+          <item>
+            <name>Department of Homeland Security</name>
+          </item>
+          <item>
+            <name>Homeland security</name>
+          </item>
+          <item>
+            <name>Public-private cooperation</name>
+          </item>
+          <item>
+            <name>Small business</name>
+          </item>
+        </legislativeSubjects>
+      </billSubjects>
+    </subjects>
+    <createDate>2017-01-05T04:47:32Z</createDate>
+    <notes />
+    <committees>
+      <billCommittees>
+        <item>
+          <subcommittees />
+          <name>Homeland Security and Governmental Affairs Committee</name>
+          <systemCode>ssga00</systemCode>
+          <type>Standing</type>
+          <activities>
+            <item>
+              <date>2017-01-11T18:25:25Z</date>
+              <name>Referred to</name>
+            </item>
+          </activities>
+          <chamber>Senate</chamber>
+        </item>
+        <item>
+          <subcommittees />
+          <name>Homeland Security Committee</name>
+          <systemCode>hshm00</systemCode>
+          <type>Standing</type>
+          <activities>
+            <item>
+              <date>2017-01-04T15:00:45Z</date>
+              <name>Referred to</name>
+            </item>
+          </activities>
+          <chamber>House</chamber>
+        </item>
+      </billCommittees>
+    </committees>
+  </bill>
+  <dublinCore xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <dc:format>text/xml</dc:format>
+    <dc:language>EN</dc:language>
+    <dc:rights>Pursuant to Title 17 Section 105 of the United States Code, this file is not subject to copyright protection and is in the public domain.</dc:rights>
+    <dc:contributor>Congressional Research Service, Library of Congress</dc:contributor>
+    <dc:description>This file contains bill summaries and statuses for federal legislation. A bill summary describes the most significant provisions of a piece of legislation and details the effects the legislative text may have on current law and federal programs. Bill summaries are authored by the Congressional Research Service (CRS) of the Library of Congress. As stated in Public Law 91-510 (2 USC 166 (d)(6)), one of the duties of CRS is "to prepare summaries and digests of bills and resolutions of a public general nature introduced in the Senate or House of Representatives". For more information, refer to the User Guide that accompanies this file.</dc:description>
+  </dublinCore>
+</billStatus>
+

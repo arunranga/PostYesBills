@@ -1,0 +1,352 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<billStatus>
+  <bill>
+    <actions>
+      <actionByCounts>
+        <senate>1</senate>
+        <houseOfRepresentatives>9</houseOfRepresentatives>
+      </actionByCounts>
+      <actionTypeCounts>
+        <finalPassageUnderSuspensionOfTheRulesResults>1</finalPassageUnderSuspensionOfTheRulesResults>
+        <billReferrals>1</billReferrals>
+        <referredToCommittee>1</referredToCommittee>
+        <considerationByHouse>1</considerationByHouse>
+        <motionMadeToSuspendTheRules>1</motionMadeToSuspendTheRules>
+        <introducedInTheHouse>1</introducedInTheHouse>
+        <introducedInHouse>1</introducedInHouse>
+        <generalDebate>1</generalDebate>
+        <motionToReconsiderResults>1</motionToReconsiderResults>
+        <passedAgreedToInHouse>1</passedAgreedToInHouse>
+      </actionTypeCounts>
+      <item>
+        <actionDate>2017-01-11</actionDate>
+        <committee>
+          <systemCode>sseg00</systemCode>
+          <name>Energy and Natural Resources Committee</name>
+        </committee>
+        <links />
+        <sourceSystem>
+          <name>Senate</name>
+          <code>0</code>
+        </sourceSystem>
+        <text>Received in the Senate and Read twice and referred to the Committee on Energy and Natural Resources.</text>
+        <type>IntroReferral</type>
+      </item>
+      <item>
+        <type>Floor</type>
+        <actionTime>15:27:43</actionTime>
+        <text>Motion to reconsider laid on the table Agreed to without objection.</text>
+        <actionCode>H38310</actionCode>
+        <sourceSystem>
+          <name>House floor actions</name>
+          <code>2</code>
+        </sourceSystem>
+        <links />
+        <committee />
+        <actionDate>2017-01-10</actionDate>
+      </item>
+      <item>
+        <type>Floor</type>
+        <actionTime>15:27:41</actionTime>
+        <text>On motion to suspend the rules and pass the bill Agreed to by voice vote. (text: CR H266-267)</text>
+        <actionCode>H37300</actionCode>
+        <sourceSystem>
+          <name>House floor actions</name>
+          <code>2</code>
+        </sourceSystem>
+        <links>
+          <link>
+            <url>https://www.congress.gov/congressional-record/volume-163/house-section/page/H266-267</url>
+            <name>H266-267</name>
+          </link>
+        </links>
+        <committee />
+        <actionDate>2017-01-10</actionDate>
+      </item>
+      <item>
+        <type>Floor</type>
+        <actionTime>15:27:41</actionTime>
+        <text>Passed/agreed to in House: On motion to suspend the rules and pass the bill Agreed to by voice vote.</text>
+        <actionCode>8000</actionCode>
+        <sourceSystem>
+          <name>Library of Congress</name>
+          <code>9</code>
+        </sourceSystem>
+        <links />
+        <committee />
+        <actionDate>2017-01-10</actionDate>
+      </item>
+      <item>
+        <type>Floor</type>
+        <actionTime>15:17:39</actionTime>
+        <text>DEBATE - The House proceeded with forty minutes of debate on H.R. 306.</text>
+        <actionCode>H8D000</actionCode>
+        <sourceSystem>
+          <name>House floor actions</name>
+          <code>2</code>
+        </sourceSystem>
+        <links>
+          <link>
+            <url>https://www.congress.gov/bill/115th-congress/house-bill/306</url>
+            <name>H.R. 306</name>
+          </link>
+        </links>
+        <committee />
+        <actionDate>2017-01-10</actionDate>
+      </item>
+      <item>
+        <type>Floor</type>
+        <actionTime>15:17:37</actionTime>
+        <text>Considered under suspension of the rules. (consideration: CR H266-268)</text>
+        <actionCode>H30000</actionCode>
+        <sourceSystem>
+          <name>House floor actions</name>
+          <code>2</code>
+        </sourceSystem>
+        <links>
+          <link>
+            <url>https://www.congress.gov/congressional-record/volume-163/house-section/page/H266-268</url>
+            <name>H266-268</name>
+          </link>
+        </links>
+        <committee />
+        <actionDate>2017-01-10</actionDate>
+      </item>
+      <item>
+        <type>Floor</type>
+        <actionTime>15:17:29</actionTime>
+        <text>Mr. Olson moved to suspend the rules and pass the bill.</text>
+        <actionCode>H30300</actionCode>
+        <sourceSystem>
+          <name>House floor actions</name>
+          <code>2</code>
+        </sourceSystem>
+        <links />
+        <committee />
+        <actionDate>2017-01-10</actionDate>
+      </item>
+      <item>
+        <type>IntroReferral</type>
+        <text>Referred to the House Committee on Energy and Commerce.</text>
+        <actionCode>H11100</actionCode>
+        <sourceSystem>
+          <name>House floor actions</name>
+          <code>2</code>
+        </sourceSystem>
+        <links />
+        <committee>
+          <systemCode>hsif00</systemCode>
+          <name>Energy and Commerce Committee</name>
+        </committee>
+        <actionDate>2017-01-05</actionDate>
+      </item>
+      <item>
+        <type>IntroReferral</type>
+        <text>Introduced in House</text>
+        <actionCode>Intro-H</actionCode>
+        <sourceSystem>
+          <name>Library of Congress</name>
+          <code>9</code>
+        </sourceSystem>
+        <links />
+        <committee />
+        <actionDate>2017-01-05</actionDate>
+      </item>
+      <item>
+        <type>IntroReferral</type>
+        <text>Introduced in House</text>
+        <actionCode>1000</actionCode>
+        <sourceSystem>
+          <name>Library of Congress</name>
+          <code>9</code>
+        </sourceSystem>
+        <links />
+        <committee />
+        <actionDate>2017-01-05</actionDate>
+      </item>
+    </actions>
+    <amendments />
+    <updateDate>2017-01-14T09:58:18Z</updateDate>
+    <titles>
+      <item>
+        <title>Energy Efficient Government Technology Act</title>
+        <parentTitleType>Short Titles House of Representatives</parentTitleType>
+        <chamberName>House</chamberName>
+        <titleType>Short Titles as Passed House</titleType>
+        <chamberCode>H</chamberCode>
+      </item>
+      <item>
+        <title>Energy Efficient Government Technology Act</title>
+        <parentTitleType />
+        <chamberName />
+        <titleType>Short Titles as Introduced</titleType>
+        <chamberCode />
+      </item>
+      <item>
+        <title>To amend the Energy Independence and Security Act of 2007 to promote energy efficiency via information and computing technologies, and for other purposes.</title>
+        <parentTitleType />
+        <chamberName />
+        <titleType>Official Title as Introduced</titleType>
+        <chamberCode />
+      </item>
+      <item>
+        <title>Energy Efficient Government Technology Act</title>
+        <parentTitleType />
+        <chamberName />
+        <titleType>Display Title</titleType>
+        <chamberCode />
+      </item>
+    </titles>
+    <notes />
+    <originChamber>House</originChamber>
+    <committeeReports />
+    <introducedDate>2017-01-05</introducedDate>
+    <sponsors>
+      <item>
+        <middleName>G.</middleName>
+        <firstName>ANNA</firstName>
+        <bioguideId>E000215</bioguideId>
+        <district>18</district>
+        <byRequestType />
+        <state>CA</state>
+        <identifiers>
+          <gpoId>7819</gpoId>
+          <bioguideId>E000215</bioguideId>
+          <lisID>355</lisID>
+        </identifiers>
+        <party>D</party>
+        <lastName>ESHOO</lastName>
+        <fullName>Rep. Eshoo, Anna G. [D-CA-18]</fullName>
+      </item>
+    </sponsors>
+    <summaries>
+      <billSummaries>
+        <item>
+          <text><![CDATA[<p> <b>Energy Efficient Government Technology Act </b></p> <p>This bill amends the Energy Independence and Security Act of 2007 to require each federal agency to coordinate with the Office of Management and Budget, the Department of Energy (DOE), and the Environmental Protection Agency to develop an implementation strategy for the maintenance, purchase, and use of energy-efficient and energy-saving information technologies.</p> <p>DOE must: (1) maintain a data center energy practitioner program that leads to the certification of energy practitioners qualified to evaluate the energy usage and efficiency opportunities in federal data centers; and (2) establish an open data initiative to make information about federal data center energy usage available and accessible in a manner that encourages data center innovation, optimization, and consolidation.</p>]]></text>
+          <lastSummaryUpdateDate>2017-01-11T21:16:13Z</lastSummaryUpdateDate>
+          <actionDesc>Introduced in House</actionDesc>
+          <versionCode>00</versionCode>
+          <updateDate>2017-01-05T05:00:00Z</updateDate>
+          <name>Introduced in House</name>
+          <actionDate>2017-01-05</actionDate>
+        </item>
+      </billSummaries>
+    </summaries>
+    <calendarNumbers />
+    <latestAction>
+      <actionDate>2017-01-11</actionDate>
+      <links />
+      <text>Received in the Senate and Read twice and referred to the Committee on Energy and Natural Resources.</text>
+    </latestAction>
+    <congress>115</congress>
+    <cosponsors>
+      <item>
+        <sponsorshipDate>2017-01-05</sponsorshipDate>
+        <party>R</party>
+        <lastName>Kinzinger</lastName>
+        <sponsorshipWithdrawnDate />
+        <bioguideId>K000378</bioguideId>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <district>16</district>
+        <state>IL</state>
+        <middleName />
+        <identifiers>
+          <bioguideId>K000378</bioguideId>
+          <gpoId>7931</gpoId>
+          <lisID>2014</lisID>
+        </identifiers>
+        <fullName>Rep. Kinzinger, Adam [R-IL-16]</fullName>
+        <firstName>Adam</firstName>
+      </item>
+    </cosponsors>
+    <relatedBills />
+    <subjects>
+      <billSubjects>
+        <legislativeSubjects>
+          <item>
+            <name>Computers and information technology</name>
+          </item>
+          <item>
+            <name>Energy efficiency and conservation</name>
+          </item>
+          <item>
+            <name>Environmental technology</name>
+          </item>
+          <item>
+            <name>Government buildings, facilities, and property</name>
+          </item>
+          <item>
+            <name>Government information and archives</name>
+          </item>
+          <item>
+            <name>Government studies and investigations</name>
+          </item>
+          <item>
+            <name>Performance measurement</name>
+          </item>
+          <item>
+            <name>Public contracts and procurement</name>
+          </item>
+          <item>
+            <name>Telephone and wireless communication</name>
+          </item>
+          <item>
+            <name>Water use and supply</name>
+          </item>
+        </legislativeSubjects>
+        <policyArea>
+          <name>Energy</name>
+        </policyArea>
+      </billSubjects>
+    </subjects>
+    <laws />
+    <constitutionalAuthorityStatementText />
+    <title>Energy Efficient Government Technology Act</title>
+    <recordedVotes />
+    <cboCostEstimates />
+    <committees>
+      <billCommittees>
+        <item>
+          <name>Energy and Natural Resources Committee</name>
+          <activities>
+            <item>
+              <name>Referred to</name>
+              <date>2017-01-11T18:24:00Z</date>
+            </item>
+          </activities>
+          <subcommittees />
+          <chamber>Senate</chamber>
+          <type>Standing</type>
+          <systemCode>sseg00</systemCode>
+        </item>
+        <item>
+          <name>Energy and Commerce Committee</name>
+          <activities>
+            <item>
+              <name>Referred to</name>
+              <date>2017-01-05T15:04:10Z</date>
+            </item>
+          </activities>
+          <subcommittees />
+          <chamber>House</chamber>
+          <type>Standing</type>
+          <systemCode>hsif00</systemCode>
+        </item>
+      </billCommittees>
+    </committees>
+    <createDate>2017-01-06T04:57:26Z</createDate>
+    <billType>HR</billType>
+    <billNumber>306</billNumber>
+    <policyArea>
+      <name>Energy</name>
+    </policyArea>
+  </bill>
+  <dublinCore xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <dc:format>text/xml</dc:format>
+    <dc:language>EN</dc:language>
+    <dc:rights>Pursuant to Title 17 Section 105 of the United States Code, this file is not subject to copyright protection and is in the public domain.</dc:rights>
+    <dc:contributor>Congressional Research Service, Library of Congress</dc:contributor>
+    <dc:description>This file contains bill summaries and statuses for federal legislation. A bill summary describes the most significant provisions of a piece of legislation and details the effects the legislative text may have on current law and federal programs. Bill summaries are authored by the Congressional Research Service (CRS) of the Library of Congress. As stated in Public Law 91-510 (2 USC 166 (d)(6)), one of the duties of CRS is "to prepare summaries and digests of bills and resolutions of a public general nature introduced in the Senate or House of Representatives". For more information, refer to the User Guide that accompanies this file.</dc:description>
+  </dublinCore>
+</billStatus>
+

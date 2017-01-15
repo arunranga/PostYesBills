@@ -1,0 +1,421 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<billStatus>
+  <bill>
+    <cosponsors>
+      <item>
+        <sponsorshipDate>2017-01-09</sponsorshipDate>
+        <party>R</party>
+        <fullName>Rep. Bridenstine, Jim [R-OK-1]</fullName>
+        <sponsorshipWithdrawnDate />
+        <identifiers>
+          <gpoId />
+          <bioguideId>B001283</bioguideId>
+          <lisID>2155</lisID>
+        </identifiers>
+        <firstName>Jim</firstName>
+        <state>OK</state>
+        <district>1</district>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <bioguideId>B001283</bioguideId>
+        <lastName>Bridenstine</lastName>
+        <middleName />
+      </item>
+      <item>
+        <sponsorshipDate>2017-01-09</sponsorshipDate>
+        <party>R</party>
+        <fullName>Rep. Smith, Lamar [R-TX-21]</fullName>
+        <sponsorshipWithdrawnDate />
+        <identifiers>
+          <lisID>1075</lisID>
+          <gpoId>8177</gpoId>
+          <bioguideId>S000583</bioguideId>
+        </identifiers>
+        <firstName>LAMAR</firstName>
+        <state>TX</state>
+        <district>21</district>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <bioguideId>S000583</bioguideId>
+        <lastName>SMITH</lastName>
+        <middleName />
+      </item>
+      <item>
+        <sponsorshipDate>2017-01-09</sponsorshipDate>
+        <party>R</party>
+        <fullName>Rep. Rohrabacher, Dana [R-CA-48]</fullName>
+        <sponsorshipWithdrawnDate />
+        <identifiers>
+          <lisID>979</lisID>
+          <gpoId>7851</gpoId>
+          <bioguideId>R000409</bioguideId>
+        </identifiers>
+        <firstName>DANA</firstName>
+        <state>CA</state>
+        <district>48</district>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <bioguideId>R000409</bioguideId>
+        <lastName>ROHRABACHER</lastName>
+        <middleName />
+      </item>
+      <item>
+        <sponsorshipDate>2017-01-09</sponsorshipDate>
+        <party>R</party>
+        <fullName>Rep. Stewart, Chris [R-UT-2]</fullName>
+        <sponsorshipWithdrawnDate />
+        <identifiers>
+          <bioguideId>S001192</bioguideId>
+          <lisID>2168</lisID>
+          <gpoId />
+        </identifiers>
+        <firstName>Chris</firstName>
+        <state>UT</state>
+        <district>2</district>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <bioguideId>S001192</bioguideId>
+        <lastName>Stewart</lastName>
+        <middleName />
+      </item>
+      <item>
+        <sponsorshipDate>2017-01-09</sponsorshipDate>
+        <party>R</party>
+        <fullName>Rep. Radewagen, Aumua Amata Coleman [R-AS-At Large]</fullName>
+        <sponsorshipWithdrawnDate />
+        <identifiers>
+          <lisID>2222</lisID>
+          <gpoId />
+          <bioguideId>R000600</bioguideId>
+        </identifiers>
+        <firstName>Aumua Amata</firstName>
+        <state>AS</state>
+        <district>0</district>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <bioguideId>R000600</bioguideId>
+        <lastName>Radewagen</lastName>
+        <middleName>Coleman</middleName>
+      </item>
+      <item>
+        <sponsorshipDate>2017-01-09</sponsorshipDate>
+        <party>D</party>
+        <fullName>Rep. Bonamici, Suzanne [D-OR-1]</fullName>
+        <sponsorshipWithdrawnDate />
+        <identifiers>
+          <bioguideId>B001278</bioguideId>
+          <lisID>2092</lisID>
+          <gpoId>8367</gpoId>
+        </identifiers>
+        <firstName>Suzanne</firstName>
+        <state>OR</state>
+        <district>1</district>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <bioguideId>B001278</bioguideId>
+        <lastName>Bonamici</lastName>
+        <middleName />
+      </item>
+    </cosponsors>
+    <laws />
+    <congress>115</congress>
+    <billNumber>353</billNumber>
+    <billType>HR</billType>
+    <cboCostEstimates />
+    <policyArea>
+      <name>Science, Technology, Communications</name>
+    </policyArea>
+    <amendments />
+    <notes />
+    <constitutionalAuthorityStatementText />
+    <recordedVotes />
+    <summaries>
+      <billSummaries />
+    </summaries>
+    <updateDate>2017-01-12T14:27:34Z</updateDate>
+    <originChamber>House</originChamber>
+    <actions>
+      <actionTypeCounts>
+        <generalDebate>1</generalDebate>
+        <introducedInSenate>1</introducedInSenate>
+        <billReferrals>1</billReferrals>
+        <considerationByHouse>1</considerationByHouse>
+        <motionToReconsiderResults>1</motionToReconsiderResults>
+        <introducedInHouse>1</introducedInHouse>
+        <introducedInTheHouse>1</introducedInTheHouse>
+        <passedAgreedToInHouse>1</passedAgreedToInHouse>
+        <motionMadeToSuspendTheRules>1</motionMadeToSuspendTheRules>
+        <finalPassageUnderSuspensionOfTheRulesResults>1</finalPassageUnderSuspensionOfTheRulesResults>
+      </actionTypeCounts>
+      <item>
+        <actionDate>2017-01-10</actionDate>
+        <committee />
+        <links />
+        <sourceSystem>
+          <code>0</code>
+          <name>Senate</name>
+        </sourceSystem>
+        <text>Received in the Senate.</text>
+        <type>IntroReferral</type>
+      </item>
+      <item>
+        <text>Motion to reconsider laid on the table Agreed to without objection.</text>
+        <committee />
+        <type>Floor</type>
+        <actionTime>17:26:37</actionTime>
+        <actionDate>2017-01-09</actionDate>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+        <links />
+        <actionCode>H38310</actionCode>
+      </item>
+      <item>
+        <text>On motion to suspend the rules and pass the bill Agreed to by voice vote. (text: CR H208-214)</text>
+        <committee />
+        <type>Floor</type>
+        <actionTime>17:26:36</actionTime>
+        <actionDate>2017-01-09</actionDate>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+        <links>
+          <link>
+            <url>https://www.congress.gov/congressional-record/volume-163/house-section/page/H208-214</url>
+            <name>H208-214</name>
+          </link>
+        </links>
+        <actionCode>H37300</actionCode>
+      </item>
+      <item>
+        <text>Passed/agreed to in House: On motion to suspend the rules and pass the bill Agreed to by voice vote.</text>
+        <committee />
+        <type>Floor</type>
+        <actionTime>17:26:36</actionTime>
+        <actionDate>2017-01-09</actionDate>
+        <sourceSystem>
+          <code>9</code>
+          <name>Library of Congress</name>
+        </sourceSystem>
+        <links />
+        <actionCode>8000</actionCode>
+      </item>
+      <item>
+        <text>DEBATE - The House proceeded with forty minutes of debate on H.R. 353.</text>
+        <committee />
+        <type>Floor</type>
+        <actionTime>17:08:53</actionTime>
+        <actionDate>2017-01-09</actionDate>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+        <links>
+          <link>
+            <url>https://www.congress.gov/bill/115th-congress/house-bill/353</url>
+            <name>H.R. 353</name>
+          </link>
+        </links>
+        <actionCode>H8D000</actionCode>
+      </item>
+      <item>
+        <text>Considered under suspension of the rules. (consideration: CR H208-217)</text>
+        <committee />
+        <type>Floor</type>
+        <actionTime>17:08:51</actionTime>
+        <actionDate>2017-01-09</actionDate>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+        <links>
+          <link>
+            <url>https://www.congress.gov/congressional-record/volume-163/house-section/page/H208-217</url>
+            <name>H208-217</name>
+          </link>
+        </links>
+        <actionCode>H30000</actionCode>
+      </item>
+      <item>
+        <text>Mr. Lucas moved to suspend the rules and pass the bill.</text>
+        <committee />
+        <type>Floor</type>
+        <actionTime>17:08:40</actionTime>
+        <actionDate>2017-01-09</actionDate>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+        <links />
+        <actionCode>H30300</actionCode>
+      </item>
+      <item>
+        <text>Referred to the House Committee on Science, Space, and Technology.</text>
+        <committee>
+          <name>Science, Space, and Technology Committee</name>
+          <systemCode>hssy00</systemCode>
+        </committee>
+        <type>IntroReferral</type>
+        <actionDate>2017-01-06</actionDate>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+        <links />
+        <actionCode>H11100</actionCode>
+      </item>
+      <item>
+        <text>Introduced in House</text>
+        <committee />
+        <type>IntroReferral</type>
+        <actionDate>2017-01-06</actionDate>
+        <sourceSystem>
+          <code>9</code>
+          <name>Library of Congress</name>
+        </sourceSystem>
+        <links />
+        <actionCode>Intro-H</actionCode>
+      </item>
+      <item>
+        <text>Introduced in House</text>
+        <committee />
+        <type>IntroReferral</type>
+        <actionDate>2017-01-06</actionDate>
+        <sourceSystem>
+          <code>9</code>
+          <name>Library of Congress</name>
+        </sourceSystem>
+        <links />
+        <actionCode>1000</actionCode>
+      </item>
+      <actionByCounts>
+        <houseOfRepresentatives>9</houseOfRepresentatives>
+        <senate>1</senate>
+      </actionByCounts>
+    </actions>
+    <committeeReports />
+    <subjects>
+      <billSubjects>
+        <policyArea>
+          <name>Science, Technology, Communications</name>
+        </policyArea>
+        <legislativeSubjects>
+          <item>
+            <name>Advisory bodies</name>
+          </item>
+          <item>
+            <name>Atmospheric science and weather</name>
+          </item>
+          <item>
+            <name>Computers and information technology</name>
+          </item>
+          <item>
+            <name>Emergency communications systems</name>
+          </item>
+          <item>
+            <name>Executive Office of the President</name>
+          </item>
+          <item>
+            <name>Executive agency funding and structure</name>
+          </item>
+          <item>
+            <name>Government information and archives</name>
+          </item>
+          <item>
+            <name>Natural disasters</name>
+          </item>
+          <item>
+            <name>Public contracts and procurement</name>
+          </item>
+          <item>
+            <name>Research administration and funding</name>
+          </item>
+          <item>
+            <name>Research and development</name>
+          </item>
+          <item>
+            <name>Spacecraft and satellites</name>
+          </item>
+          <item>
+            <name>Student aid and college costs</name>
+          </item>
+          <item>
+            <name>Technology transfer and commercialization</name>
+          </item>
+        </legislativeSubjects>
+      </billSubjects>
+    </subjects>
+    <titles>
+      <item>
+        <chamberCode />
+        <chamberName />
+        <parentTitleType />
+        <titleType>Short Titles as Introduced</titleType>
+        <title>Weather Research and Forecasting Innovation Act of 2017</title>
+      </item>
+      <item>
+        <chamberCode />
+        <chamberName />
+        <parentTitleType />
+        <titleType>Official Title as Introduced</titleType>
+        <title>To improve the National Oceanic and Atmospheric Administration's weather research through a focused program of investment on affordable and attainable advances in observational, computing, and modeling capabilities to support substantial improvement in weather forecasting and prediction of high impact weather events, to expand commercial opportunities for the provision of weather data, and for other purposes.</title>
+      </item>
+      <item>
+        <chamberCode />
+        <chamberName />
+        <parentTitleType />
+        <titleType>Display Title</titleType>
+        <title>Weather Research and Forecasting Innovation Act of 2017</title>
+      </item>
+    </titles>
+    <relatedBills />
+    <calendarNumbers />
+    <title>Weather Research and Forecasting Innovation Act of 2017</title>
+    <introducedDate>2017-01-06</introducedDate>
+    <latestAction>
+      <actionDate>2017-01-10</actionDate>
+      <text>Received in the Senate.</text>
+      <links />
+    </latestAction>
+    <createDate>2017-01-07T04:48:26Z</createDate>
+    <committees>
+      <billCommittees>
+        <item>
+          <subcommittees />
+          <name>Science, Space, and Technology Committee</name>
+          <systemCode>hssy00</systemCode>
+          <type>Standing</type>
+          <activities>
+            <item>
+              <date>2017-01-06T17:02:25Z</date>
+              <name>Referred to</name>
+            </item>
+          </activities>
+          <chamber>House</chamber>
+        </item>
+      </billCommittees>
+    </committees>
+    <sponsors>
+      <item>
+        <fullName>Rep. Lucas, Frank D. [R-OK-3]</fullName>
+        <firstName>FRANK</firstName>
+        <bioguideId>L000491</bioguideId>
+        <party>R</party>
+        <middleName>D.</middleName>
+        <byRequestType />
+        <district>3</district>
+        <state>OK</state>
+        <lastName>LUCAS</lastName>
+        <identifiers>
+          <bioguideId>L000491</bioguideId>
+          <gpoId>8111</gpoId>
+          <lisID>711</lisID>
+        </identifiers>
+      </item>
+    </sponsors>
+  </bill>
+  <dublinCore xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <dc:format>text/xml</dc:format>
+    <dc:language>EN</dc:language>
+    <dc:rights>Pursuant to Title 17 Section 105 of the United States Code, this file is not subject to copyright protection and is in the public domain.</dc:rights>
+    <dc:contributor>Congressional Research Service, Library of Congress</dc:contributor>
+    <dc:description>This file contains bill summaries and statuses for federal legislation. A bill summary describes the most significant provisions of a piece of legislation and details the effects the legislative text may have on current law and federal programs. Bill summaries are authored by the Congressional Research Service (CRS) of the Library of Congress. As stated in Public Law 91-510 (2 USC 166 (d)(6)), one of the duties of CRS is "to prepare summaries and digests of bills and resolutions of a public general nature introduced in the Senate or House of Representatives". For more information, refer to the User Guide that accompanies this file.</dc:description>
+  </dublinCore>
+</billStatus>
+

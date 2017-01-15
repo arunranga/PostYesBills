@@ -1,0 +1,491 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<billStatus>
+  <bill>
+    <cosponsors>
+      <item>
+        <sponsorshipDate>2017-01-05</sponsorshipDate>
+        <party>D</party>
+        <fullName>Rep. Eshoo, Anna G. [D-CA-18]</fullName>
+        <sponsorshipWithdrawnDate />
+        <identifiers>
+          <gpoId>7819</gpoId>
+          <bioguideId>E000215</bioguideId>
+          <lisID>355</lisID>
+        </identifiers>
+        <firstName>ANNA</firstName>
+        <state>CA</state>
+        <district>18</district>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <bioguideId>E000215</bioguideId>
+        <lastName>ESHOO</lastName>
+        <middleName>G.</middleName>
+      </item>
+      <item>
+        <sponsorshipDate>2017-01-05</sponsorshipDate>
+        <party>D</party>
+        <fullName>Rep. Roybal-Allard, Lucille [D-CA-40]</fullName>
+        <sponsorshipWithdrawnDate />
+        <identifiers>
+          <lisID>997</lisID>
+          <gpoId>7839</gpoId>
+          <bioguideId>R000486</bioguideId>
+        </identifiers>
+        <firstName>LUCILLE</firstName>
+        <state>CA</state>
+        <district>40</district>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <bioguideId>R000486</bioguideId>
+        <lastName>ROYBAL-ALLARD</lastName>
+        <middleName />
+      </item>
+      <item>
+        <sponsorshipDate>2017-01-09</sponsorshipDate>
+        <party>R</party>
+        <fullName>Rep. Young, David [R-IA-3]</fullName>
+        <sponsorshipWithdrawnDate />
+        <identifiers>
+          <lisID>2242</lisID>
+          <gpoId />
+          <bioguideId>Y000066</bioguideId>
+        </identifiers>
+        <firstName>David</firstName>
+        <state>IA</state>
+        <district>3</district>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <bioguideId>Y000066</bioguideId>
+        <lastName>Young</lastName>
+        <middleName />
+      </item>
+      <item>
+        <sponsorshipDate>2017-01-09</sponsorshipDate>
+        <party>D</party>
+        <fullName>Rep. Rice, Kathleen M. [D-NY-4]</fullName>
+        <sponsorshipWithdrawnDate />
+        <identifiers>
+          <lisID>2262</lisID>
+          <gpoId />
+          <bioguideId>R000602</bioguideId>
+        </identifiers>
+        <firstName>Kathleen</firstName>
+        <state>NY</state>
+        <district>4</district>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <bioguideId>R000602</bioguideId>
+        <lastName>Rice</lastName>
+        <middleName>M.</middleName>
+      </item>
+      <item>
+        <sponsorshipDate>2017-01-09</sponsorshipDate>
+        <party>R</party>
+        <fullName>Rep. Herrera Beutler, Jaime [R-WA-3]</fullName>
+        <sponsorshipWithdrawnDate />
+        <identifiers>
+          <lisID>2071</lisID>
+          <gpoId>8207</gpoId>
+          <bioguideId>H001056</bioguideId>
+        </identifiers>
+        <firstName>Jaime</firstName>
+        <state>WA</state>
+        <district>3</district>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <bioguideId>H001056</bioguideId>
+        <lastName>Beutler</lastName>
+        <middleName>Herrera</middleName>
+      </item>
+      <item>
+        <sponsorshipDate>2017-01-09</sponsorshipDate>
+        <party>R</party>
+        <fullName>Rep. Radewagen, Aumua Amata Coleman [R-AS-At Large]</fullName>
+        <sponsorshipWithdrawnDate />
+        <identifiers>
+          <bioguideId>R000600</bioguideId>
+          <lisID>2222</lisID>
+          <gpoId />
+        </identifiers>
+        <firstName>Aumua Amata</firstName>
+        <state>AS</state>
+        <district>0</district>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <bioguideId>R000600</bioguideId>
+        <lastName>Radewagen</lastName>
+        <middleName>Coleman</middleName>
+      </item>
+      <item>
+        <sponsorshipDate>2017-01-09</sponsorshipDate>
+        <party>D</party>
+        <fullName>Rep. DeFazio, Peter A. [D-OR-4]</fullName>
+        <sponsorshipWithdrawnDate />
+        <identifiers>
+          <lisID>279</lisID>
+          <gpoId>8117</gpoId>
+          <bioguideId>D000191</bioguideId>
+        </identifiers>
+        <firstName>PETER</firstName>
+        <state>OR</state>
+        <district>4</district>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <bioguideId>D000191</bioguideId>
+        <lastName>DEFAZIO</lastName>
+        <middleName>A.</middleName>
+      </item>
+      <item>
+        <sponsorshipDate>2017-01-09</sponsorshipDate>
+        <party>R</party>
+        <fullName>Rep. Roe, David P. [R-TN-1]</fullName>
+        <sponsorshipWithdrawnDate />
+        <identifiers>
+          <bioguideId>R000582</bioguideId>
+          <gpoId>8148</gpoId>
+          <lisID>1954</lisID>
+        </identifiers>
+        <firstName>David</firstName>
+        <state>TN</state>
+        <district>1</district>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <bioguideId>R000582</bioguideId>
+        <lastName>Roe</lastName>
+        <middleName>P.</middleName>
+      </item>
+    </cosponsors>
+    <laws />
+    <congress>115</congress>
+    <billNumber>315</billNumber>
+    <billType>HR</billType>
+    <cboCostEstimates />
+    <policyArea>
+      <name>Health</name>
+    </policyArea>
+    <amendments />
+    <notes />
+    <constitutionalAuthorityStatementText />
+    <recordedVotes>
+      <recordedVote>
+        <rollNumber>24</rollNumber>
+        <sessionNumber>1</sessionNumber>
+        <date>2017-01-09T23:54:10Z</date>
+        <congress>115</congress>
+        <chamber>House</chamber>
+        <url>http://clerk.house.gov/evs/2017/roll024.xml</url>
+        <fullActionName>Final Passage Under Suspension of the Rules Results</fullActionName>
+      </recordedVote>
+    </recordedVotes>
+    <summaries>
+      <billSummaries>
+        <item>
+          <text><![CDATA[<p><b>Improving Access to Maternity Care Act</b></p> <p>This bill amends the Public Health Service Act to require the Health Resources and Services Administration (HRSA) to identify maternity care health professional target areas, which are areas within health professional shortage areas that have a shortage of maternity care health professionals, for purposes of assigning maternity care health professionals to those areas.</p> HRSA must collect and publish data comparing the availability of and need for maternity care health services in health professional shortage areas and areas within those areas.]]></text>
+          <actionDesc>Introduced in House</actionDesc>
+          <name>Introduced in House</name>
+          <versionCode>00</versionCode>
+          <actionDate>2017-01-05</actionDate>
+          <lastSummaryUpdateDate>2017-01-11T21:10:07Z</lastSummaryUpdateDate>
+          <updateDate>2017-01-05T05:00:00Z</updateDate>
+        </item>
+      </billSummaries>
+    </summaries>
+    <updateDate>2017-01-14T09:58:19Z</updateDate>
+    <originChamber>House</originChamber>
+    <actions>
+      <item>
+        <actionDate>2017-01-10</actionDate>
+        <committee>
+          <name>Health, Education, Labor, and Pensions Committee</name>
+          <systemCode>sshr00</systemCode>
+        </committee>
+        <links />
+        <sourceSystem>
+          <name>Senate</name>
+          <code>0</code>
+        </sourceSystem>
+        <text>Received in the Senate and Read twice and referred to the Committee on Health, Education, Labor, and Pensions.</text>
+        <type>IntroReferral</type>
+      </item>
+      <item>
+        <type>Floor</type>
+        <committee />
+        <actionTime>18:54:11</actionTime>
+        <actionDate>2017-01-09</actionDate>
+        <text>Motion to reconsider laid on the table Agreed to without objection.</text>
+        <actionCode>H38310</actionCode>
+        <sourceSystem>
+          <name>House floor actions</name>
+          <code>2</code>
+        </sourceSystem>
+        <links />
+      </item>
+      <item>
+        <type>Floor</type>
+        <committee />
+        <actionTime>18:54:10</actionTime>
+        <actionDate>2017-01-09</actionDate>
+        <text>On motion to suspend the rules and pass the bill Agreed to by the Yeas and Nays: (2/3 required): 405 - 0 (Roll no. 24). (text: CR H203)</text>
+        <actionCode>H37300</actionCode>
+        <sourceSystem>
+          <name>House floor actions</name>
+          <code>2</code>
+        </sourceSystem>
+        <links>
+          <link>
+            <name>H203</name>
+            <url>https://www.congress.gov/congressional-record/volume-163/house-section/page/H203</url>
+          </link>
+          <link>
+            <name>Roll no. 24</name>
+            <url>http://clerk.house.gov/evs/2017/roll024.xml</url>
+          </link>
+        </links>
+      </item>
+      <item>
+        <type>Floor</type>
+        <committee />
+        <actionTime>18:54:10</actionTime>
+        <actionDate>2017-01-09</actionDate>
+        <text>Passed/agreed to in House: On motion to suspend the rules and pass the bill Agreed to by the Yeas and Nays: (2/3 required): 405 - 0 (Roll no. 24).</text>
+        <actionCode>8000</actionCode>
+        <sourceSystem>
+          <name>Library of Congress</name>
+          <code>9</code>
+        </sourceSystem>
+        <links>
+          <link>
+            <name>Roll no. 24</name>
+            <url>http://clerk.house.gov/evs/2017/roll024.xml</url>
+          </link>
+        </links>
+      </item>
+      <item>
+        <type>Floor</type>
+        <committee />
+        <actionTime>18:31:54</actionTime>
+        <actionDate>2017-01-09</actionDate>
+        <text>Considered as unfinished business. (consideration: CR H217-218)</text>
+        <actionCode>H30000</actionCode>
+        <sourceSystem>
+          <name>House floor actions</name>
+          <code>2</code>
+        </sourceSystem>
+        <links>
+          <link>
+            <name>H217-218</name>
+            <url>https://www.congress.gov/congressional-record/volume-163/house-section/page/H217-218</url>
+          </link>
+        </links>
+      </item>
+      <item>
+        <type>Floor</type>
+        <committee />
+        <actionTime>16:50:10</actionTime>
+        <actionDate>2017-01-09</actionDate>
+        <text>At the conclusion of debate, the Yeas and Nays were demanded and ordered. Pursuant to the provisions of clause 8, rule XX, the Chair announced that further proceedings on the motion would be postponed.</text>
+        <actionCode>H37220</actionCode>
+        <sourceSystem>
+          <name>House floor actions</name>
+          <code>2</code>
+        </sourceSystem>
+        <links />
+      </item>
+      <item>
+        <type>Floor</type>
+        <committee />
+        <actionTime>16:41:51</actionTime>
+        <actionDate>2017-01-09</actionDate>
+        <text>DEBATE - The House proceeded with forty minutes of debate on H.R. 315.</text>
+        <actionCode>H8D000</actionCode>
+        <sourceSystem>
+          <name>House floor actions</name>
+          <code>2</code>
+        </sourceSystem>
+        <links>
+          <link>
+            <name>H.R. 315</name>
+            <url>https://www.congress.gov/bill/115th-congress/house-bill/315</url>
+          </link>
+        </links>
+      </item>
+      <item>
+        <type>Floor</type>
+        <committee />
+        <actionTime>16:41:28</actionTime>
+        <actionDate>2017-01-09</actionDate>
+        <text>Considered under suspension of the rules. (consideration: CR H203-204)</text>
+        <actionCode>H30000</actionCode>
+        <sourceSystem>
+          <name>House floor actions</name>
+          <code>2</code>
+        </sourceSystem>
+        <links>
+          <link>
+            <name>H203-204</name>
+            <url>https://www.congress.gov/congressional-record/volume-163/house-section/page/H203-204</url>
+          </link>
+        </links>
+      </item>
+      <item>
+        <type>Floor</type>
+        <committee />
+        <actionTime>16:41:19</actionTime>
+        <actionDate>2017-01-09</actionDate>
+        <text>Mr. Burgess moved to suspend the rules and pass the bill.</text>
+        <actionCode>H30300</actionCode>
+        <sourceSystem>
+          <name>House floor actions</name>
+          <code>2</code>
+        </sourceSystem>
+        <links />
+      </item>
+      <item>
+        <type>IntroReferral</type>
+        <committee>
+          <name>Energy and Commerce Committee</name>
+          <systemCode>hsif00</systemCode>
+        </committee>
+        <links />
+        <actionDate>2017-01-05</actionDate>
+        <text>Referred to the House Committee on Energy and Commerce.</text>
+        <actionCode>H11100</actionCode>
+        <sourceSystem>
+          <name>House floor actions</name>
+          <code>2</code>
+        </sourceSystem>
+      </item>
+      <item>
+        <type>IntroReferral</type>
+        <committee />
+        <links />
+        <actionDate>2017-01-05</actionDate>
+        <text>Introduced in House</text>
+        <actionCode>Intro-H</actionCode>
+        <sourceSystem>
+          <name>Library of Congress</name>
+          <code>9</code>
+        </sourceSystem>
+      </item>
+      <item>
+        <type>IntroReferral</type>
+        <committee />
+        <links />
+        <actionDate>2017-01-05</actionDate>
+        <text>Introduced in House</text>
+        <actionCode>1000</actionCode>
+        <sourceSystem>
+          <name>Library of Congress</name>
+          <code>9</code>
+        </sourceSystem>
+      </item>
+      <actionByCounts>
+        <senate>1</senate>
+        <houseOfRepresentatives>11</houseOfRepresentatives>
+      </actionByCounts>
+      <actionTypeCounts>
+        <motionToReconsiderResults>1</motionToReconsiderResults>
+        <considerationByHouse>2</considerationByHouse>
+        <introducedInTheHouse>1</introducedInTheHouse>
+        <billReferrals>1</billReferrals>
+        <generalDebate>1</generalDebate>
+        <finalPassageUnderSuspensionOfTheRulesResults>1</finalPassageUnderSuspensionOfTheRulesResults>
+        <referredToCommittee>1</referredToCommittee>
+        <introducedInHouse>1</introducedInHouse>
+        <motionMadeToSuspendTheRules>1</motionMadeToSuspendTheRules>
+        <placeholderTextForH>1</placeholderTextForH>
+        <passedAgreedToInHouse>1</passedAgreedToInHouse>
+      </actionTypeCounts>
+    </actions>
+    <committeeReports />
+    <subjects>
+      <billSubjects>
+        <policyArea>
+          <name>Health</name>
+        </policyArea>
+        <legislativeSubjects />
+      </billSubjects>
+    </subjects>
+    <titles>
+      <item>
+        <titleType>Short Titles as Introduced</titleType>
+        <chamberName />
+        <title>Improving Access to Maternity Care Act</title>
+        <chamberCode />
+        <parentTitleType />
+      </item>
+      <item>
+        <titleType>Official Title as Introduced</titleType>
+        <chamberName />
+        <title>To amend the Public Health Service Act to distribute maternity care health professionals to health professional shortage areas identified as in need of maternity care health services.</title>
+        <chamberCode />
+        <parentTitleType />
+      </item>
+      <item>
+        <titleType>Display Title</titleType>
+        <chamberName />
+        <title>Improving Access to Maternity Care Act</title>
+        <chamberCode />
+        <parentTitleType />
+      </item>
+    </titles>
+    <relatedBills />
+    <calendarNumbers />
+    <title>Improving Access to Maternity Care Act</title>
+    <introducedDate>2017-01-05</introducedDate>
+    <latestAction>
+      <actionDate>2017-01-10</actionDate>
+      <text>Received in the Senate and Read twice and referred to the Committee on Health, Education, Labor, and Pensions.</text>
+      <links />
+    </latestAction>
+    <createDate>2017-01-06T04:57:26Z</createDate>
+    <committees>
+      <billCommittees>
+        <item>
+          <systemCode>sshr00</systemCode>
+          <subcommittees />
+          <type>Standing</type>
+          <chamber>Senate</chamber>
+          <name>Health, Education, Labor, and Pensions Committee</name>
+          <activities>
+            <item>
+              <name>Referred to</name>
+              <date>2017-01-10T18:13:15Z</date>
+            </item>
+          </activities>
+        </item>
+        <item>
+          <systemCode>hsif00</systemCode>
+          <subcommittees />
+          <type>Standing</type>
+          <chamber>House</chamber>
+          <name>Energy and Commerce Committee</name>
+          <activities>
+            <item>
+              <name>Referred to</name>
+              <date>2017-01-05T15:03:45Z</date>
+            </item>
+          </activities>
+        </item>
+      </billCommittees>
+    </committees>
+    <sponsors>
+      <item>
+        <fullName>Rep. Burgess, Michael C. [R-TX-26]</fullName>
+        <firstName>Michael</firstName>
+        <bioguideId>B001248</bioguideId>
+        <party>R</party>
+        <middleName>C.</middleName>
+        <byRequestType />
+        <district>26</district>
+        <state>TX</state>
+        <lastName>Burgess</lastName>
+        <identifiers>
+          <lisID>1751</lisID>
+          <gpoId>8182</gpoId>
+          <bioguideId>B001248</bioguideId>
+        </identifiers>
+      </item>
+    </sponsors>
+  </bill>
+  <dublinCore xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <dc:format>text/xml</dc:format>
+    <dc:language>EN</dc:language>
+    <dc:rights>Pursuant to Title 17 Section 105 of the United States Code, this file is not subject to copyright protection and is in the public domain.</dc:rights>
+    <dc:contributor>Congressional Research Service, Library of Congress</dc:contributor>
+    <dc:description>This file contains bill summaries and statuses for federal legislation. A bill summary describes the most significant provisions of a piece of legislation and details the effects the legislative text may have on current law and federal programs. Bill summaries are authored by the Congressional Research Service (CRS) of the Library of Congress. As stated in Public Law 91-510 (2 USC 166 (d)(6)), one of the duties of CRS is "to prepare summaries and digests of bills and resolutions of a public general nature introduced in the Senate or House of Representatives". For more information, refer to the User Guide that accompanies this file.</dc:description>
+  </dublinCore>
+</billStatus>
+

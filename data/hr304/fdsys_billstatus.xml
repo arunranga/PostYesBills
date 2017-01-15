@@ -1,0 +1,855 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<billStatus>
+  <bill>
+    <cosponsors>
+      <item>
+        <fullName>Rep. Butterfield, G. K. [D-NC-1]</fullName>
+        <party>D</party>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <district>1</district>
+        <identifiers>
+          <gpoId>8024</gpoId>
+          <bioguideId>B001251</bioguideId>
+          <lisID>1761</lisID>
+        </identifiers>
+        <sponsorshipWithdrawnDate />
+        <bioguideId>B001251</bioguideId>
+        <sponsorshipDate>2017-01-05</sponsorshipDate>
+        <firstName>G. K.</firstName>
+        <middleName />
+        <state>NC</state>
+        <lastName>Butterfield</lastName>
+      </item>
+      <item>
+        <fullName>Rep. Wagner, Ann [R-MO-2]</fullName>
+        <party>R</party>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <district>2</district>
+        <identifiers>
+          <gpoId />
+          <bioguideId>W000812</bioguideId>
+          <lisID>2137</lisID>
+        </identifiers>
+        <sponsorshipWithdrawnDate />
+        <bioguideId>W000812</bioguideId>
+        <sponsorshipDate>2017-01-05</sponsorshipDate>
+        <firstName>Ann</firstName>
+        <middleName />
+        <state>MO</state>
+        <lastName>Wagner</lastName>
+      </item>
+      <item>
+        <fullName>Rep. Duncan, Jeff [R-SC-3]</fullName>
+        <party>R</party>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <district>3</district>
+        <identifiers>
+          <lisID>2057</lisID>
+          <gpoId>8143</gpoId>
+          <bioguideId>D000615</bioguideId>
+        </identifiers>
+        <sponsorshipWithdrawnDate />
+        <bioguideId>D000615</bioguideId>
+        <sponsorshipDate>2017-01-05</sponsorshipDate>
+        <firstName>Jeff</firstName>
+        <middleName />
+        <state>SC</state>
+        <lastName>Duncan</lastName>
+      </item>
+      <item>
+        <fullName>Rep. Blackburn, Marsha [R-TN-7]</fullName>
+        <party>R</party>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <district>7</district>
+        <identifiers>
+          <lisID>1748</lisID>
+          <gpoId>8154</gpoId>
+          <bioguideId>B001243</bioguideId>
+        </identifiers>
+        <sponsorshipWithdrawnDate />
+        <bioguideId>B001243</bioguideId>
+        <sponsorshipDate>2017-01-05</sponsorshipDate>
+        <firstName>Marsha</firstName>
+        <middleName />
+        <state>TN</state>
+        <lastName>Blackburn</lastName>
+      </item>
+      <item>
+        <fullName>Rep. Lipinski, Daniel [D-IL-3]</fullName>
+        <party>D</party>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <district>3</district>
+        <identifiers>
+          <lisID>1781</lisID>
+          <gpoId>7923</gpoId>
+          <bioguideId>L000563</bioguideId>
+        </identifiers>
+        <sponsorshipWithdrawnDate />
+        <bioguideId>L000563</bioguideId>
+        <sponsorshipDate>2017-01-05</sponsorshipDate>
+        <firstName>Daniel</firstName>
+        <middleName>William</middleName>
+        <state>IL</state>
+        <lastName>Lipinski</lastName>
+      </item>
+      <item>
+        <fullName>Rep. Schakowsky, Janice D. [D-IL-9]</fullName>
+        <party>D</party>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <district>9</district>
+        <identifiers>
+          <lisID>1588</lisID>
+          <gpoId>7929</gpoId>
+          <bioguideId>S001145</bioguideId>
+        </identifiers>
+        <sponsorshipWithdrawnDate />
+        <bioguideId>S001145</bioguideId>
+        <sponsorshipDate>2017-01-05</sponsorshipDate>
+        <firstName>JANICE</firstName>
+        <middleName>D.</middleName>
+        <state>IL</state>
+        <lastName>SCHAKOWSKY</lastName>
+      </item>
+      <item>
+        <fullName>Rep. Herrera Beutler, Jaime [R-WA-3]</fullName>
+        <party>R</party>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <district>3</district>
+        <identifiers>
+          <lisID>2071</lisID>
+          <gpoId>8207</gpoId>
+          <bioguideId>H001056</bioguideId>
+        </identifiers>
+        <sponsorshipWithdrawnDate />
+        <bioguideId>H001056</bioguideId>
+        <sponsorshipDate>2017-01-05</sponsorshipDate>
+        <firstName>Jaime</firstName>
+        <middleName>Herrera</middleName>
+        <state>WA</state>
+        <lastName>Beutler</lastName>
+      </item>
+      <item>
+        <fullName>Rep. Knight, Stephen [R-CA-25]</fullName>
+        <party>R</party>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <district>25</district>
+        <identifiers>
+          <gpoId />
+          <bioguideId>K000387</bioguideId>
+          <lisID>2228</lisID>
+        </identifiers>
+        <sponsorshipWithdrawnDate />
+        <bioguideId>K000387</bioguideId>
+        <sponsorshipDate>2017-01-05</sponsorshipDate>
+        <firstName>Stephen</firstName>
+        <middleName />
+        <state>CA</state>
+        <lastName>Knight</lastName>
+      </item>
+      <item>
+        <fullName>Rep. Smith, Lamar [R-TX-21]</fullName>
+        <party>R</party>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <district>21</district>
+        <identifiers>
+          <lisID>1075</lisID>
+          <gpoId>8177</gpoId>
+          <bioguideId>S000583</bioguideId>
+        </identifiers>
+        <sponsorshipWithdrawnDate />
+        <bioguideId>S000583</bioguideId>
+        <sponsorshipDate>2017-01-05</sponsorshipDate>
+        <firstName>LAMAR</firstName>
+        <middleName />
+        <state>TX</state>
+        <lastName>SMITH</lastName>
+      </item>
+      <item>
+        <fullName>Rep. Emmer, Tom [R-MN-6]</fullName>
+        <party>R</party>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <district>6</district>
+        <identifiers>
+          <lisID>2253</lisID>
+          <gpoId />
+          <bioguideId>E000294</bioguideId>
+        </identifiers>
+        <sponsorshipWithdrawnDate />
+        <bioguideId>E000294</bioguideId>
+        <sponsorshipDate>2017-01-05</sponsorshipDate>
+        <firstName>Tom</firstName>
+        <middleName />
+        <state>MN</state>
+        <lastName>Emmer</lastName>
+      </item>
+      <item>
+        <fullName>Rep. Bilirakis, Gus M. [R-FL-12]</fullName>
+        <party>R</party>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <district>12</district>
+        <identifiers>
+          <gpoId>7881</gpoId>
+          <bioguideId>B001257</bioguideId>
+          <lisID>1838</lisID>
+        </identifiers>
+        <sponsorshipWithdrawnDate />
+        <bioguideId>B001257</bioguideId>
+        <sponsorshipDate>2017-01-05</sponsorshipDate>
+        <firstName>Gus</firstName>
+        <middleName>M.</middleName>
+        <state>FL</state>
+        <lastName>Bilirakis</lastName>
+      </item>
+      <item>
+        <fullName>Rep. Abraham, Ralph Lee [R-LA-5]</fullName>
+        <party>R</party>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <district>5</district>
+        <identifiers>
+          <lisID>2244</lisID>
+          <gpoId />
+          <bioguideId>A000374</bioguideId>
+        </identifiers>
+        <sponsorshipWithdrawnDate />
+        <bioguideId>A000374</bioguideId>
+        <sponsorshipDate>2017-01-05</sponsorshipDate>
+        <firstName>Ralph</firstName>
+        <middleName>Lee</middleName>
+        <state>LA</state>
+        <lastName>Abraham</lastName>
+      </item>
+      <item>
+        <fullName>Rep. Cummings, Elijah E. [D-MD-7]</fullName>
+        <party>D</party>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <district>7</district>
+        <identifiers>
+          <gpoId>7982</gpoId>
+          <bioguideId>C000984</bioguideId>
+          <lisID>256</lisID>
+        </identifiers>
+        <sponsorshipWithdrawnDate />
+        <bioguideId>C000984</bioguideId>
+        <sponsorshipDate>2017-01-05</sponsorshipDate>
+        <firstName>ELIJAH</firstName>
+        <middleName>E.</middleName>
+        <state>MD</state>
+        <lastName>CUMMINGS</lastName>
+      </item>
+      <item>
+        <fullName>Rep. Cohen, Steve [D-TN-9]</fullName>
+        <party>D</party>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <district>9</district>
+        <identifiers>
+          <gpoId>8156</gpoId>
+          <bioguideId>C001068</bioguideId>
+          <lisID>1878</lisID>
+        </identifiers>
+        <sponsorshipWithdrawnDate />
+        <bioguideId>C001068</bioguideId>
+        <sponsorshipDate>2017-01-05</sponsorshipDate>
+        <firstName>Steve</firstName>
+        <middleName />
+        <state>TN</state>
+        <lastName>Cohen</lastName>
+      </item>
+      <item>
+        <fullName>Rep. Hastings, Alcee L. [D-FL-20]</fullName>
+        <party>D</party>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <district>20</district>
+        <identifiers>
+          <lisID>511</lisID>
+          <gpoId>7895</gpoId>
+          <bioguideId>H000324</bioguideId>
+        </identifiers>
+        <sponsorshipWithdrawnDate />
+        <bioguideId>H000324</bioguideId>
+        <sponsorshipDate>2017-01-05</sponsorshipDate>
+        <firstName>ALCEE</firstName>
+        <middleName>L.</middleName>
+        <state>FL</state>
+        <lastName>HASTINGS</lastName>
+      </item>
+      <item>
+        <fullName>Rep. Ruiz, Raul [D-CA-36]</fullName>
+        <party>D</party>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <district>36</district>
+        <identifiers>
+          <lisID>2109</lisID>
+          <gpoId />
+          <bioguideId>R000599</bioguideId>
+        </identifiers>
+        <sponsorshipWithdrawnDate />
+        <bioguideId>R000599</bioguideId>
+        <sponsorshipDate>2017-01-05</sponsorshipDate>
+        <firstName>Raul</firstName>
+        <middleName />
+        <state>CA</state>
+        <lastName>Ruiz</lastName>
+      </item>
+      <item>
+        <fullName>Rep. Kelly, Robin L. [D-IL-2]</fullName>
+        <party>D</party>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <district>2</district>
+        <identifiers>
+          <lisID>2190</lisID>
+          <gpoId />
+          <bioguideId>K000385</bioguideId>
+        </identifiers>
+        <sponsorshipWithdrawnDate />
+        <bioguideId>K000385</bioguideId>
+        <sponsorshipDate>2017-01-05</sponsorshipDate>
+        <firstName>Robin</firstName>
+        <middleName>L.</middleName>
+        <state>IL</state>
+        <lastName>Kelly</lastName>
+      </item>
+      <item>
+        <fullName>Rep. Roe, David P. [R-TN-1]</fullName>
+        <party>R</party>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <district>1</district>
+        <identifiers>
+          <bioguideId>R000582</bioguideId>
+          <gpoId>8148</gpoId>
+          <lisID>1954</lisID>
+        </identifiers>
+        <sponsorshipWithdrawnDate />
+        <bioguideId>R000582</bioguideId>
+        <sponsorshipDate>2017-01-05</sponsorshipDate>
+        <firstName>David</firstName>
+        <middleName>P.</middleName>
+        <state>TN</state>
+        <lastName>Roe</lastName>
+      </item>
+      <item>
+        <fullName>Rep. Blumenauer, Earl [D-OR-3]</fullName>
+        <party>D</party>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <district>3</district>
+        <identifiers>
+          <lisID>99</lisID>
+          <gpoId>8116</gpoId>
+          <bioguideId>B000574</bioguideId>
+        </identifiers>
+        <sponsorshipWithdrawnDate />
+        <bioguideId>B000574</bioguideId>
+        <sponsorshipDate>2017-01-05</sponsorshipDate>
+        <firstName>EARL</firstName>
+        <middleName />
+        <state>OR</state>
+        <lastName>BLUMENAUER</lastName>
+      </item>
+      <item>
+        <fullName>Rep. Young, David [R-IA-3]</fullName>
+        <party>R</party>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <district>3</district>
+        <identifiers>
+          <lisID>2242</lisID>
+          <gpoId />
+          <bioguideId>Y000066</bioguideId>
+        </identifiers>
+        <sponsorshipWithdrawnDate />
+        <bioguideId>Y000066</bioguideId>
+        <sponsorshipDate>2017-01-09</sponsorshipDate>
+        <firstName>David</firstName>
+        <middleName />
+        <state>IA</state>
+        <lastName>Young</lastName>
+      </item>
+      <item>
+        <fullName>Rep. Rice, Kathleen M. [D-NY-4]</fullName>
+        <party>D</party>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <district>4</district>
+        <identifiers>
+          <lisID>2262</lisID>
+          <gpoId />
+          <bioguideId>R000602</bioguideId>
+        </identifiers>
+        <sponsorshipWithdrawnDate />
+        <bioguideId>R000602</bioguideId>
+        <sponsorshipDate>2017-01-09</sponsorshipDate>
+        <firstName>Kathleen</firstName>
+        <middleName>M.</middleName>
+        <state>NY</state>
+        <lastName>Rice</lastName>
+      </item>
+      <item>
+        <fullName>Rep. Calvert, Ken [R-CA-42]</fullName>
+        <party>R</party>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <district>42</district>
+        <identifiers>
+          <lisID>165</lisID>
+          <gpoId>7849</gpoId>
+          <bioguideId>C000059</bioguideId>
+        </identifiers>
+        <sponsorshipWithdrawnDate />
+        <bioguideId>C000059</bioguideId>
+        <sponsorshipDate>2017-01-09</sponsorshipDate>
+        <firstName>KEN</firstName>
+        <middleName />
+        <state>CA</state>
+        <lastName>CALVERT</lastName>
+      </item>
+      <item>
+        <fullName>Rep. Pingree, Chellie [D-ME-1]</fullName>
+        <party>D</party>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <district>1</district>
+        <identifiers>
+          <lisID>1927</lisID>
+          <gpoId>7984</gpoId>
+          <bioguideId>P000597</bioguideId>
+        </identifiers>
+        <sponsorshipWithdrawnDate />
+        <bioguideId>P000597</bioguideId>
+        <sponsorshipDate>2017-01-09</sponsorshipDate>
+        <firstName>Chellie</firstName>
+        <middleName />
+        <state>ME</state>
+        <lastName>Pingree</lastName>
+      </item>
+      <item>
+        <fullName>Rep. Bustos, Cheri [D-IL-17]</fullName>
+        <party>D</party>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <district>17</district>
+        <identifiers>
+          <bioguideId>B001286</bioguideId>
+          <lisID>2127</lisID>
+          <gpoId />
+        </identifiers>
+        <sponsorshipWithdrawnDate />
+        <bioguideId>B001286</bioguideId>
+        <sponsorshipDate>2017-01-09</sponsorshipDate>
+        <firstName>Cheri</firstName>
+        <middleName />
+        <state>IL</state>
+        <lastName>Bustos</lastName>
+      </item>
+      <item>
+        <fullName>Rep. Langevin, James R. [D-RI-2]</fullName>
+        <party>D</party>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <district>2</district>
+        <identifiers>
+          <bioguideId>L000559</bioguideId>
+          <lisID>1668</lisID>
+          <gpoId>8140</gpoId>
+        </identifiers>
+        <sponsorshipWithdrawnDate />
+        <bioguideId>L000559</bioguideId>
+        <sponsorshipDate>2017-01-09</sponsorshipDate>
+        <firstName>JAMES</firstName>
+        <middleName>R.</middleName>
+        <state>RI</state>
+        <lastName>LANGEVIN</lastName>
+      </item>
+    </cosponsors>
+    <laws />
+    <congress>115</congress>
+    <billNumber>304</billNumber>
+    <billType>HR</billType>
+    <cboCostEstimates />
+    <policyArea />
+    <amendments />
+    <notes />
+    <constitutionalAuthorityStatementText />
+    <recordedVotes>
+      <recordedVote>
+        <rollNumber>25</rollNumber>
+        <sessionNumber>1</sessionNumber>
+        <date>2017-01-10T00:04:23Z</date>
+        <congress>115</congress>
+        <chamber>House</chamber>
+        <url>http://clerk.house.gov/evs/2017/roll025.xml</url>
+        <fullActionName>Final Passage Under Suspension of the Rules Results</fullActionName>
+      </recordedVote>
+    </recordedVotes>
+    <summaries>
+      <billSummaries />
+    </summaries>
+    <updateDate>2017-01-14T09:58:18Z</updateDate>
+    <originChamber>House</originChamber>
+    <actions>
+      <actionByCounts>
+        <senate>1</senate>
+        <houseOfRepresentatives>14</houseOfRepresentatives>
+      </actionByCounts>
+      <actionTypeCounts>
+        <billReferrals>2</billReferrals>
+        <motionMadeToSuspendTheRules>1</motionMadeToSuspendTheRules>
+        <considerationByHouse>2</considerationByHouse>
+        <introducedInHouse>1</introducedInHouse>
+        <placeholderTextForH>2</placeholderTextForH>
+        <motionToReconsiderResults>1</motionToReconsiderResults>
+        <passedAgreedToInHouse>1</passedAgreedToInHouse>
+        <billReferralsAggregate>1</billReferralsAggregate>
+        <referredToCommittee>1</referredToCommittee>
+        <generalDebate>1</generalDebate>
+        <introducedInTheHouse>1</introducedInTheHouse>
+        <finalPassageUnderSuspensionOfTheRulesResults>1</finalPassageUnderSuspensionOfTheRulesResults>
+      </actionTypeCounts>
+      <item>
+        <actionDate>2017-01-12</actionDate>
+        <committee>
+          <systemCode>hsju08</systemCode>
+          <name>Crime, Terrorism, Homeland Security, and Investigations Subcommittee</name>
+        </committee>
+        <links />
+        <sourceSystem>
+          <name>House committee actions</name>
+          <code>1</code>
+        </sourceSystem>
+        <text>Referred to the Subcommittee on Crime, Terrorism, Homeland Security, and Investigations.</text>
+        <type>Committee</type>
+      </item>
+      <item>
+        <actionDate>2017-01-10</actionDate>
+        <committee>
+          <systemCode>sshr00</systemCode>
+          <name>Health, Education, Labor, and Pensions Committee</name>
+        </committee>
+        <links />
+        <sourceSystem>
+          <name>Senate</name>
+          <code>0</code>
+        </sourceSystem>
+        <text>Received in the Senate and Read twice and referred to the Committee on Health, Education, Labor, and Pensions.</text>
+        <type>IntroReferral</type>
+      </item>
+      <item>
+        <type>Floor</type>
+        <actionTime>19:04:24</actionTime>
+        <text>Motion to reconsider laid on the table Agreed to without objection.</text>
+        <actionCode>H38310</actionCode>
+        <sourceSystem>
+          <name>House floor actions</name>
+          <code>2</code>
+        </sourceSystem>
+        <links />
+        <committee />
+        <actionDate>2017-01-09</actionDate>
+      </item>
+      <item>
+        <type>Floor</type>
+        <actionTime>19:04:23</actionTime>
+        <text>On motion to suspend the rules and pass the bill Agreed to by the Yeas and Nays: (2/3 required): 404 - 0 (Roll no. 25). (text: CR H206-207)</text>
+        <actionCode>H37300</actionCode>
+        <sourceSystem>
+          <name>House floor actions</name>
+          <code>2</code>
+        </sourceSystem>
+        <links>
+          <link>
+            <url>https://www.congress.gov/congressional-record/volume-163/house-section/page/H206-207</url>
+            <name>H206-207</name>
+          </link>
+          <link>
+            <url>http://clerk.house.gov/evs/2017/roll025.xml</url>
+            <name>Roll no. 25</name>
+          </link>
+        </links>
+        <committee />
+        <actionDate>2017-01-09</actionDate>
+      </item>
+      <item>
+        <type>Floor</type>
+        <actionTime>19:04:23</actionTime>
+        <text>Passed/agreed to in House: On motion to suspend the rules and pass the bill Agreed to by the Yeas and Nays: (2/3 required): 404 - 0 (Roll no. 25).</text>
+        <actionCode>8000</actionCode>
+        <sourceSystem>
+          <name>Library of Congress</name>
+          <code>9</code>
+        </sourceSystem>
+        <links>
+          <link>
+            <url>http://clerk.house.gov/evs/2017/roll025.xml</url>
+            <name>Roll no. 25</name>
+          </link>
+        </links>
+        <committee />
+        <actionDate>2017-01-09</actionDate>
+      </item>
+      <item>
+        <type>Floor</type>
+        <actionTime>18:57:13</actionTime>
+        <text>Considered as unfinished business. (consideration: CR H218)</text>
+        <actionCode>H30000</actionCode>
+        <sourceSystem>
+          <name>House floor actions</name>
+          <code>2</code>
+        </sourceSystem>
+        <links>
+          <link>
+            <url>https://www.congress.gov/congressional-record/volume-163/house-section/page/H218</url>
+            <name>H218</name>
+          </link>
+        </links>
+        <committee />
+        <actionDate>2017-01-09</actionDate>
+      </item>
+      <item>
+        <type>Floor</type>
+        <actionTime>17:07:47</actionTime>
+        <text>At the conclusion of debate, the Yeas and Nays were demanded and ordered. Pursuant to the provisions of clause 8, rule XX, the Chair announced that further proceedings on the motion would be postponed.</text>
+        <actionCode>H37220</actionCode>
+        <sourceSystem>
+          <name>House floor actions</name>
+          <code>2</code>
+        </sourceSystem>
+        <links />
+        <committee />
+        <actionDate>2017-01-09</actionDate>
+      </item>
+      <item>
+        <type>Floor</type>
+        <actionTime>17:00:49</actionTime>
+        <text>DEBATE - The House proceeded with forty minutes of debate on H.R. 304.</text>
+        <actionCode>H8D000</actionCode>
+        <sourceSystem>
+          <name>House floor actions</name>
+          <code>2</code>
+        </sourceSystem>
+        <links>
+          <link>
+            <url>https://www.congress.gov/bill/115th-congress/house-bill/304</url>
+            <name>H.R. 304</name>
+          </link>
+        </links>
+        <committee />
+        <actionDate>2017-01-09</actionDate>
+      </item>
+      <item>
+        <type>Floor</type>
+        <actionTime>17:00:45</actionTime>
+        <text>Considered under suspension of the rules. (consideration: CR H206-208)</text>
+        <actionCode>H30000</actionCode>
+        <sourceSystem>
+          <name>House floor actions</name>
+          <code>2</code>
+        </sourceSystem>
+        <links>
+          <link>
+            <url>https://www.congress.gov/congressional-record/volume-163/house-section/page/H206-208</url>
+            <name>H206-208</name>
+          </link>
+        </links>
+        <committee />
+        <actionDate>2017-01-09</actionDate>
+      </item>
+      <item>
+        <type>Floor</type>
+        <actionTime>17:00:37</actionTime>
+        <text>Mr. Burgess moved to suspend the rules and pass the bill.</text>
+        <actionCode>H30300</actionCode>
+        <sourceSystem>
+          <name>House floor actions</name>
+          <code>2</code>
+        </sourceSystem>
+        <links />
+        <committee />
+        <actionDate>2017-01-09</actionDate>
+      </item>
+      <item>
+        <type>IntroReferral</type>
+        <text>Referred to House Judiciary</text>
+        <actionCode>H11100</actionCode>
+        <sourceSystem>
+          <name>House floor actions</name>
+          <code>2</code>
+        </sourceSystem>
+        <links />
+        <committee>
+          <systemCode>hsju00</systemCode>
+          <name>Judiciary Committee</name>
+        </committee>
+        <actionDate>2017-01-05</actionDate>
+      </item>
+      <item>
+        <type>IntroReferral</type>
+        <text>Referred to the Committee on Energy and Commerce, and in addition to the Committee on the Judiciary, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned.</text>
+        <actionCode>H11100-A</actionCode>
+        <sourceSystem>
+          <name>Library of Congress</name>
+          <code>9</code>
+        </sourceSystem>
+        <links />
+        <committee />
+        <actionDate>2017-01-05</actionDate>
+      </item>
+      <item>
+        <type>IntroReferral</type>
+        <text>Referred to House Energy and Commerce</text>
+        <actionCode>H11100</actionCode>
+        <sourceSystem>
+          <name>House floor actions</name>
+          <code>2</code>
+        </sourceSystem>
+        <links />
+        <committee>
+          <systemCode>hsif00</systemCode>
+          <name>Energy and Commerce Committee</name>
+        </committee>
+        <actionDate>2017-01-05</actionDate>
+      </item>
+      <item>
+        <type>IntroReferral</type>
+        <text>Introduced in House</text>
+        <actionCode>Intro-H</actionCode>
+        <sourceSystem>
+          <name>Library of Congress</name>
+          <code>9</code>
+        </sourceSystem>
+        <links />
+        <committee />
+        <actionDate>2017-01-05</actionDate>
+      </item>
+      <item>
+        <type>IntroReferral</type>
+        <text>Introduced in House</text>
+        <actionCode>1000</actionCode>
+        <sourceSystem>
+          <name>Library of Congress</name>
+          <code>9</code>
+        </sourceSystem>
+        <links />
+        <committee />
+        <actionDate>2017-01-05</actionDate>
+      </item>
+    </actions>
+    <committeeReports />
+    <subjects>
+      <billSubjects>
+        <legislativeSubjects />
+      </billSubjects>
+    </subjects>
+    <titles>
+      <item>
+        <chamberName>House</chamberName>
+        <title>Protecting Patient Access to Emergency Medications Act of 2017</title>
+        <titleType>Short Titles as Passed House</titleType>
+        <parentTitleType>Short Titles House of Representatives</parentTitleType>
+        <chamberCode>H</chamberCode>
+      </item>
+      <item>
+        <chamberName />
+        <title>Protecting Patient Access to Emergency Medications Act of 2017</title>
+        <titleType>Short Titles as Introduced</titleType>
+        <parentTitleType />
+        <chamberCode />
+      </item>
+      <item>
+        <chamberName />
+        <title>To amend the Controlled Substances Act with regard to the provision of emergency medical services.</title>
+        <titleType>Official Title as Introduced</titleType>
+        <parentTitleType />
+        <chamberCode />
+      </item>
+      <item>
+        <chamberName />
+        <title>Protecting Patient Access to Emergency Medications Act of 2017</title>
+        <titleType>Display Title</titleType>
+        <parentTitleType />
+        <chamberCode />
+      </item>
+    </titles>
+    <relatedBills />
+    <calendarNumbers />
+    <title>Protecting Patient Access to Emergency Medications Act of 2017</title>
+    <introducedDate>2017-01-05</introducedDate>
+    <latestAction>
+      <actionDate>2017-01-12</actionDate>
+      <text>Referred to the Subcommittee on Crime, Terrorism, Homeland Security, and Investigations.</text>
+      <links />
+    </latestAction>
+    <createDate>2017-01-06T04:57:26Z</createDate>
+    <committees>
+      <billCommittees>
+        <item>
+          <chamber>House</chamber>
+          <systemCode>hsju00</systemCode>
+          <type>Standing</type>
+          <name>Judiciary Committee</name>
+          <activities>
+            <item>
+              <name>Referred to</name>
+              <date>2017-01-05T15:02:20Z</date>
+            </item>
+          </activities>
+          <subcommittees>
+            <item>
+              <systemCode>hsju08</systemCode>
+              <activities>
+                <item>
+                  <name>Referred to</name>
+                  <date>2017-01-12T16:01:32Z</date>
+                </item>
+              </activities>
+              <name>Crime, Terrorism, Homeland Security, and Investigations Subcommittee</name>
+            </item>
+          </subcommittees>
+        </item>
+        <item>
+          <chamber>Senate</chamber>
+          <systemCode>sshr00</systemCode>
+          <type>Standing</type>
+          <name>Health, Education, Labor, and Pensions Committee</name>
+          <activities>
+            <item>
+              <name>Referred to</name>
+              <date>2017-01-10T18:13:15Z</date>
+            </item>
+          </activities>
+          <subcommittees />
+        </item>
+        <item>
+          <chamber>House</chamber>
+          <systemCode>hsif00</systemCode>
+          <type>Standing</type>
+          <name>Energy and Commerce Committee</name>
+          <activities>
+            <item>
+              <name>Referred to</name>
+              <date>2017-01-05T15:02:15Z</date>
+            </item>
+          </activities>
+          <subcommittees />
+        </item>
+      </billCommittees>
+    </committees>
+    <sponsors>
+      <item>
+        <fullName>Rep. Hudson, Richard [R-NC-8]</fullName>
+        <firstName>Richard</firstName>
+        <bioguideId>H001067</bioguideId>
+        <party>R</party>
+        <middleName />
+        <byRequestType />
+        <district>8</district>
+        <state>NC</state>
+        <lastName>Hudson</lastName>
+        <identifiers>
+          <lisID>2140</lisID>
+          <gpoId />
+          <bioguideId>H001067</bioguideId>
+        </identifiers>
+      </item>
+    </sponsors>
+  </bill>
+  <dublinCore xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <dc:format>text/xml</dc:format>
+    <dc:language>EN</dc:language>
+    <dc:rights>Pursuant to Title 17 Section 105 of the United States Code, this file is not subject to copyright protection and is in the public domain.</dc:rights>
+    <dc:contributor>Congressional Research Service, Library of Congress</dc:contributor>
+    <dc:description>This file contains bill summaries and statuses for federal legislation. A bill summary describes the most significant provisions of a piece of legislation and details the effects the legislative text may have on current law and federal programs. Bill summaries are authored by the Congressional Research Service (CRS) of the Library of Congress. As stated in Public Law 91-510 (2 USC 166 (d)(6)), one of the duties of CRS is "to prepare summaries and digests of bills and resolutions of a public general nature introduced in the Senate or House of Representatives". For more information, refer to the User Guide that accompanies this file.</dc:description>
+  </dublinCore>
+</billStatus>
+

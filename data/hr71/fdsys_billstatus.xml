@@ -1,0 +1,764 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<billStatus>
+  <bill>
+    <createDate>2017-01-04T07:01:10Z</createDate>
+    <introducedDate>2017-01-03</introducedDate>
+    <cosponsors>
+      <item>
+        <sponsorshipDate>2017-01-03</sponsorshipDate>
+        <party>D</party>
+        <lastName>COOPER</lastName>
+        <sponsorshipWithdrawnDate />
+        <bioguideId>C000754</bioguideId>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <district>5</district>
+        <state>TN</state>
+        <middleName>H.</middleName>
+        <identifiers>
+          <lisID>231</lisID>
+          <gpoId>8152</gpoId>
+          <bioguideId>C000754</bioguideId>
+        </identifiers>
+        <fullName>Rep. Cooper, Jim [D-TN-5]</fullName>
+        <firstName>JAMES</firstName>
+      </item>
+      <item>
+        <sponsorshipDate>2017-01-03</sponsorshipDate>
+        <party>D</party>
+        <lastName>Sinema</lastName>
+        <sponsorshipWithdrawnDate />
+        <bioguideId>S001191</bioguideId>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <district>9</district>
+        <state>AZ</state>
+        <middleName />
+        <identifiers>
+          <lisID>2099</lisID>
+          <gpoId />
+          <bioguideId>S001191</bioguideId>
+        </identifiers>
+        <fullName>Rep. Sinema, Kyrsten [D-AZ-9]</fullName>
+        <firstName>Kyrsten</firstName>
+      </item>
+      <item>
+        <sponsorshipDate>2017-01-03</sponsorshipDate>
+        <party>R</party>
+        <lastName>Abraham</lastName>
+        <sponsorshipWithdrawnDate />
+        <bioguideId>A000374</bioguideId>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <district>5</district>
+        <state>LA</state>
+        <middleName>Lee</middleName>
+        <identifiers>
+          <lisID>2244</lisID>
+          <gpoId />
+          <bioguideId>A000374</bioguideId>
+        </identifiers>
+        <fullName>Rep. Abraham, Ralph Lee [R-LA-5]</fullName>
+        <firstName>Ralph</firstName>
+      </item>
+      <item>
+        <sponsorshipDate>2017-01-03</sponsorshipDate>
+        <party>R</party>
+        <lastName>ROYCE</lastName>
+        <sponsorshipWithdrawnDate />
+        <bioguideId>R000487</bioguideId>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <district>39</district>
+        <state>CA</state>
+        <middleName />
+        <identifiers>
+          <lisID>998</lisID>
+          <gpoId>7845</gpoId>
+          <bioguideId>R000487</bioguideId>
+        </identifiers>
+        <fullName>Rep. Royce, Edward R. [R-CA-39]</fullName>
+        <firstName>ED</firstName>
+      </item>
+      <item>
+        <sponsorshipDate>2017-01-03</sponsorshipDate>
+        <party>R</party>
+        <lastName>Lamborn</lastName>
+        <sponsorshipWithdrawnDate />
+        <bioguideId>L000564</bioguideId>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <district>5</district>
+        <state>CO</state>
+        <middleName />
+        <identifiers>
+          <lisID>1834</lisID>
+          <gpoId>7863</gpoId>
+          <bioguideId>L000564</bioguideId>
+        </identifiers>
+        <fullName>Rep. Lamborn, Doug [R-CO-5]</fullName>
+        <firstName>Doug</firstName>
+      </item>
+      <item>
+        <sponsorshipDate>2017-01-03</sponsorshipDate>
+        <party>R</party>
+        <lastName>Huizenga</lastName>
+        <sponsorshipWithdrawnDate />
+        <bioguideId>H001058</bioguideId>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <district>2</district>
+        <state>MI</state>
+        <middleName />
+        <identifiers>
+          <bioguideId>H001058</bioguideId>
+          <lisID>2028</lisID>
+          <gpoId>7987</gpoId>
+        </identifiers>
+        <fullName>Rep. Huizenga, Bill [R-MI-2]</fullName>
+        <firstName>Bill</firstName>
+      </item>
+      <item>
+        <sponsorshipDate>2017-01-03</sponsorshipDate>
+        <party>R</party>
+        <lastName>Yoder</lastName>
+        <sponsorshipWithdrawnDate />
+        <bioguideId>Y000063</bioguideId>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <district>3</district>
+        <state>KS</state>
+        <middleName />
+        <identifiers>
+          <bioguideId>Y000063</bioguideId>
+          <lisID>2021</lisID>
+          <gpoId>7951</gpoId>
+        </identifiers>
+        <fullName>Rep. Yoder, Kevin [R-KS-3]</fullName>
+        <firstName>Kevin</firstName>
+      </item>
+      <item>
+        <sponsorshipDate>2017-01-03</sponsorshipDate>
+        <party>R</party>
+        <lastName>Joyce</lastName>
+        <sponsorshipWithdrawnDate />
+        <bioguideId>J000295</bioguideId>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <district>14</district>
+        <state>OH</state>
+        <middleName>P.</middleName>
+        <identifiers>
+          <lisID>2154</lisID>
+          <gpoId />
+          <bioguideId>J000295</bioguideId>
+        </identifiers>
+        <fullName>Rep. Joyce, David P. [R-OH-14]</fullName>
+        <firstName>David</firstName>
+      </item>
+      <item>
+        <sponsorshipDate>2017-01-03</sponsorshipDate>
+        <party>R</party>
+        <lastName>Love</lastName>
+        <sponsorshipWithdrawnDate />
+        <bioguideId>L000584</bioguideId>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <district>4</district>
+        <state>UT</state>
+        <middleName>B.</middleName>
+        <identifiers>
+          <lisID>2271</lisID>
+          <gpoId />
+          <bioguideId>L000584</bioguideId>
+        </identifiers>
+        <fullName>Rep. Love, Mia B. [R-UT-4]</fullName>
+        <firstName>Mia</firstName>
+      </item>
+      <item>
+        <sponsorshipDate>2017-01-03</sponsorshipDate>
+        <party>R</party>
+        <lastName>Burgess</lastName>
+        <sponsorshipWithdrawnDate />
+        <bioguideId>B001248</bioguideId>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <district>26</district>
+        <state>TX</state>
+        <middleName>C.</middleName>
+        <identifiers>
+          <bioguideId>B001248</bioguideId>
+          <gpoId>8182</gpoId>
+          <lisID>1751</lisID>
+        </identifiers>
+        <fullName>Rep. Burgess, Michael C. [R-TX-26]</fullName>
+        <firstName>Michael</firstName>
+      </item>
+      <item>
+        <sponsorshipDate>2017-01-03</sponsorshipDate>
+        <party>R</party>
+        <lastName>LaMalfa</lastName>
+        <sponsorshipWithdrawnDate />
+        <bioguideId>L000578</bioguideId>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <district>1</district>
+        <state>CA</state>
+        <middleName />
+        <identifiers>
+          <gpoId />
+          <bioguideId>L000578</bioguideId>
+          <lisID>2100</lisID>
+        </identifiers>
+        <fullName>Rep. LaMalfa, Doug [R-CA-1]</fullName>
+        <firstName>Doug</firstName>
+      </item>
+      <item>
+        <sponsorshipDate>2017-01-03</sponsorshipDate>
+        <party>R</party>
+        <lastName>Gosar</lastName>
+        <sponsorshipWithdrawnDate />
+        <bioguideId>G000565</bioguideId>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <district>4</district>
+        <state>AZ</state>
+        <middleName>A.</middleName>
+        <identifiers>
+          <gpoId>7798</gpoId>
+          <bioguideId>G000565</bioguideId>
+          <lisID>1992</lisID>
+        </identifiers>
+        <fullName>Rep. Gosar, Paul A. [R-AZ-4]</fullName>
+        <firstName>Paul</firstName>
+      </item>
+      <item>
+        <sponsorshipDate>2017-01-03</sponsorshipDate>
+        <party>R</party>
+        <lastName>Gohmert</lastName>
+        <sponsorshipWithdrawnDate />
+        <bioguideId>G000552</bioguideId>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <district>1</district>
+        <state>TX</state>
+        <middleName />
+        <identifiers>
+          <lisID>1801</lisID>
+          <gpoId>8157</gpoId>
+          <bioguideId>G000552</bioguideId>
+        </identifiers>
+        <fullName>Rep. Gohmert, Louie [R-TX-1]</fullName>
+        <firstName>Louie</firstName>
+      </item>
+      <item>
+        <sponsorshipDate>2017-01-03</sponsorshipDate>
+        <party>R</party>
+        <lastName>Farenthold</lastName>
+        <sponsorshipWithdrawnDate />
+        <bioguideId>F000460</bioguideId>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <district>27</district>
+        <state>TX</state>
+        <middleName />
+        <identifiers>
+          <bioguideId>F000460</bioguideId>
+          <lisID>2067</lisID>
+          <gpoId>8183</gpoId>
+        </identifiers>
+        <fullName>Rep. Farenthold, Blake [R-TX-27]</fullName>
+        <firstName>Blake</firstName>
+      </item>
+      <item>
+        <sponsorshipDate>2017-01-03</sponsorshipDate>
+        <party>R</party>
+        <lastName>Hice</lastName>
+        <sponsorshipWithdrawnDate />
+        <bioguideId>H001071</bioguideId>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <district>10</district>
+        <state>GA</state>
+        <middleName>B.</middleName>
+        <identifiers>
+          <bioguideId>H001071</bioguideId>
+          <lisID>2237</lisID>
+          <gpoId />
+        </identifiers>
+        <fullName>Rep. Hice, Jody B. [R-GA-10]</fullName>
+        <firstName>Jody</firstName>
+      </item>
+      <item>
+        <sponsorshipDate>2017-01-03</sponsorshipDate>
+        <party>R</party>
+        <lastName>Emmer</lastName>
+        <sponsorshipWithdrawnDate />
+        <bioguideId>E000294</bioguideId>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <district>6</district>
+        <state>MN</state>
+        <middleName />
+        <identifiers>
+          <lisID>2253</lisID>
+          <gpoId />
+          <bioguideId>E000294</bioguideId>
+        </identifiers>
+        <fullName>Rep. Emmer, Tom [R-MN-6]</fullName>
+        <firstName>Tom</firstName>
+      </item>
+      <item>
+        <sponsorshipDate>2017-01-03</sponsorshipDate>
+        <party>R</party>
+        <lastName>Trott</lastName>
+        <sponsorshipWithdrawnDate />
+        <bioguideId>T000475</bioguideId>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <district>11</district>
+        <state>MI</state>
+        <middleName>A.</middleName>
+        <identifiers>
+          <bioguideId>T000475</bioguideId>
+          <gpoId />
+          <lisID>2250</lisID>
+        </identifiers>
+        <fullName>Rep. Trott, David A. [R-MI-11]</fullName>
+        <firstName>David</firstName>
+      </item>
+      <item>
+        <sponsorshipDate>2017-01-03</sponsorshipDate>
+        <party>R</party>
+        <lastName>Bishop</lastName>
+        <sponsorshipWithdrawnDate />
+        <bioguideId>B001250</bioguideId>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <district>1</district>
+        <state>UT</state>
+        <middleName />
+        <identifiers>
+          <bioguideId>B001250</bioguideId>
+          <lisID>1753</lisID>
+          <gpoId>8189</gpoId>
+        </identifiers>
+        <fullName>Rep. Bishop, Rob [R-UT-1]</fullName>
+        <firstName>Rob</firstName>
+      </item>
+      <item>
+        <sponsorshipDate>2017-01-03</sponsorshipDate>
+        <party>R</party>
+        <lastName>JOHNSON</lastName>
+        <sponsorshipWithdrawnDate />
+        <bioguideId>J000174</bioguideId>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <district>3</district>
+        <state>TX</state>
+        <middleName />
+        <identifiers>
+          <bioguideId>J000174</bioguideId>
+          <lisID>603</lisID>
+          <gpoId>8159</gpoId>
+        </identifiers>
+        <fullName>Rep. Johnson, Sam [R-TX-3]</fullName>
+        <firstName>SAM</firstName>
+      </item>
+      <item>
+        <sponsorshipDate>2017-01-03</sponsorshipDate>
+        <party>R</party>
+        <lastName>Guthrie</lastName>
+        <sponsorshipWithdrawnDate />
+        <bioguideId>G000558</bioguideId>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <district>2</district>
+        <state>KY</state>
+        <middleName />
+        <identifiers>
+          <bioguideId>G000558</bioguideId>
+          <gpoId>7954</gpoId>
+          <lisID>1922</lisID>
+        </identifiers>
+        <fullName>Rep. Guthrie, Brett [R-KY-2]</fullName>
+        <firstName>Brett</firstName>
+      </item>
+      <item>
+        <sponsorshipDate>2017-01-03</sponsorshipDate>
+        <party>R</party>
+        <lastName>Yoho</lastName>
+        <sponsorshipWithdrawnDate />
+        <bioguideId>Y000065</bioguideId>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <district>3</district>
+        <state>FL</state>
+        <middleName>S.</middleName>
+        <identifiers>
+          <lisID>2115</lisID>
+          <gpoId />
+          <bioguideId>Y000065</bioguideId>
+        </identifiers>
+        <fullName>Rep. Yoho, Ted S. [R-FL-3]</fullName>
+        <firstName>Ted</firstName>
+      </item>
+      <item>
+        <sponsorshipDate>2017-01-03</sponsorshipDate>
+        <party>D</party>
+        <lastName>Costa</lastName>
+        <sponsorshipWithdrawnDate />
+        <bioguideId>C001059</bioguideId>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <district>16</district>
+        <state>CA</state>
+        <middleName />
+        <identifiers>
+          <gpoId>7825</gpoId>
+          <bioguideId>C001059</bioguideId>
+          <lisID>1774</lisID>
+        </identifiers>
+        <fullName>Rep. Costa, Jim [D-CA-16]</fullName>
+        <firstName>Jim</firstName>
+      </item>
+      <item>
+        <sponsorshipDate>2017-01-03</sponsorshipDate>
+        <party>R</party>
+        <lastName>CALVERT</lastName>
+        <sponsorshipWithdrawnDate />
+        <bioguideId>C000059</bioguideId>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <district>42</district>
+        <state>CA</state>
+        <middleName />
+        <identifiers>
+          <lisID>165</lisID>
+          <gpoId>7849</gpoId>
+          <bioguideId>C000059</bioguideId>
+        </identifiers>
+        <fullName>Rep. Calvert, Ken [R-CA-42]</fullName>
+        <firstName>KEN</firstName>
+      </item>
+      <item>
+        <sponsorshipDate>2017-01-04</sponsorshipDate>
+        <party>R</party>
+        <lastName>TIBERI</lastName>
+        <sponsorshipWithdrawnDate />
+        <bioguideId>T000462</bioguideId>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <district>12</district>
+        <state>OH</state>
+        <middleName>J.</middleName>
+        <identifiers>
+          <bioguideId>T000462</bioguideId>
+          <gpoId>8102</gpoId>
+          <lisID>1664</lisID>
+        </identifiers>
+        <fullName>Rep. Tiberi, Patrick J. [R-OH-12]</fullName>
+        <firstName>PATRICK</firstName>
+      </item>
+    </cosponsors>
+    <calendarNumbers />
+    <policyArea>
+      <name>Government Operations and Politics</name>
+    </policyArea>
+    <billType>HR</billType>
+    <summaries>
+      <billSummaries>
+        <item>
+          <actionDesc>Introduced in House</actionDesc>
+          <name>Introduced in House</name>
+          <actionDate>2017-01-03</actionDate>
+          <lastSummaryUpdateDate>2017-01-06T22:03:45Z</lastSummaryUpdateDate>
+          <updateDate>2017-01-03T05:00:00Z</updateDate>
+          <versionCode>00</versionCode>
+          <text><![CDATA[<p><strong>Taxpayers Right-To-Know Act</strong></p> <p>This bill requires that the website of the Office of Management and Budget (OMB) include a program inventory that identifies each program of the federal government for which there is more than $1 million in annual budget authority.</p> <p>For programs identified in such inventory for which there is more than $1 million and not more than $10 million in annual budget authority (smaller programs), the inventory must include: </p> <ul> <li>an identification of the program activities that are aggregated, disaggregated, or consolidated as part of identifying programs; </li> <li>for each such program activity, the amount of funding for the current fiscal year and the previous two fiscal years; </li> <li>an identification of the statutes that authorize the program and any major regulations specific to the program; </li> <li>a description of the individuals served by a program and beneficiaries who received financial assistance under a program for the most recent fiscal year; and </li> <li>links to any evaluation, assessment, or program performance reviews by the agency, an Inspector General, or the Government Accountability Office released during the preceding five years.</li> </ul> <p>For programs identified in such inventory for which there is more than $10 million in annual budget authority (larger programs), the inventory must include:</p> <ul> <li>an identification of the program activities that are aggregated, disaggregated, or consolidated as part of identifying programs;</li> <li>for each program activity, the amount of funding for the current fiscal year and the previous two fiscal years; </li> <li>an estimate of the amount of funding for the program; </li> <li>an identification of the statutes that authorize the program and any major regulations specific to the program; </li> <li>a description and estimate of the number of individuals served by a program and beneficiaries who received financial assistance under a program for the most recent fiscal year; </li> <li>a description of the federal employees who administer the program and other individuals whose salary is paid in full or in part by the federal government through a grant, contract, cooperative agreement, or another form of financial award or assistance; </li> <li>links to any evaluation, assessment, or program performance reviews by the agency, an Inspector General, or the Government Accountability Office released during the preceding five years; and </li> <li>financial and other information for each program activity required to be reported under the Federal Funding Accountability and Transparency Act of 2006. </li> </ul> <p>The OMB shall: (1) archive and preserve the information included in the program inventory; and (2) annually publish the total amount of undisbursed grant funding remaining in grant accounts for which the period of availability to the grantee has expired. </p> <p>The bill requires the OMB, by June 30, 2018, to: (1) prescribe guidance to implement this Act, and (2) issue guidance to assist agencies in identifying how the program activities used in budget or appropriations accounts correspond with programs identified in the program inventory required by this Act. The OMB may: (1) issue guidance to agencies to ensure that programs are presented at a similar level of detail across agencies and are not duplicative or overlapping; (2) exempt from the requirements of this Act, based on an analysis of the costs of implementation, agencies that are not required to have a chief financial officer and that have not more than $10 million in budget authority; and (3) extend the Act's implementation deadline by up to one year. </p> <p>Implementation of the requirements in this bill must be completed not later than June 30, 2019. </p>]]></text>
+        </item>
+        <item>
+          <actionDesc>Passed House without amendment</actionDesc>
+          <name>Passed House without amendment</name>
+          <actionDate>2017-01-04</actionDate>
+          <lastSummaryUpdateDate>2017-01-06T22:27:26Z</lastSummaryUpdateDate>
+          <updateDate>2017-01-04T14:37:54Z</updateDate>
+          <versionCode>81</versionCode>
+          <text><![CDATA[<p>(This measure has not been amended since it was introduced. The summary has been expanded because action occurred on the measure.)</p> <p><strong>Taxpayers Right-To-Know Act</strong></p> <p>(Sec. 2) This bill requires that the website of the Office of Management and Budget (OMB) include a program inventory that identifies each program of the federal government for which there is more than $1 million in annual budget authority. Such inventory shall include: (1) any activity that is commonly referred to as a program by a federal agency, and (2) any activity that is referenced in law as a program after June 30, 2019. </p> <p>For programs identified in such inventory for which there is more than $1 million and not more than $10 million in annual budget authority (smaller programs), the inventory must include: </p> <ul> <li>an identification of the program activities that are aggregated, disaggregated, or consolidated as part of identifying programs; </li> <li>for each such program activity, the amount of funding for the current fiscal year and the previous two fiscal years; </li> <li>an identification of the statutes that authorize the program and any major regulations specific to the program; </li> <li>a description of the individuals served by a program and beneficiaries who received financial assistance under a program for the most recent fiscal year; and </li> <li>links to any evaluation, assessment, or program performance reviews by the agency, an Inspector General, or the Government Accountability Office released during the preceding five years.</li> </ul> <p>For programs identified in such inventory for which there is more than $10 million in annual budget authority (larger programs), the inventory must include:</p> <ul> <li>an identification of the program activities that are aggregated, disaggregated, or consolidated as part of identifying programs;</li> <li>for each program activity, the amount of funding for the current fiscal year and the previous two fiscal years; </li> <li>an estimate of the amount of funding for the program; </li> <li>an identification of the statutes that authorize the program and any major regulations specific to the program; </li> <li>a description and estimate of the number of individuals served by a program and beneficiaries who received financial assistance under a program for the most recent fiscal year; </li> <li>a description of the federal employees who administer the program and other individuals whose salary is paid in full or in part by the federal government through a grant, contract, cooperative agreement, or another form of financial award or assistance; </li> <li>links to any evaluation, assessment, or program performance reviews by the agency, an Inspector General, or the Government Accountability Office released during the preceding five years; and </li> <li>financial and other information for each program activity required to be reported under the Federal Funding Accountability and Transparency Act of 2006. </li> </ul> <p>The OMB shall: (1) archive and preserve the information included in the program inventory; and (2) not later than February 1 of each fiscal year, publish on a public website the total amount of undisbursed grant funding remaining in grant accounts for which the period of availability to the grantee has expired. </p> <p>(Sec. 3) The bill requires the OMB, not later than June 30, 2018, to: (1) prescribe guidance to implement this Act, and (2) issue guidance to assist agencies in identifying how the program activities used in budget or appropriations accounts correspond with programs identified in the program inventory required by this Act. The OMB may: (1) issue guidance to agencies to ensure that programs are presented at a similar level of detail across agencies and are not duplicative or overlapping; (2) exempt from the requirements of this Act, based on an analysis of the costs of implementation, agencies that are not required to have a chief financial officer and that have not more than $10 million in budget authority; and (3) extend the Act's implementation deadline by not more than one year. </p> <p>Implementation of the requirements in this bill must be completed not later than June 30, 2019. </p>]]></text>
+        </item>
+      </billSummaries>
+    </summaries>
+    <notes />
+    <congress>115</congress>
+    <recordedVotes />
+    <sponsors>
+      <item>
+        <party>R</party>
+        <middleName />
+        <lastName>Walberg</lastName>
+        <fullName>Rep. Walberg, Tim [R-MI-7]</fullName>
+        <bioguideId>W000798</bioguideId>
+        <state>MI</state>
+        <byRequestType />
+        <district>7</district>
+        <identifiers>
+          <gpoId>7992</gpoId>
+          <bioguideId>W000798</bioguideId>
+          <lisID>1855</lisID>
+        </identifiers>
+        <firstName>Tim</firstName>
+      </item>
+    </sponsors>
+    <titles>
+      <item>
+        <chamberCode />
+        <titleType>Short Titles as Introduced</titleType>
+        <chamberName />
+        <title>Taxpayers Right-To-Know Act</title>
+        <parentTitleType />
+      </item>
+      <item>
+        <chamberCode />
+        <titleType>Official Title as Introduced</titleType>
+        <chamberName />
+        <title>To provide taxpayers with an annual report disclosing the cost and performance of Government programs and areas of duplication among them, and for other purposes.</title>
+        <parentTitleType />
+      </item>
+      <item>
+        <chamberCode />
+        <titleType>Display Title</titleType>
+        <chamberName />
+        <title>Taxpayers Right-To-Know Act</title>
+        <parentTitleType />
+      </item>
+    </titles>
+    <billNumber>71</billNumber>
+    <relatedBills />
+    <subjects>
+      <billSubjects>
+        <legislativeSubjects>
+          <item>
+            <name>Accounting and auditing</name>
+          </item>
+          <item>
+            <name>Congressional oversight</name>
+          </item>
+          <item>
+            <name>Executive agency funding and structure</name>
+          </item>
+          <item>
+            <name>Government employee pay, benefits, personnel management</name>
+          </item>
+          <item>
+            <name>Government information and archives</name>
+          </item>
+          <item>
+            <name>Government studies and investigations</name>
+          </item>
+          <item>
+            <name>Performance measurement</name>
+          </item>
+        </legislativeSubjects>
+        <policyArea>
+          <name>Government Operations and Politics</name>
+        </policyArea>
+      </billSubjects>
+    </subjects>
+    <amendments />
+    <originChamber>House</originChamber>
+    <updateDate>2017-01-11T10:15:06Z</updateDate>
+    <latestAction>
+      <actionDate>2017-01-05</actionDate>
+      <links />
+      <text>Received in the Senate and Read twice and referred to the Committee on Homeland Security and Governmental Affairs.</text>
+    </latestAction>
+    <committees>
+      <billCommittees>
+        <item>
+          <type>Standing</type>
+          <chamber>Senate</chamber>
+          <activities>
+            <item>
+              <date>2017-01-05T18:23:03Z</date>
+              <name>Referred to</name>
+            </item>
+          </activities>
+          <subcommittees />
+          <systemCode>ssga00</systemCode>
+          <name>Homeland Security and Governmental Affairs Committee</name>
+        </item>
+        <item>
+          <type>Standing</type>
+          <chamber>House</chamber>
+          <activities>
+            <item>
+              <date>2017-01-03T17:08:00Z</date>
+              <name>Referred to</name>
+            </item>
+          </activities>
+          <subcommittees />
+          <systemCode>hsgo00</systemCode>
+          <name>Oversight and Government Reform Committee</name>
+        </item>
+      </billCommittees>
+    </committees>
+    <committeeReports />
+    <constitutionalAuthorityStatementText />
+    <actions>
+      <actionByCounts>
+        <senate>1</senate>
+        <houseOfRepresentatives>9</houseOfRepresentatives>
+      </actionByCounts>
+      <actionTypeCounts>
+        <finalPassageUnderSuspensionOfTheRulesResults>1</finalPassageUnderSuspensionOfTheRulesResults>
+        <billReferrals>1</billReferrals>
+        <referredToCommittee>1</referredToCommittee>
+        <considerationByHouse>1</considerationByHouse>
+        <motionMadeToSuspendTheRules>1</motionMadeToSuspendTheRules>
+        <introducedInTheHouse>1</introducedInTheHouse>
+        <introducedInHouse>1</introducedInHouse>
+        <generalDebate>1</generalDebate>
+        <motionToReconsiderResults>1</motionToReconsiderResults>
+        <passedAgreedToInHouse>1</passedAgreedToInHouse>
+      </actionTypeCounts>
+      <item>
+        <actionDate>2017-01-05</actionDate>
+        <committee>
+          <systemCode>ssga00</systemCode>
+          <name>Homeland Security and Governmental Affairs Committee</name>
+        </committee>
+        <links />
+        <sourceSystem>
+          <name>Senate</name>
+          <code>0</code>
+        </sourceSystem>
+        <text>Received in the Senate and Read twice and referred to the Committee on Homeland Security and Governmental Affairs.</text>
+        <type>IntroReferral</type>
+      </item>
+      <item>
+        <type>Floor</type>
+        <actionTime>12:47:31</actionTime>
+        <text>Motion to reconsider laid on the table Agreed to without objection.</text>
+        <actionCode>H38310</actionCode>
+        <sourceSystem>
+          <name>House floor actions</name>
+          <code>2</code>
+        </sourceSystem>
+        <links />
+        <committee />
+        <actionDate>2017-01-04</actionDate>
+      </item>
+      <item>
+        <type>Floor</type>
+        <actionTime>12:47:30</actionTime>
+        <text>On motion to suspend the rules and pass the bill Agreed to by voice vote. (text: CR H63-64)</text>
+        <actionCode>H37300</actionCode>
+        <sourceSystem>
+          <name>House floor actions</name>
+          <code>2</code>
+        </sourceSystem>
+        <links>
+          <link>
+            <url>https://www.congress.gov/congressional-record/volume-163/house-section/page/H63-64</url>
+            <name>H63-64</name>
+          </link>
+        </links>
+        <committee />
+        <actionDate>2017-01-04</actionDate>
+      </item>
+      <item>
+        <type>Floor</type>
+        <actionTime>12:47:30</actionTime>
+        <text>Passed/agreed to in House: On motion to suspend the rules and pass the bill Agreed to by voice vote.(text: CR H63-64)</text>
+        <actionCode>8000</actionCode>
+        <sourceSystem>
+          <name>Library of Congress</name>
+          <code>9</code>
+        </sourceSystem>
+        <links>
+          <link>
+            <url>https://www.congress.gov/congressional-record/volume-163/house-section/page/H63-64</url>
+            <name>H63-64</name>
+          </link>
+        </links>
+        <committee />
+        <actionDate>2017-01-04</actionDate>
+      </item>
+      <item>
+        <type>Floor</type>
+        <actionTime>12:38:29</actionTime>
+        <text>DEBATE - The House proceeded with forty minutes of debate on H.R. 71.</text>
+        <actionCode>H8D000</actionCode>
+        <sourceSystem>
+          <name>House floor actions</name>
+          <code>2</code>
+        </sourceSystem>
+        <links>
+          <link>
+            <url>https://www.congress.gov/bill/115th-congress/house-bill/71</url>
+            <name>H.R. 71</name>
+          </link>
+        </links>
+        <committee />
+        <actionDate>2017-01-04</actionDate>
+      </item>
+      <item>
+        <type>Floor</type>
+        <actionTime>12:38:26</actionTime>
+        <text>Considered under suspension of the rules. (consideration: CR H63-65)</text>
+        <actionCode>H30000</actionCode>
+        <sourceSystem>
+          <name>House floor actions</name>
+          <code>2</code>
+        </sourceSystem>
+        <links>
+          <link>
+            <url>https://www.congress.gov/congressional-record/volume-163/house-section/page/H63-65</url>
+            <name>H63-65</name>
+          </link>
+        </links>
+        <committee />
+        <actionDate>2017-01-04</actionDate>
+      </item>
+      <item>
+        <type>Floor</type>
+        <actionTime>12:38:04</actionTime>
+        <text>Mr. Chaffetz moved to suspend the rules and pass the bill.</text>
+        <actionCode>H30300</actionCode>
+        <sourceSystem>
+          <name>House floor actions</name>
+          <code>2</code>
+        </sourceSystem>
+        <links />
+        <committee />
+        <actionDate>2017-01-04</actionDate>
+      </item>
+      <item>
+        <type>IntroReferral</type>
+        <text>Referred to the House Committee on Oversight and Government Reform.</text>
+        <actionCode>H11100</actionCode>
+        <sourceSystem>
+          <name>House floor actions</name>
+          <code>2</code>
+        </sourceSystem>
+        <links />
+        <committee>
+          <systemCode>hsgo00</systemCode>
+          <name>Oversight and Government Reform Committee</name>
+        </committee>
+        <actionDate>2017-01-03</actionDate>
+      </item>
+      <item>
+        <type>IntroReferral</type>
+        <text>Introduced in House</text>
+        <actionCode>Intro-H</actionCode>
+        <sourceSystem>
+          <name>Library of Congress</name>
+          <code>9</code>
+        </sourceSystem>
+        <links />
+        <committee />
+        <actionDate>2017-01-03</actionDate>
+      </item>
+      <item>
+        <type>IntroReferral</type>
+        <text>Introduced in House</text>
+        <actionCode>1000</actionCode>
+        <sourceSystem>
+          <name>Library of Congress</name>
+          <code>9</code>
+        </sourceSystem>
+        <links />
+        <committee />
+        <actionDate>2017-01-03</actionDate>
+      </item>
+    </actions>
+    <laws />
+    <cboCostEstimates />
+    <title>Taxpayers Right-To-Know Act</title>
+  </bill>
+  <dublinCore xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <dc:format>text/xml</dc:format>
+    <dc:language>EN</dc:language>
+    <dc:rights>Pursuant to Title 17 Section 105 of the United States Code, this file is not subject to copyright protection and is in the public domain.</dc:rights>
+    <dc:contributor>Congressional Research Service, Library of Congress</dc:contributor>
+    <dc:description>This file contains bill summaries and statuses for federal legislation. A bill summary describes the most significant provisions of a piece of legislation and details the effects the legislative text may have on current law and federal programs. Bill summaries are authored by the Congressional Research Service (CRS) of the Library of Congress. As stated in Public Law 91-510 (2 USC 166 (d)(6)), one of the duties of CRS is "to prepare summaries and digests of bills and resolutions of a public general nature introduced in the Senate or House of Representatives". For more information, refer to the User Guide that accompanies this file.</dc:description>
+  </dublinCore>
+</billStatus>
+

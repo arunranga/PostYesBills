@@ -1,0 +1,373 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<billStatus>
+  <bill>
+    <actions>
+      <item>
+        <actionDate>2017-01-04</actionDate>
+        <committee>
+          <name>Veterans' Affairs Committee</name>
+          <systemCode>ssva00</systemCode>
+        </committee>
+        <links />
+        <sourceSystem>
+          <name>Senate</name>
+          <code>0</code>
+        </sourceSystem>
+        <text>Received in the Senate and Read twice and referred to the Committee on Veterans' Affairs.</text>
+        <type>IntroReferral</type>
+      </item>
+      <item>
+        <type>Floor</type>
+        <committee />
+        <actionTime>17:59:41</actionTime>
+        <actionDate>2017-01-03</actionDate>
+        <text>Motion to reconsider laid on the table Agreed to without objection.</text>
+        <actionCode>H38310</actionCode>
+        <sourceSystem>
+          <name>House floor actions</name>
+          <code>2</code>
+        </sourceSystem>
+        <links />
+      </item>
+      <item>
+        <type>Floor</type>
+        <committee />
+        <actionTime>17:59:38</actionTime>
+        <actionDate>2017-01-03</actionDate>
+        <text>On motion to suspend the rules and pass the bill Agreed to by voice vote. (text: CR H31-32)</text>
+        <actionCode>H37300</actionCode>
+        <sourceSystem>
+          <name>House floor actions</name>
+          <code>2</code>
+        </sourceSystem>
+        <links>
+          <link>
+            <name>H31-32</name>
+            <url>https://www.congress.gov/congressional-record/volume-163/house-section/page/H31-32</url>
+          </link>
+        </links>
+      </item>
+      <item>
+        <type>Floor</type>
+        <committee />
+        <actionTime>17:59:38</actionTime>
+        <actionDate>2017-01-03</actionDate>
+        <text>Passed/agreed to in House: On motion to suspend the rules and pass the bill Agreed to by voice vote.(text: CR H31-32)</text>
+        <actionCode>8000</actionCode>
+        <sourceSystem>
+          <name>Library of Congress</name>
+          <code>9</code>
+        </sourceSystem>
+        <links>
+          <link>
+            <name>H31-32</name>
+            <url>https://www.congress.gov/congressional-record/volume-163/house-section/page/H31-32</url>
+          </link>
+        </links>
+      </item>
+      <item>
+        <type>Floor</type>
+        <committee />
+        <actionTime>17:52:42</actionTime>
+        <actionDate>2017-01-03</actionDate>
+        <text>DEBATE - The House proceeded with forty minutes of debate on H.R. 28.</text>
+        <actionCode>H8D000</actionCode>
+        <sourceSystem>
+          <name>House floor actions</name>
+          <code>2</code>
+        </sourceSystem>
+        <links>
+          <link>
+            <name>H.R. 28</name>
+            <url>https://www.congress.gov/bill/115th-congress/house-bill/28</url>
+          </link>
+        </links>
+      </item>
+      <item>
+        <type>Floor</type>
+        <committee />
+        <actionTime>17:52:27</actionTime>
+        <actionDate>2017-01-03</actionDate>
+        <text>Considered under suspension of the rules. (consideration: CR H31-33)</text>
+        <actionCode>H30000</actionCode>
+        <sourceSystem>
+          <name>House floor actions</name>
+          <code>2</code>
+        </sourceSystem>
+        <links>
+          <link>
+            <name>H31-33</name>
+            <url>https://www.congress.gov/congressional-record/volume-163/house-section/page/H31-33</url>
+          </link>
+        </links>
+      </item>
+      <item>
+        <type>Floor</type>
+        <committee />
+        <actionTime>17:52:11</actionTime>
+        <actionDate>2017-01-03</actionDate>
+        <text>Mr. Roe (TN) moved to suspend the rules and pass the bill.</text>
+        <actionCode>H30300</actionCode>
+        <sourceSystem>
+          <name>House floor actions</name>
+          <code>2</code>
+        </sourceSystem>
+        <links />
+      </item>
+      <item>
+        <actionDate>2017-01-03</actionDate>
+        <committee>
+          <name>Health Subcommittee</name>
+          <systemCode>hsvr03</systemCode>
+        </committee>
+        <links />
+        <sourceSystem>
+          <name>House committee actions</name>
+          <code>1</code>
+        </sourceSystem>
+        <text>Referred to the Subcommittee on Health.</text>
+        <type>Committee</type>
+      </item>
+      <item>
+        <type>IntroReferral</type>
+        <committee>
+          <name>Veterans' Affairs Committee</name>
+          <systemCode>hsvr00</systemCode>
+        </committee>
+        <links />
+        <actionDate>2017-01-03</actionDate>
+        <text>Referred to the House Committee on Veterans' Affairs.</text>
+        <actionCode>H11100</actionCode>
+        <sourceSystem>
+          <name>House floor actions</name>
+          <code>2</code>
+        </sourceSystem>
+      </item>
+      <item>
+        <type>IntroReferral</type>
+        <committee />
+        <links />
+        <actionDate>2017-01-03</actionDate>
+        <text>Introduced in House</text>
+        <actionCode>Intro-H</actionCode>
+        <sourceSystem>
+          <name>Library of Congress</name>
+          <code>9</code>
+        </sourceSystem>
+      </item>
+      <item>
+        <type>IntroReferral</type>
+        <committee />
+        <links />
+        <actionDate>2017-01-03</actionDate>
+        <text>Introduced in House</text>
+        <actionCode>1000</actionCode>
+        <sourceSystem>
+          <name>Library of Congress</name>
+          <code>9</code>
+        </sourceSystem>
+      </item>
+      <actionByCounts>
+        <senate>1</senate>
+        <houseOfRepresentatives>10</houseOfRepresentatives>
+      </actionByCounts>
+      <actionTypeCounts>
+        <motionToReconsiderResults>1</motionToReconsiderResults>
+        <considerationByHouse>1</considerationByHouse>
+        <introducedInTheHouse>1</introducedInTheHouse>
+        <billReferrals>1</billReferrals>
+        <generalDebate>1</generalDebate>
+        <finalPassageUnderSuspensionOfTheRulesResults>1</finalPassageUnderSuspensionOfTheRulesResults>
+        <referredToCommittee>1</referredToCommittee>
+        <introducedInHouse>1</introducedInHouse>
+        <motionMadeToSuspendTheRules>1</motionMadeToSuspendTheRules>
+        <placeholderTextForH>1</placeholderTextForH>
+        <passedAgreedToInHouse>1</passedAgreedToInHouse>
+      </actionTypeCounts>
+    </actions>
+    <amendments />
+    <updateDate>2017-01-13T19:01:20Z</updateDate>
+    <titles>
+      <item>
+        <title>Biological Implant Tracking and Veteran Safety Act of 2017</title>
+        <parentTitleType />
+        <chamberName />
+        <titleType>Short Titles as Introduced</titleType>
+        <chamberCode />
+      </item>
+      <item>
+        <title>To amend title 38, United States Code, to direct the Secretary of Veterans Affairs to adopt and implement a standard identification protocol for use in the tracking and procurement of biological implants by the Department of Veterans Affairs, and for other purposes.</title>
+        <parentTitleType />
+        <chamberName />
+        <titleType>Official Title as Introduced</titleType>
+        <chamberCode />
+      </item>
+      <item>
+        <title>Biological Implant Tracking and Veteran Safety Act of 2017</title>
+        <parentTitleType />
+        <chamberName />
+        <titleType>Display Title</titleType>
+        <chamberCode />
+      </item>
+    </titles>
+    <notes />
+    <originChamber>House</originChamber>
+    <committeeReports />
+    <introducedDate>2017-01-03</introducedDate>
+    <sponsors>
+      <item>
+        <middleName>P.</middleName>
+        <firstName>David</firstName>
+        <bioguideId>R000582</bioguideId>
+        <district>1</district>
+        <byRequestType />
+        <state>TN</state>
+        <identifiers>
+          <gpoId>8148</gpoId>
+          <bioguideId>R000582</bioguideId>
+          <lisID>1954</lisID>
+        </identifiers>
+        <party>R</party>
+        <lastName>Roe</lastName>
+        <fullName>Rep. Roe, David P. [R-TN-1]</fullName>
+      </item>
+    </sponsors>
+    <summaries>
+      <billSummaries />
+    </summaries>
+    <calendarNumbers />
+    <latestAction>
+      <actionDate>2017-01-04</actionDate>
+      <links />
+      <text>Received in the Senate and Read twice and referred to the Committee on Veterans' Affairs.</text>
+    </latestAction>
+    <congress>115</congress>
+    <cosponsors />
+    <relatedBills>
+      <item>
+        <latestTitle>Biological Implant Tracking and Veteran Safety Act of 2017</latestTitle>
+        <latestAction>
+          <actionDate>2017-01-04</actionDate>
+          <text>Read twice and referred to the Committee on Veterans' Affairs.</text>
+        </latestAction>
+        <congress>115</congress>
+        <relationshipDetails>
+          <item>
+            <type>Related bill</type>
+            <identifiedBy>CRS</identifiedBy>
+          </item>
+        </relationshipDetails>
+        <type>S</type>
+        <number>23</number>
+      </item>
+    </relatedBills>
+    <subjects>
+      <billSubjects>
+        <legislativeSubjects>
+          <item>
+            <name>Business records</name>
+          </item>
+          <item>
+            <name>Cell biology and embryology</name>
+          </item>
+          <item>
+            <name>Congressional oversight</name>
+          </item>
+          <item>
+            <name>Department of Veterans Affairs</name>
+          </item>
+          <item>
+            <name>Drug safety, medical device, and laboratory regulation</name>
+          </item>
+          <item>
+            <name>Government ethics and transparency, public corruption</name>
+          </item>
+          <item>
+            <name>Health information and medical records</name>
+          </item>
+          <item>
+            <name>Health technology, devices, supplies</name>
+          </item>
+          <item>
+            <name>Licensing and registrations</name>
+          </item>
+          <item>
+            <name>Organ and tissue donation and transplantation</name>
+          </item>
+          <item>
+            <name>Product safety and quality</name>
+          </item>
+          <item>
+            <name>Public contracts and procurement</name>
+          </item>
+          <item>
+            <name>Veterans' medical care</name>
+          </item>
+        </legislativeSubjects>
+        <policyArea>
+          <name>Armed Forces and National Security</name>
+        </policyArea>
+      </billSubjects>
+    </subjects>
+    <laws />
+    <constitutionalAuthorityStatementText />
+    <title>Biological Implant Tracking and Veteran Safety Act of 2017</title>
+    <recordedVotes />
+    <cboCostEstimates />
+    <committees>
+      <billCommittees>
+        <item>
+          <name>Veterans' Affairs Committee</name>
+          <activities>
+            <item>
+              <name>Referred to</name>
+              <date>2017-01-04T18:07:49Z</date>
+            </item>
+          </activities>
+          <subcommittees />
+          <chamber>Senate</chamber>
+          <type>Standing</type>
+          <systemCode>ssva00</systemCode>
+        </item>
+        <item>
+          <name>Veterans' Affairs Committee</name>
+          <activities>
+            <item>
+              <name>Referred to</name>
+              <date>2017-01-03T17:04:30Z</date>
+            </item>
+          </activities>
+          <subcommittees>
+            <item>
+              <name>Health Subcommittee</name>
+              <activities>
+                <item>
+                  <name>Referred to</name>
+                  <date>2017-01-03T17:09:23Z</date>
+                </item>
+              </activities>
+              <systemCode>hsvr03</systemCode>
+            </item>
+          </subcommittees>
+          <chamber>House</chamber>
+          <type>Standing</type>
+          <systemCode>hsvr00</systemCode>
+        </item>
+      </billCommittees>
+    </committees>
+    <createDate>2017-01-04T07:01:08Z</createDate>
+    <billType>HR</billType>
+    <billNumber>28</billNumber>
+    <policyArea>
+      <name>Armed Forces and National Security</name>
+    </policyArea>
+  </bill>
+  <dublinCore xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <dc:format>text/xml</dc:format>
+    <dc:language>EN</dc:language>
+    <dc:rights>Pursuant to Title 17 Section 105 of the United States Code, this file is not subject to copyright protection and is in the public domain.</dc:rights>
+    <dc:contributor>Congressional Research Service, Library of Congress</dc:contributor>
+    <dc:description>This file contains bill summaries and statuses for federal legislation. A bill summary describes the most significant provisions of a piece of legislation and details the effects the legislative text may have on current law and federal programs. Bill summaries are authored by the Congressional Research Service (CRS) of the Library of Congress. As stated in Public Law 91-510 (2 USC 166 (d)(6)), one of the duties of CRS is "to prepare summaries and digests of bills and resolutions of a public general nature introduced in the Senate or House of Representatives". For more information, refer to the User Guide that accompanies this file.</dc:description>
+  </dublinCore>
+</billStatus>
+
