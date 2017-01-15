@@ -160,7 +160,7 @@ export default class BillContent extends React.Component {
           <p className="bill-content__abillto">
             { abillto }
             <span className="bill-content__abilltodesc">
-               to repeal the Patient Protection and <span className="bill-highlighted">Affordable Care Act</span> and the Health Care and Education Act of 2010
+              { abilltodesc }
             </span>
           </p>
           <p className="bill-content__beitenacted">
@@ -170,7 +170,7 @@ export default class BillContent extends React.Component {
             { section1 }
           </p>
           <p className="bill-content__section1desc">
-            { section1desc }
+            { section1desc } <span className="bill-highlighted">``` Obamacare Repeal Act".</span>
           </p>
           <p className="bill-content__section2">
             { section2 }
@@ -183,8 +183,8 @@ export default class BillContent extends React.Component {
           </div>
           <div className="static-comment comment-form comment">
             <p className="annotation-by">Annotation by <span className="user">Johanna</span></p>
-            <p>Also known as ObamaCare</p>
-            <CommentRatings down={6} up={78} />
+            <p>Steve King’s proposal has finally been considered under budget reconciliation. While it is true that many insurers are leaving the insurance exchange, some of this may be due to bad math on the part of the initial planning pool — that is, not enough of the young and healthy entered the pool. Instead of repeal act, a mechanism to fix the insurance pool problems would be much better. What’s needed is better actuarial science — that’s the kind of overhaul that would serve us well.</p>
+            <CommentRatings down={3} up={14} />
           </div>
         </div>
       </div>

@@ -174,7 +174,7 @@
 	&:before {
 		content: '';
 		position: absolute;
-		top: 20px;
+		top: 15%;
 		left: 0;
 		border: 7px solid #4af2a1;
 		border-right-color: transparent;
@@ -184,12 +184,12 @@
 }
 
 .comments-list-container {
-	width: 200px;
+	width: 220px;
 	color: #343435;
 }
 .comment {
 	position: absolute;
-	width: 200px;
+	width: 220px;
 	font-size: 14px;
 	padding-top: 0;
 }
@@ -251,7 +251,7 @@
 
 .static-comment {
 	left: 460px;
-	top: 20px;
+	top: 90px;
 }
 .annotation-by {
 	font-size: 12px;

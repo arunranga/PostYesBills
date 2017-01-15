@@ -8,6 +8,11 @@ export default class NewCommentForm extends React.Component {
     };
   }
 
+  componentDidMount () {
+    this.refs.textarea.focus();
+    this.refs.textarea.select();
+  }
+
   addComment(e) {
     e.preventDefault();
     this.props.addComment(this.state.commentText, this.props.location);
@@ -34,6 +39,7 @@ export default class NewCommentForm extends React.Component {
               className="comment-textarea"
               defaultValue={this.state.commentText}
               onChange={this.handleChange.bind(this)}
+              ref="textarea"
               />
           <button className="comment-submit" onClick={this.addComment.bind(this)}>
             Post

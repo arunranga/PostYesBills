@@ -1,11 +1,27 @@
+.home-header {
+  font-size: 44px;
+  line-height: 52px;
+  margin-top: 30px;
+  margin-bottom: 6px;
+  font-weight: 900;
+  text-align: center; }
+
+.home-subheader {
+  font-size: 22px;
+  line-height: 27px;
+  margin: 0;
+  margin-bottom: 40px;
+  font-weight: 500;
+  text-align: center; }
+
 .hot-bill {
   background-color: #4af2a1;
   color: #fff;
   position: relative;
   margin: auto;
   width: 90%;
-  max-width: 380px;
-  padding: 30px 50px 60px;
+  max-width: 250px;
+  padding: 40px 50px 70px;
   margin-bottom: 100px;
   text-align: center; }
   .hot-bill:before {
@@ -16,6 +32,24 @@
     left: 8px;
     right: 8px;
     bottom: 8px; }
+  .hot-bill:after {
+    content: '';
+    border: 40px solid #fff;
+    border-bottom-color: transparent;
+    border-right-color: transparent;
+    position: absolute;
+    top: 10px;
+    left: 10px; }
+
+.hot-bill__hot {
+  color: rgba(242, 74, 74, 0.83);
+  font-size: 40px;
+  position: absolute;
+  top: 15px;
+  left: 28px;
+  font-weight: bold;
+  margin: 0;
+  z-index: 20; }
 
 .bill-number {
   font-family: 'Times';
@@ -39,6 +73,12 @@
   border-left: 5px solid #fff;
   color: #343435;
   margin: auto; }
+
+.bill-text__tldr-title {
+  color: #fff;
+  display: block;
+  margin-bottom: 7px;
+  font-weight: bold; }
 
 .bills {
   max-width: 800px;
@@ -288,7 +328,7 @@
   .comment-form:before {
     content: '';
     position: absolute;
-    top: 20px;
+    top: 15%;
     left: 0;
     border: 7px solid #4af2a1;
     border-right-color: transparent;
@@ -296,12 +336,12 @@
     border-bottom-color: transparent; }
 
 .comments-list-container {
-  width: 200px;
+  width: 220px;
   color: #343435; }
 
 .comment {
   position: absolute;
-  width: 200px;
+  width: 220px;
   font-size: 14px;
   padding-top: 0; }
 
@@ -356,7 +396,7 @@
 
 .static-comment {
   left: 460px;
-  top: 20px; }
+  top: 90px; }
 
 .annotation-by {
   font-size: 12px;
@@ -367,7 +407,8 @@
   text-decoration: underline; }
 
 body {
-  background-color: #f9f9f9; }
+  background-color: #f9f9f9;
+  font-family: 'Lato', 'arial'; }
 
 .navbar {
   height: 50px;
@@ -431,8 +472,5 @@ body {
   left: 0;
   right: 0;
   margin-top: 50px;
-  font-family: 'arial';
+  font-family: 'Lato', 'arial';
   background-color: #f9f9f9; }
-
-.home {
-  padding-top: 70px; }

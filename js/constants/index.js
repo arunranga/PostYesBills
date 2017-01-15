@@ -12,12 +12,10 @@ export const bills = [
     abilltodesc: ' to repeal the Patient Protection and Affordable Care Act and the Health Care and Education Act of 2010',
     beitenacted: 'Be it enacted by the Senate and House of Representatives of the United States of America in Congress as assembled',
     section1: 'Section 1. Short Title',
-    section1desc: 'This act may be cited as the Obamacare Repeal Act',
+    section1desc: 'This act may be cited as the ',
     section2: 'Sec. 2. Repeal of the Patient Protection and Affordable Care Act and the Health Care and Education Reconciliation Act',
     annotations: [
       {
-        startIndex: '257',
-        endIndex: '285',
         comments: [
           {
             text: ' This Steve King proposal has finally been considered under budget reconciliation. While it is true that many insurers are leaving the insurance exchange, some of this may be due to bad math on the part of the initial planning pool -- that is, not enough of the young and healthy entered the pool. Instead of repeal act, a mechanism to fix the insurance pool problems would be much better. What is needed is better actuarial science -- that is the kind of overhaul that would serve us well.',

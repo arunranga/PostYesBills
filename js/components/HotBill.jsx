@@ -6,9 +6,13 @@ export default class HotBill extends React.Component {
 
 		return (
 			<div className="hot-bill">
+				<p className="hot-bill__hot">!</p>
 				<h2 className="bill-number">{number}</h2>
 				<h1 className="bill-name">{title}</h1>
-				<p className="bill-text">{text}</p>
+				<p className="bill-text">
+					<span className="bill-text__tldr-title">TL;DR</span>
+					{text}
+				</p>
 			</div>
 		);
 	}
