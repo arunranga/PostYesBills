@@ -13,7 +13,7 @@ export default class BillPage extends React.Component {
     return(
       <div className="container bill-page">
         <BillHeader bill={bill} />
-        <BillContent text={bill.text} />
+        <BillContent annotations={bill.annotations} text={bill.text} />
       </div>
     );
   }

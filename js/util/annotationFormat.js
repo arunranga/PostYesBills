@@ -18,6 +18,6 @@ class Annotation extends Inline {
 }
 
 Annotation.blotName = "annotation_id";
-Annotation.className = "opinion-annotation";
+Annotation.className = "inline-annotation";
 
 export default Annotation;
