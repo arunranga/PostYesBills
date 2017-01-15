@@ -10,6 +10,17 @@ export default class CommentsListContainer extends React.Component {
            key={idx}>
         {comment.text}
       </div>;
+      return (
+        <div className="comment"
+           key={idx}
+        >
+          <div style={ { fontWeight: 'bold' } }>
+            {comment.user || 'arun'}
+          </div>
+          <br />
+          {comment.text}
+        </div>
+      );
     });
 
     return (
