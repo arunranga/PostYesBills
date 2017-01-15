@@ -68,7 +68,7 @@ export default class BillContent extends React.Component {
 
   handleClick(e) {
     this.clearPriorRange();
-    this.removeCommentForm();
+    this.removeCommentForm(e);
   }
 
   setExistingAnnotations() {
@@ -91,7 +91,13 @@ export default class BillContent extends React.Component {
     }
   }
 
-  removeCommentForm() {
+  removeCommentForm(e) {
+    if (!e.target) { return }
+
+    if (e.target.tagName === 'TEXTAREA' || e.target.tagName === 'BUTTON') {
+      return;
+    }
+
     this.setState({
       panelView: null
     });
