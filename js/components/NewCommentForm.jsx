@@ -11,6 +11,7 @@ export default class NewCommentForm extends React.Component {
   addComment(e) {
     e.preventDefault();
     this.props.addComment(this.state.commentText, this.props.location);
+    this.props.onSave();
   }
 
   handleChange(e) {

@@ -34,6 +34,7 @@ export default class BillHeader extends React.Component {
               {sponsor}
             </p>
           </div>
+          <img className="bill-header__image" src="../../images/HR175_IMAGE.png" />
         </div>
         <div className="bill-header__tldr">
           <h4 className="bill-header__tldr-title">TL;DR</h4>

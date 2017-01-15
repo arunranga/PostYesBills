@@ -51,6 +51,12 @@ export default class BillContent extends React.Component {
     });
   }
 
+  handleSave () {
+    this.setState({
+      panelView: null,
+    });
+  }
+
   handleSelection(range, oldRange, source) {
     if (!range || !this.quill.getContents(range.index, range.length)) {
       return;
@@ -131,6 +137,7 @@ export default class BillContent extends React.Component {
           location={ this.state.selectionLocation }
           clearPriorRange = { this.clearPriorRange }
           addComment = {this.addComment.bind(this)}
+          onSave = {this.handleSave.bind(this)}
         />
       );
     } else {
