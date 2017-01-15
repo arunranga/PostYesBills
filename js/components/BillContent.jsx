@@ -28,7 +28,7 @@ export default class BillContent extends React.Component {
       this.quill.setContents(this.processAnnotations());
     }
 
-    window.addEventListener("mousedown", this.handleClick, false);
+    // window.addEventListener("mousedown", this.handleClick, false);
   }
 
   handleSelection(range, oldRange, source) {
@@ -73,7 +73,7 @@ export default class BillContent extends React.Component {
     // let bodyDelta = new Delta(JSON.parse({ insert: text }));
     if (!annotations) {
       return this.quill;
-    };
+    }
 
     let annoDelta = new Delta();
     const annoArray = toArray(annotations).sort((a, b) => {
@@ -126,6 +126,7 @@ export default class BillContent extends React.Component {
       <div
         className="bill-content-container"
         style={ { marginTop: '68px' } }
+        onClick={this.handleClick}
       >
         <div
           className="bill-content"

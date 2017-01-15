@@ -12,10 +12,15 @@ export default class NewCommentForm extends React.Component {
     this.setState({commentText: e.currentTarget.value});
   }
 
+  handleClick(e) {
+    e.stopPropagation();
+  }
+
   render () {
     return (
       <div
         className="comments-list-container"
+        onClick={this.handleClick}
       >
         <div>Comment form!</div>
 

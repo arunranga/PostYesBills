@@ -142,6 +142,14 @@
   line-height: 39px;
   margin-bottom: 30px; }
 
+.bill-content-container {
+  position: relative;
+  z-index: 10; }
+
+.comment-form {
+  position: absolute;
+  z-index: 100; }
+
 body {
   background-color: #f9f9f9; }
 
