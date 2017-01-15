@@ -6,7 +6,7 @@ import { bills } from '../constants';
 export default class BillPage extends React.Component {
   render () {
     const { billNo } = this.props.params;
-    const bill = bills[billNo - 1];
+    const bill = bills[billNo];
 
     return(
       <div>
