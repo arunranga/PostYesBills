@@ -1,4 +1,5 @@
 import React from "react";
+
 export default class BillHeader extends React.Component {
   render () {
     const {
@@ -19,4 +20,4 @@ export default class BillHeader extends React.Component {
       </div>
     );
   }
-};
+}

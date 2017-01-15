@@ -56,7 +56,7 @@ export default class BillList extends React.Component {
 			return (
 				<BillContainer bill={bill} key={i} id={bill.id} />
 			);
-		})
+		});
 	}
 
 	render () {

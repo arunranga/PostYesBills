@@ -118,6 +118,30 @@
   font-style: oblique;
   color: #727375; }
 
+.bill-header, .bill-page, .bill-content {
+  font-family: 'Lato', 'arial'; }
+
+.bill-header {
+  background-color: #4af2a1;
+  color: #fff;
+  position: relative;
+  margin: 0 auto;
+  padding: 30px 50px 60px;
+  margin-bottom: 40px;
+  text-align: left; }
+
+.bill-number {
+  font-family: 'Times';
+  font-size: 18px;
+  font-weight: bold;
+  margin: auto;
+  margin-bottom: 10px; }
+
+.short-title {
+  font-size: 31px;
+  line-height: 39px;
+  margin-bottom: 30px; }
+
 body {
   background-color: #f9f9f9; }
 
