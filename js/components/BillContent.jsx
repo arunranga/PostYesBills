@@ -142,6 +142,7 @@ export default class BillContent extends React.Component {
           clearPriorRange = { this.clearPriorRange }
           addComment = {this.addComment.bind(this)}
           onSave = {this.handleSave.bind(this)}
+          comments={this.props.annotations[0].comments}
         />
       );
     } else {

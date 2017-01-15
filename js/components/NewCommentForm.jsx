@@ -1,4 +1,5 @@
 import React from "react";
+import CommentRatings from './CommentRatings';
 
 export default class NewCommentForm extends React.Component {
   constructor(props) {
@@ -27,24 +28,48 @@ export default class NewCommentForm extends React.Component {
     e.stopPropagation();
   }
 
+  commentDivs() {
+    const { comments } = this.props;
+
+    let divs = comments.map( (comment, idx) => {
+      let loc = comment.location + 270;
+
+      return (
+        <div>
+          <p className="annotation-by">Annotation by <span className="user">{comment.user || 'arun'}</span></p>
+          <p>{comment.text}</p>
+          <CommentRatings down={0} up={0} />
+        </div>
+      );
+    });
+
+    return <div>{ divs }</div>;
+  }
+
   render () {
     let loc = this.props.location + 270;
-    return (
-      <div className="comments-list-container" onClick={this.handleClick}>
+    const { comments } = this.props;
 
-        <form style={ {marginTop: `${loc}px`} }
-          className={ "comment-form" }
-          onSubmit={this.addComment.bind(this)}>
-            <textarea
-              className="comment-textarea"
-              defaultValue={this.state.commentText}
-              onChange={this.handleChange.bind(this)}
-              ref="textarea"
-              />
+    return (
+      <div
+        className="comments-list-container comment-form"
+        onClick={this.handleClick}
+        style={ {marginTop: `${loc}px`} }
+      >
+        { comments ? this.commentDivs() : null }
+
+        <form
+          onSubmit={this.addComment.bind(this)}
+        >
+          <textarea
+            className="comment-textarea"
+            defaultValue={this.state.commentText}
+            onChange={this.handleChange.bind(this)}
+            ref="textarea"
+          />
           <button className="comment-submit" onClick={this.addComment.bind(this)}>
             Post
           </button>
-
         </form>
       </div>
     );
