@@ -67,7 +67,7 @@ export default class BillContent extends React.Component {
   }
 
   handleClick(e) {
-    this.clearPriorRange();
+    this.clearPriorRange(e);
     this.removeCommentForm(e);
   }
 
@@ -78,11 +78,17 @@ export default class BillContent extends React.Component {
 
     const that = this;
     Array.from(annotations).forEach(el => {
-      that.quill.formatText(parseInt(el.startIndex), parseInt(el.endIndex), "background", "#b2b200");
+      that.quill.formatText(parseInt(el.startIndex), parseInt(el.endIndex), "background", "#aad6fe");
     });
   }
 
-  clearPriorRange() {
+  clearPriorRange(e) {
+    if (!e.target) { return }
+
+    if (!(e.target.tagName === 'SPAN')) {
+      return;
+    }
+
     const selectionRange = this.state.selectionRange;
 
     if (selectionRange !== null) {
