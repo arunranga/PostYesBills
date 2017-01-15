@@ -40,8 +40,8 @@ export const bills = [
     tldr: 'Something about drugs.',
     annotations: [
       {
-        startIndex: '200',
-        endIndex: '210',
+        startIndex: '3',
+        endIndex: '50',
         comments: [
           {
             text: 'Some comment on this annotation!'

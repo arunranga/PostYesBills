@@ -17,6 +17,7 @@ export default class BillPage extends React.Component {
         />
         <BillContent
           text={bill.text}
+          annotations={bill.annotations}
         />
       </div>
     );
