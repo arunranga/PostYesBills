@@ -7,7 +7,7 @@ import configureStore from './store/configureStore';
 import App from './App';
 import Template from './containers/Template';
 import Home from './containers/Home';
-import { BillPageContainer } from "./containers/BillPageContainer";
+import BillPageContainer from "./containers/BillPageContainer";
 
 const Root = ({ store }) => (
   <Provider store={store}>

@@ -2,20 +2,28 @@ import React from 'react';
 import BillHeader from './BillHeader';
 
 export default class BillPage extends React.Component {
+  componentDidMount() {
+    this.props.fetchBill(1);
+  }
+
   render () {
     const { bill } = this.props;
 
-    return(
-      <div>
-        <BillHeader
-          shortTitle={bill.short_title}
-          sponsor={bill.sponsor}
-          title={bill.title}
-          date={bill.date_introduced}
-          billNumber={bill.bill_number}
-        />
-      </div>
-    );
+    if (bill) {
+      return(
+        <div>
+          <BillHeader
+            shortTitle={bill.short_title}
+            sponsor={bill.sponsor}
+            title={bill.title}
+            date={bill.date_introduced}
+            billNumber={bill.bill_number}
+          />
+        </div>
+      );
+    } else {
+      return <div />;
+    }
   }
 
 // TODO: Create BillText & AnnotationIndexContainer
@@ -35,13 +43,3 @@ export default class BillPage extends React.Component {
 //     );
 //   }
 }
-// object returned by fetchBill has:
-// title
-// text
-// bill_number
-// sponsor
-// short_title
-// date_introduced
-// date_of_action
-// annotations: [{}, {}]
-// comments: [ ]

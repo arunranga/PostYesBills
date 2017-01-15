@@ -17,16 +17,24 @@ const _defaultState = Object.freeze({
 const BillsReducer = (state = _defaultState, action) => {
   switch(action.type) {
     case types.FETCH_BILL_LIST:
-      return action.fetchBillList()
+      return state;
       break;
     case types.FETCH_BILL:
-      return action.fetchBill()
+      return {
+        bill: {
+          short_title: 'ObamaCare',
+          sponsor: 'Obama',
+          title: 'Some title',
+          date_introduced: 'Jan 1',
+          bill_number: '11111'
+        }
+      }
       break;
     case types.RECEIVE_BILL:
-      return action.receiveBill()
+      return state;
       break;
     case types.RECEIVE_BILL_LIST:
-      return action.receiveBillList()
+      return state;
       break;
     default:
       return state;
