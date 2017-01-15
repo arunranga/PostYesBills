@@ -1,26 +1,26 @@
 import * as types from './types';
 
-export function fetchBillList () {
-  return { type: types.FETCH_BILL_LIST, };
+export const fetchBillList = () => {
+  return { type: types.FETCH_BILL_LIST };
 };
 
-export function fetchBill (id) {
+export const fetchBill = (id) => {
   return {
-  	type: types.FETCH_BILL,
-	  id,
-	};
+    type: types.FETCH_BILL,
+    id
+  };
 };
 
-export function receiveBill (bill) {
+export const receiveBill = (bill) => {
   return {
-  	type: types.RECEIVE_BILL,
-		bill,
-	};
+    type: types.RECEIVE_BILL,
+    bill
+  };
 };
 
-export function receiveBillList (bills) {
+export const receiveBillList = (bills) => {
   return {
-  	type: types.RECEIVE_BILL_LIST,
-		bills,
-	};
+    type: types.RECEIVE_BILL_LIST,
+    bills
+  };
 };
