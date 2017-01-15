@@ -34,7 +34,7 @@ export default class BillContent extends React.Component {
   handleSelection(range, oldRange, source) {
     if (!range || !this.quill.getContents(range.index, range.length)) {
       return;
-    };
+    }
 
     if (range.length !== 0) {
       this.quill.formatText(range.index, range.length, "background", "#ffff64");
@@ -144,4 +144,4 @@ export default class BillContent extends React.Component {
       </div>
     );
   }
-};
+}

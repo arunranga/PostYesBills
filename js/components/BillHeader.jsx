@@ -1,4 +1,5 @@
 import React from "react";
+
 export default class BillHeader extends React.Component {
   render () {
     const {
@@ -11,7 +12,7 @@ export default class BillHeader extends React.Component {
 
     return (
       <div
-        className="bill-header-container"
+        className="bill-header"
         style={ { marginTop: '68px' } }
       >
         <div className="short-title">{shortTitle}</div>
@@ -22,4 +23,4 @@ export default class BillHeader extends React.Component {
       </div>
     );
   }
-};
+}
