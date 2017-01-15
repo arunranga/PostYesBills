@@ -3,6 +3,7 @@ import Quill from 'quill';
 import Delta from 'quill-delta';
 import Annotation from '../util/annotationFormat';
 import CommentsListContainer from './CommentsListContainer';
+import CommentRatings from './CommentRatings';
 import NewCommentForm from './NewCommentForm';
 
 Quill.register(Annotation);
@@ -149,7 +150,7 @@ export default class BillContent extends React.Component {
           <p className="bill-content__abillto">
             { abillto }
             <span className="bill-content__abilltodesc">
-              { abilltodesc }
+               to repeal the Patient Protection and <span className="bill-highlighted">Affordable Care Act</span> and the Health Care and Education Act of 2010
             </span>
           </p>
           <p className="bill-content__beitenacted">
@@ -169,6 +170,11 @@ export default class BillContent extends React.Component {
           </p>
           <div className="bill-content__comments">
             { rightPanel }
+          </div>
+          <div className="static-comment comment-form comment">
+            <p className="annotation-by">Annotation by <span className="user">Johanna</span></p>
+            <p>Also known as ObamaCare</p>
+            <CommentRatings down={6} up={78} />
           </div>
         </div>
       </div>

@@ -4,7 +4,7 @@ export default class NewCommentForm extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
-      commentText: ""
+      commentText: "Got something to say?"
     };
   }
 
@@ -29,15 +29,13 @@ export default class NewCommentForm extends React.Component {
         <form style={ {marginTop: `${loc}px`} }
           className={ "comment-form" }
           onSubmit={this.addComment.bind(this)}>
-
-          <label>Comment: <br/>
             <textarea
-              value={this.state.commentText}
-              onChange={this.handleChange.bind(this)}></textarea>
-          </label>
-
-          <button onClick={this.addComment.bind(this)}>
-            Submit
+              className="comment-textarea"
+              defaultValue={this.state.commentText}
+              onChange={this.handleChange.bind(this)}
+              />
+          <button className="comment-submit" onClick={this.addComment.bind(this)}>
+            Post
           </button>
 
         </form>

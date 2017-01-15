@@ -4,6 +4,10 @@ import BillContent from './BillContent';
 import { bills } from '../constants';
 
 export default class BillPage extends React.Component {
+  componentWillMount () {
+    window.scrollTo(0,0);
+  }
+
   render () {
     const { billNo } = this.props.params;
     const bill = bills.find((bill) => {
