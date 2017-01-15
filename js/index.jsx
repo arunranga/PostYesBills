@@ -8,7 +8,7 @@ import Store from './store/store';
 import Home from './containers/Home';
 // import Template from './containers/Template';
 import App from './App';
-import BillPageContainer from "./components/bill_page_container";
+import BillPageContainer from "./containers/BillPageContainer";
 
 const router = (
   <Provider store={Store}>

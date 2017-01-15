@@ -1,8 +1,9 @@
 import { connect } from "react-redux";
-import fetchBill from '../actions/bill_actions';
-import BillPage from './bill_page';
+import fetchBill from '../actions/billActions';
+import BillPage from '../components/BillPage';
 
 const mapStateToProps = (state, ownProps) => {
+	console.log('hi!')
   const billNo = parseInt(ownProps.params.billNo);
   return { billNo };
 };
