@@ -61,6 +61,9 @@
 .bill-list {
 	padding: 0;
 }
+.bill-list a {
+	text-decoration: none;
+}
 .bill-list__bill {
 	border-bottom: 1px solid #dfe3e5;
 	text-align: left;
