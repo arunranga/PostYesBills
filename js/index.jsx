@@ -15,7 +15,7 @@ const router = (
     <Router history={hashHistory}>
       <Route path="/" component={App}>
         <IndexRoute component={Home} />
-        <Route path="/bill/:billNo" component={BillPageContainer} />
+        <Route path="/bill/:id" component={BillPageContainer} />
       </Route>
     </Router>
   </Provider>

@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 .hot-bill {
   background-color: #fff;
   color: #000;
@@ -81,26 +80,6 @@
 .home {
   background-image: url(http://1.bp.blogspot.com/-AIz4dkHtHis/U_shhxjk19I/AAAAAAAAgGk/-NB5EIw-I-8/s1600/blue_star_pattern_paper.jpg);
   background-size: 50%; }
-||||||| merged common ancestors
-=======
-.gulp-test {
-  color: black; }
-
-.App {
-  color: pink; }
-
-.container {
-  position: absolute;
-  top: 0;
-  left: 0;
-  bottom: 0;
-  right: 0;
-  font-family: 'arial';
-  overflow: scroll; }
-
-.home {
-  background-image: url(http://1.bp.blogspot.com/-AIz4dkHtHis/U_shhxjk19I/AAAAAAAAgGk/-NB5EIw-I-8/s1600/blue_star_pattern_paper.jpg);
-  background-size: 50%; }
 
 .hot-bill {
   background-color: #fff;
@@ -165,4 +144,3 @@
   border: 1px solid #000;
   border-radius: 5px;
   padding: 5px; }
->>>>>>> 900b812c6c44c746065eb2c94e70b19c392c801b

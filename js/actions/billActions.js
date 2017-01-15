@@ -1,23 +1,26 @@
-export const FETCH_BILLS = "FETCH_BILLS";
-export const FETCH_BILL = "FETCH_BILL";
-export const RECEIVE_BILL = "RECEIVE_BILL";
-export const RECEIVE_BILLS = "RECEIVE_BILLS";
+import * as types from './types';
 
-export const fetchBills = () => ({
-  type: FETCH_BILLS
-});
+export function fetchBillList () {
+  return { type: types.FETCH_BILL_LIST, };
+};
 
-export const fetchBill = id => ({
-  id,
-  type: FETCH_BILL
-});
+export function fetchBill (id) {
+  return {
+  	type: types.FETCH_BILL,
+	  id,
+	};
+};
 
-export const receiveBill = bill => ({
-  type: RECEIVE_BILL,
-  bill
-});
+export function receiveBill (bill) {
+  return {
+  	type: types.RECEIVE_BILL,
+		bill,
+	};
+};
 
-export const receiveBills = bills => ({
-  type: RECEIVE_BILLS,
-  bills
-});
+export function receiveBillList (bills) {
+  return {
+  	type: types.RECEIVE_BILL_LIST,
+		bills,
+	};
+};
