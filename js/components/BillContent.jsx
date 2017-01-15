@@ -28,12 +28,26 @@ export default class BillContent extends React.Component {
 
     window.addEventListener("mousedown", this.handleClick, false);
     this.setExistingAnnotations();
+
+    const annotations = document.getElementsByClassName("ql-editor");
+
+    document.querySelector(".ql-editor span").classList.add('inline-annotation');
+
+    Array.from(annotations).forEach(el => {
+      el.addEventListener("click", this.displayAnnotation.bind(this));
+    });
   }
 
   addComment(commentText, commentLocation) {
     let comments = this.state.comments.concat([{text: commentText, location: commentLocation}]);
     this.setState({comments: comments});
     this.handleClick(window);
+  }
+
+  displayAnnotation() {
+    this.setState({
+      panelView: "addNew"
+    });
   }
 
   handleSelection(range, oldRange, source) {
@@ -64,7 +78,7 @@ export default class BillContent extends React.Component {
 
     const that = this;
     Array.from(annotations).forEach(el => {
-      that.quill.formatText(parseInt(el.startIndex), parseInt(el.endIndex), "background", "#ffff64");
+      that.quill.formatText(parseInt(el.startIndex), parseInt(el.endIndex), "background", "#b2b200");
     });
   }
 
