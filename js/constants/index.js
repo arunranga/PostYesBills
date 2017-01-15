@@ -20,15 +20,15 @@ export const bills = [
         comments: [
           {
             text: ' This Steve King proposal has finally been considered under budget reconciliation. While it is true that many insurers are leaving the insurance exchange, some of this may be due to bad math on the part of the initial planning pool -- that is, not enough of the young and healthy entered the pool. Instead of repeal act, a mechanism to fix the insurance pool problems would be much better. What is needed is better actuarial science -- that is the kind of overhaul that would serve us well.',
-            user: arunranga
+            user: 'arunranga'
           },
           {
             text: 'This affects me directly. I am about to lose my insurance. Is empathy so hard here for GOP folks?',
-            user: emilyweiss
+            user: 'emilyweiss'
           },
           {
             text: '@arunranga but is it not the fault of the Obama Administration that bad math happened? That is what this bill is: bad math. The repeal act is right here.',
-            user: sophiasong
+            user: 'sophiasong'
           }
         ]
       }
@@ -45,8 +45,8 @@ export const bills = [
     tldr: 'Something about drugs.',
     annotations: [
       {
-        startIndex: '200',
-        endIndex: '210',
+        startIndex: '3',
+        endIndex: '50',
         comments: [
           {
             text: 'Some comment on this annotation!'

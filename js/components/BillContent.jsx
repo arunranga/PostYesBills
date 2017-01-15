@@ -25,11 +25,17 @@ export default class BillContent extends React.Component {
     this.quill = new Quill('.bill-show-text');
     this.quill.enable(false);
     this.quill.on("selection-change", this.handleSelection );
-    if (this.props.annotations) {
-      this.quill.setContents(this.processAnnotations());
-    }
 
-    // window.addEventListener("mousedown", this.handleClick, false);
+    window.addEventListener("mousedown", this.handleClick, false);
+    this.setExistingAnnotations();
+
+    const annotations = document.getElementsByClassName("ql-editor");
+
+    document.querySelector(".ql-editor span").classList.add('inline-annotation');
+
+    Array.from(annotations).forEach(el => {
+      el.addEventListener("click", this.displayAnnotation.bind(this));
+    });
   }
 
   addComment(commentText, commentLocation) {
@@ -38,10 +44,16 @@ export default class BillContent extends React.Component {
     this.handleClick(window);
   }
 
+  displayAnnotation() {
+    this.setState({
+      panelView: "addNew"
+    });
+  }
+
   handleSelection(range, oldRange, source) {
     if (!range || !this.quill.getContents(range.index, range.length)) {
       return;
-    }
+    };
 
     if (range.length !== 0) {
       this.quill.formatText(range.index, range.length, "background", "#ffff64");
@@ -59,6 +71,17 @@ export default class BillContent extends React.Component {
     this.removeCommentForm();
   }
 
+  setExistingAnnotations() {
+    const { annotations } = this.props;
+
+    if (!annotations || annotations.length === 0) { return }
+
+    const that = this;
+    Array.from(annotations).forEach(el => {
+      that.quill.formatText(parseInt(el.startIndex), parseInt(el.endIndex), "background", "#b2b200");
+    });
+  }
+
   clearPriorRange() {
     const selectionRange = this.state.selectionRange;
 
@@ -72,35 +95,6 @@ export default class BillContent extends React.Component {
     this.setState({
       panelView: null
     });
-  }
-
-  processAnnotations() {
-    const { text, annotations } = this.props;
-
-    // let bodyDelta = new Delta(JSON.parse({ insert: text }));
-    if (!annotations) {
-      return this.quill;
-    }
-
-    let annoDelta = new Delta();
-    const annoArray = toArray(annotations).sort((a, b) => {
-      if (a.start_idx < b.start_idx) {
-        return -1;
-      } else if (a.start_idx > b.start_idx) {
-        return 1;
-      } else {
-        return 0;
-      }
-    });
-
-    let index = 0;
-
-    annoArray.forEach((anno) => {
-      annoDelta.retain(anno.start_idx - index);
-      annoDelta.retain(anno.length, { annotation_id: `${anno.id}` });
-      index = anno.start_idx + anno.length;
-    });
-    return bodyDelta.compose(annoDelta);
   }
 
   render () {
@@ -135,7 +129,6 @@ export default class BillContent extends React.Component {
       <div
         className="bill-content-container"
         style={ { marginTop: '68px' } }
-        onClick={this.handleClick}
       >
         <div
           className="bill-content"
@@ -154,4 +147,4 @@ export default class BillContent extends React.Component {
       </div>
     );
   }
-}
+};
