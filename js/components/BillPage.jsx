@@ -1,18 +1,24 @@
 import React from 'react';
 import BillHeader from './BillHeader';
+import BillContent from './BillContent';
+import { bills } from '../constants';
 
 export default class BillPage extends React.Component {
   render () {
-    const { bill } = this.props;
+    const { billNo } = this.props.params;
+    const bill = bills[billNo - 1];
 
     return(
       <div>
         <BillHeader
-          shortTitle={bill.short_title}
+          shortTitle={bill.shortTitle}
           sponsor={bill.sponsor}
           title={bill.title}
-          date={bill.date_introduced}
-          billNumber={bill.bill_number}
+          dateIntroduced={bill.dateIntroduced}
+          billNumber={bill.billNumber}
+        />
+        <BillContent
+          text={bill.text}
         />
       </div>
     );
