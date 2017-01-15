@@ -104,9 +104,39 @@
 	padding: 15px 40px;
 	position: relative;
 }
+.bill-content__abillto,
+.bill-content__beitenacted,
+.bill-content__section1,
+.bill-content__section1desc,
+.bill-content__section2,
+.bill-content__text {
+	width: 400px;
+	font-family: 'Times';
+	margin: 0;
+	font-size: 17px;
+	line-height: 26px;
+}
+.bill-content__abillto {
+	font-weight: bold;
+	text-transform: uppercase;
+}
+.bill-content__abilltodesc {
+	font-weight: normal;
+	text-transform: none;
+}
+.bill-content__beitenacted {
+	font-style: oblique;
+}
+.bill-content__section1,
+.bill-content__section2 {
+	font-weight: bold;
+	text-transform: uppercase;
+}
+.bill-content__section1desc {
+	margin: 0;
+}
 .bill-content__text {
 	font-family: 'Times';
-	width: 400px;
 	position: relative;
 	&:after {
 		content: '';

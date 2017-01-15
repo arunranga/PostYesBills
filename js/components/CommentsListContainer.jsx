@@ -4,8 +4,9 @@ export default class CommentsListContainer extends React.Component {
   render () {
     const { comments } = this.props;
     let commentDivs = comments.map( (comment, idx) => {
+      let loc = comment.location + 270;
       return <div className="comment"
-           style={ {marginTop: `${comment.location}px`} }
+           style={ {marginTop: `${loc}px`} }
            key={idx}>
         {comment.text}
       </div>;

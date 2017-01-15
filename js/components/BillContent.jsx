@@ -78,7 +78,7 @@ export default class BillContent extends React.Component {
 
     const that = this;
     Array.from(annotations).forEach(el => {
-      that.quill.formatText(parseInt(el.startIndex), parseInt(el.endIndex), "background", "#b2b200");
+      that.quill.formatText(parseInt(el.startIndex), parseInt(el.endIndex), "background", "#ddefff");
     });
   }
 
@@ -105,7 +105,13 @@ export default class BillContent extends React.Component {
 
   render () {
     const {
-      text
+      text,
+      abillto,
+      abilltodesc,
+      beitenacted,
+      section1,
+      section1desc,
+      section2,
     } = this.props;
 
     const { selectionRange } = this.state;
@@ -134,9 +140,27 @@ export default class BillContent extends React.Component {
     return (
       <div className="bill-content__container" onClick={this.handleClick}>
         <div className="bill-content">
-          <div className="bill-content__text">
+          <p className="bill-content__abillto">
+            { abillto }
+            <span className="bill-content__abilltodesc">
+              { abilltodesc }
+            </span>
+          </p>
+          <p className="bill-content__beitenacted">
+            { beitenacted }
+          </p>
+          <p className="bill-content__section1">
+            { section1 }
+          </p>
+          <p className="bill-content__section1desc">
+            { section1desc }
+          </p>
+          <p className="bill-content__section2">
+            { section2 }
+          </p>
+          <p className="bill-content__text">
             { text }
-          </div>
+          </p>
           <div className="bill-content__comments">
             { rightPanel }
           </div>

@@ -8,11 +8,12 @@ export const bills = [
     billNumber: '175',
     text: "(a) Patient Protection and Affordable Care Act.\n --Effective as of the enactment of the Patient Protection and Affordable Care Act (Public Law 111-148), such Act is repealed, and the provisions of law amended or repealed by such Act are restored or revived as if such Act had not been enacted. \n (b) Health Care and Education Reconciliation Act of 2010.--Effective as of the enactment of the Health Care and Education Reconciliation Act of 2010 (Public Law 111-152), such Act is repealed, and the provisions of law amended or repealed by such Act are restored or revived as if such Act had not been enacted.",
     tldr: 'Farewell Obamacare. Approximately 24 million Americans will be without access to health insurance.',
-    abillto: 'A Bill to repeal the Patient Protection and Affordable Care Act and the Health Care and Education Act of 2010',
+    abillto: 'A Bill',
+    abilltodesc: ' to repeal the Patient Protection and Affordable Care Act and the Health Care and Education Act of 2010',
     beitenacted: 'Be it enacted by the Senate and House of Representatives of the United States of America in Congress as assembled',
-    section1: 'Section 1 Short Title',
+    section1: 'Section 1. Short Title',
     section1desc: 'This act may be cited as the Obamacare Repeal Act',
-    section2: 'Repeal of the Patient Protection and Affordable Care Act and the Health Care and Education Reconciliation Act',
+    section2: 'Sec. 2. Repeal of the Patient Protection and Affordable Care Act and the Health Care and Education Reconciliation Act',
     annotations: [
       {
         startIndex: '257',
