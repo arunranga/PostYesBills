@@ -6,10 +6,12 @@ import { bills } from '../constants';
 export default class BillPage extends React.Component {
   render () {
     const { billNo } = this.props.params;
-    const bill = bills[billNo];
+    const bill = bills.find((bill) => {
+      return bill.billNumber === billNo;
+    });
 
     return(
-      <div>
+      <div className="container bill-page">
         <BillHeader
           shortTitle={bill.shortTitle}
           sponsor={bill.sponsor}
@@ -23,23 +25,6 @@ export default class BillPage extends React.Component {
       </div>
     );
   }
-
-// TODO: Create BillText & AnnotationIndexContainer
-//   render () {
-//     return(
-//       <div>
-//         <BillHeader
-//           shortTitle={this.state.bill.short_title}
-//           sponsor={this.state.bill.sponsor}
-//           title={this.state.bill.title}
-//           date={this.state.bill.date_introduced}
-//           billNumber={this.state.bill.bill_number}
-//         />
-//         <BillText body={this.state.bill.text}/>
-//         <AnnotationIndexContainer/>
-//       </div>
-//     );
-//   }
 }
 // object returned by fetchBill has:
 // title

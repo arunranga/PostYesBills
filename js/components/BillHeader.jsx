@@ -10,10 +10,7 @@ export default class BillHeader extends React.Component {
     } = this.props;
 
     return (
-      <div
-        className="bill-header-container"
-        style={ { marginTop: '68px' } }
-      >
+      <div className="bill-header-container">
         <div className="short-title">{shortTitle}</div>
         <div className="bill-number">{billNumber}</div>
         <div className="title">{title}</div>

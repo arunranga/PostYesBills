@@ -4,7 +4,6 @@ import _ from 'lodash';
 import BillContainer from '../containers/BillContainer';
 
 export default class BillList extends React.Component {
-
 	renderBills () {
 		let billList = [
 			{
@@ -52,10 +51,10 @@ export default class BillList extends React.Component {
 		];
 
 		return billList.map((bill, i) => {
-			bill.id = i;
+			bill.id = parseInt(bill.number.replace(/\D+/g, ''));
 
 			return (
-				<BillContainer bill={bill} key={i} id={i} />
+				<BillContainer bill={bill} key={i} id={bill.id} />
 			);
 		})
 	}
