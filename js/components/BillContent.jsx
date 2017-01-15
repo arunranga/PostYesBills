@@ -29,14 +29,16 @@ export default class BillContent extends React.Component {
     this.quill.enable(false);
     this.quill.on("selection-change", this.handleSelection );
 
-    // window.addEventListener("mousedown", this.handleClick, false);
+    window.addEventListener("mousedown", this.handleClick, false);
     this.setExistingAnnotations();
 
     document.querySelector(".ql-editor span").classList.add('inline-annotation');
 
     const annotations = document.getElementsByClassName("inline-annotation");
 
-    Array.from(annotations).forEach(el => {
+    Array.from(annotations).forEach((el, idx) => {
+      el.dataset['annotationid'] = idx;
+
       el.addEventListener("click", this.displayAnnotation.bind(this));
     });
   }
@@ -50,7 +52,8 @@ export default class BillContent extends React.Component {
   displayAnnotation(e) {
     this.setState({
       panelView: "addNew",
-      selectionLocation: e.pageX - 450
+      selectionLocation: e.pageX - 450,
+      currentAnnotationIndex: e.target.dataset.annotationid
     });
   }
 
@@ -78,6 +81,10 @@ export default class BillContent extends React.Component {
   }
 
   handleClick(e) {
+    if (document.getElementsByClassName('comments-list-container')[0].contains(e.target)) {
+      return;
+    }
+
     this.clearPriorRange(e);
     this.removeCommentForm(e);
   }
@@ -116,7 +123,8 @@ export default class BillContent extends React.Component {
     }
 
     this.setState({
-      panelView: null
+      panelView: null,
+      currentAnnotationIndex: null
     });
   }
 
@@ -131,7 +139,12 @@ export default class BillContent extends React.Component {
       section2,
     } = this.props;
 
-    const { selectionRange } = this.state;
+    const {
+      selectionRange,
+      currentAnnotationIndex
+    } = this.state;
+
+    const comments = currentAnnotationIndex ? this.props.annotations[currentAnnotationIndex].comments : []
 
     let rightPanel;
     if (this.state.panelView === "addNew") {
@@ -142,7 +155,7 @@ export default class BillContent extends React.Component {
           clearPriorRange = { this.clearPriorRange }
           addComment = {this.addComment.bind(this)}
           onSave = {this.handleSave.bind(this)}
-          comments={this.props.annotations[0].comments}
+          comments={comments}
         />
       );
     } else {

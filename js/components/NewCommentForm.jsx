@@ -35,7 +35,7 @@ export default class NewCommentForm extends React.Component {
       let loc = comment.location + 270;
 
       return (
-        <div>
+        <div key={ idx }>
           <p className="annotation-by">Annotation by <span className="user">{comment.user || 'arun'}</span></p>
           <p>{comment.text}</p>
           <CommentRatings down={0} up={0} />
